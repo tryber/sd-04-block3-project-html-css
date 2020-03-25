@@ -14,15 +14,6 @@ body {
   width: 75%;
 }
 
-.lado-direito-comp {
-  float: right;
-  clear: both;
-}
-
-.lado-esquerdo-comp {
-  float: left;
-}
-
 #content-wrap {
   padding-bottom: 100px;
   min-height: 100vh;
@@ -116,6 +107,11 @@ td {
   border-radius: 10px;
   margin: 1% 0 0;
   text-align: center;
+}
+
+#map-info {
+    margin: 5% auto;
+    padding: 5% 0;
 }
 
 .map-container {
