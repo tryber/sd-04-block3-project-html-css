@@ -1,74 +1,49 @@
 body {
-    background-color: rgb(178, 191, 207);
-}
-h1 {
     text-align: center;
-    font-family: 'Asar', serif;
-    font-size: 35px;
-    color: rgb(66, 15, 77);
-    background-color: #4a991c;
-    padding: 20px;
-    line-height: 15px;
-    border-radius: 500px;
-    margin-top: -120px;
-}
-#cabecalho {
-    position: fixed;
-    width: 100%;    
-}
-ul, ol {
-    text-align: left;
-    margin-top: 90px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    line-height: 30px;
-    margin: 30px;
+    background-image: linear-gradient(to bottom right, rgb(236, 130, 236), rgb(105, 128, 0), rgb(223, 135, 223))
 }
-#rodape {
+table, tr, th, td {
+    border: 2px solid black;
+    width: 30%;
+}
+#table {
+    float: center;
+    margin: auto;
+    background-color: rgb(168, 177, 128);
+    }
+.table-title {
+    text-align: center;
+}
+#nav {
+    background-color: rgb(161, 190, 128);
     width: 100%;
-    text-align: left;
+    display: inline-block;
+    border-radius: 500px;
 }
-p {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    line-height: 30px;
-    margin: 30px;
+.nav-menu {
+    float: right;
+    padding: 25px;
+    color: rgb(80, 48, 121);
+}
+#h1 {
+    text-align: center;
+    font-family: 'Charm', cursive, sans-serif;
+    font-size: 80px;
+    color: rgb(97, 8, 8);
 }
 img {
+    width: 500px;
+    height: 400px;
+    float: center;
     border-radius: 40px;
-    width: auto;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    clear: both;
 }
-#text-img {
-    float: right;
-    width:  55%;
-    margin-top: 150px;
-
+p {
+    line-height: 25px;
 }
-#alinhar-text-img {
-    margin-top: 160px;
-    background-color: rgb(191, 223, 159);
-    border-radius: 40px;
-}
-h2 {
-    font-size: 25px;
-    background-color: rgb(191, 223, 159);
-    border-radius: 40px;
-    margin: 100px;
-}
-.article {
-    margin-top: 400px;
-    width: 100%;
+ul {
     text-align: center;
-}
-.links {
-    color: rgb(12, 85, 85);
-    text-align: left;
-    font-size: 25px;
-    line-height: 30px;
-    margin: 30px;
-}
-#section {
-    float: left;
-    margin-top: 90px;
 }
