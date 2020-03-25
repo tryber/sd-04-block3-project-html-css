@@ -91,7 +91,7 @@ header #menu ul li a:hover{
     top:15px;
 }
 
-#banner #banner-img-slogan{
+#main #banner #banner-img-slogan{
     position: relative;
     top: 70px;
     width: 90%;
@@ -102,7 +102,7 @@ header #menu ul li a:hover{
     z-index: 1;
 }
 
-#banner #banner-img-slogan #slogan{
+#main #banner #banner-img-slogan #slogan{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     position: relative;
@@ -112,7 +112,7 @@ header #menu ul li a:hover{
     width: 600px;
 }
 
-#banner #banner-img-slogan #slogan #slogan-title{
+#main #banner #banner-img-slogan #slogan #slogan-title{
     font-size: 42px;
     color:white;
     text-shadow: rgb(54, 54, 54) 2px 2px 0px;
@@ -120,10 +120,27 @@ header #menu ul li a:hover{
     margin-bottom: 5px;
 }
 
-#banner #banner-img-slogan #slogan .slogan-p{
+#main #banner #banner-img-slogan #slogan .slogan-p{
     padding: 0px;
     font-size: 20px;
     text-align: justify;
     line-height: 22px;
 }
 
+#main #content{
+    position: relative;
+    top: 80px;
+    width: 90%;
+    height: 200px;
+    /* background-color: hotpink; */
+    margin:auto;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main #content #recommendations{
+    margin: 10px 30px;
+}
+
+#main #content #recommendations ul{
+    margin: 5px 20px;
+}
