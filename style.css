@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("images/grey.png");
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    font-size: 46px;
+  }
+  h3 {
+      font-size: 25px;
+  }
+#cabecalho {
+    position: fixed;
+    height: 80px;
+    background-color: indigo;
+    top: 0;
+    width: 100%;
+    padding-left: 0;
+    border-bottom: black 5px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.list {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 25px;
+}
+.list li {
+    position: relative;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 30px;
+    display: inline;
+}
+#rodape {
+    background-color: indigo;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    position: static;
+    border-top: black 5px solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+    bottom: 0px; 
+} 
+
+main {
+    padding-top: 100px;
+    max-width: 80%;
+    margin: auto;
+  }
+.left {
+    display: inline-block;
+    width: 65%;
+    vertical-align: middle;
+    padding-left: 40px;
+  }   
+.left p {
+    text-align: justify;
+    font-size: 25px;
+}
+.right {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+.listsU {
+    float: right;
+    padding-top: 25px;
+}
+.listsO {
+    padding-top: 25px;
+}
+.listsO li {
+    font-size: 19px;
+}
+.listsU li {
+    font-size: 19px;
+}
+.about {
+    text-align: center;
+}
+.wrap {
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+}
+.wrap p {
+    text-align: justify;
+    font-size: 25px;
+}
