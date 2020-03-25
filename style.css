@@ -1,0 +1,12 @@
+body{
+    background-color: #EEE;
+}
+#cabecalho{
+    position:fixed;
+    width: 100%;
+    margin: 0 50 0 0;
+    background-color: #FFF;
+    top:0px;
+    z-index: 9999;
+    
+}
