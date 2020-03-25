@@ -3,7 +3,8 @@ body {
 }
 
 #navegacao {
-    float: right;
+    position: fixed;
+    right: 10px;
     object-position: top;
 }
 
@@ -16,10 +17,18 @@ body {
 
 #cabecalho {
     position: fixed;
+    float: left;
+    clear: both;
 }
 
 .noLink {
     text-decoration: none;
+}
+
+#ordenadas {
+    margin-top: 100px;
+    float: left;
+    clear: both;
 }
 
 #ordenadas li {
@@ -35,6 +44,8 @@ body {
     border: 4px groove   red;
     width: 100px;
     clear: both;
+    float: left;
+
 }   
 
 #table {
