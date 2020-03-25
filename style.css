@@ -1,32 +1,40 @@
 body {
     background-color: azure;
-    color: black;
     margin: 30px 20px;
     text-align: center;
 }
 
-#cabecalho {
+header {
     position: fixed;
     left: 20%;
     right: 40%;
-    background-color: darkgoldenrod;
+    background-color: brown;
     border-radius: 10%;
     z-index: 2;
+    font-weight: bolder;
 }
 
-#cabecalho ul {
+header ul {
     list-style: none;
 }
 
-#cabecalho li {
+header li {
     display: inline-block;
     margin: 0px 2px;
     padding: 5px;
-    background-color: burlywood;
+    background-color: gold;
     border-radius: 10%;
 }
+header li :hover{
+    display: inline-block;
+    color:  gold;
+    background-color: black;
+    padding: 7px;
+    border-radius: 10%;
+    margin: 0px 2px;
 
-#cabecalho a {
+}
+header a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
@@ -46,6 +54,9 @@ nav h1 {
     position: relative;
     margin-top: 150px;
     padding-left: 10%;
+}
+.lado-esquerdo h3{
+    text-decoration: underline;
 }
 
 .lado-direito {
