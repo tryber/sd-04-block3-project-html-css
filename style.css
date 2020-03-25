@@ -8,5 +8,9 @@
         position: fixed;
         width: 99%;
         border-radius: 10px;
-        
+    }
+
+    #rodape {
+        text-align: center;
+        background-color: #C4EBF1;
     }
