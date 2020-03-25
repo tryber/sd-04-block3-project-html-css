@@ -38,3 +38,15 @@ body {
 #rodape {
     text-align: left;
 }
+.lado-esquerdo {
+    float: left;
+    height: 200px;
+    margin-left:auto;
+    margin-right:auto; 
+}
+.lado-direito {
+    float: right;
+    height: 200px;
+    margin-right:auto;
+    margin-left:auto;
+}
