@@ -1,7 +1,7 @@
 body {
   padding-top: 70px;
   padding-bottom: 40px;
-  background-color: rgb(235,235,235);
+  background-color: rgb(235 , 235 , 235);
   font-family: Helvetica, sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
   width: 100%;
   position: fixed;
   margin-left: -10px;
-  background: rgb(95,95,95);
+  background: rgb(95 ,95 ,95);
   color: white;
   top: 0;
 }
