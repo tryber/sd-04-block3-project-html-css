@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>HTML/CSS Project</title>
+    <style>
+        body {
+            background-color: azure;
+            color: black;
+            margin: 30px 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        #cabecalho{
+            position: fixed;
+            left: 40%;
+        }
+        #cabecalho ul {
+            list-style: none;
+        }
+
+        #cabecalho li {
+            display: inline-block;
+            margin: 0px 2px;
+            padding: 5px;
+            background-color: burlywood;
+        }
+
+        #cabecalho a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+        nav h1{
+            display: none;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>HTML/CSS Trybe Project</h1>
-        <nav>
-
+        <nav id="cabecalho">
+            <h1>Menu de Navegação</h1>
+            <ul>
+                <li><a href="">Ínicio</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
         </nav>
     </header>
 </body>
+
 </html>
