@@ -7,18 +7,24 @@
     <title>cacobribeiro | Project HTML / CSS</title>
 </head>
 <body>
-    <header id="cabecalho">
-        
-            <h1><strong>Hello World</strong></h1>
-            <img class="img" src="https://raphaeljubram.com.br/wp-content/uploads/2019/05/hello-world-1.png" alt="Imagem de Hello World">
-    
+
     <nav id="navegacao">
-        <p class="text">Home</p>
+        <div id="bordanav">
+            <p>Home</p>
+        </div>
     </nav>
+
+
+    <header id="cabecalho">
+        <h1><strong>Hello World</strong></h1>
+            <div>
+                <img class="img" src="https://raphaeljubram.com.br/wp-content/uploads/2019/05/hello-world-1.png" alt="Imagem de Hello World">
+            </div>
     </header>
+
+
     <section>
-        <article>
-            <div id="ordenadas">
+        <article id="relative">
                 <ul>
                     <li>Animais:</li>
                         <ol>
@@ -35,7 +41,7 @@
                 </ul>    
             </div>
         </article>
-                <a href="https://www.leadr.com.br/" target="_blank"> Visite Leadr.com, nossa rede social de investimentos.</a>
+                
     <aside>
         <div id="table">    
                 <h1>Tabela</h1>
@@ -62,7 +68,10 @@
             </div>
         </aside>
     </section>
-    
+    <section id="leadr">
+            <a href="https://www.leadr.com.br/" target="_blank"> Visite Leadr.com, nossa rede social de investimentos.</a>
+            <img class="leadrlogo" src="https://www.leadr.com.br/img/leadr.png?v=2.0.1" alt="">
+    </section>    
     <footer id="rodape">
         <p>diretos reservados. by Caio Ribeiro</p>
     </footer>
