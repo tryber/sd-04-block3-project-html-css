@@ -1,3 +1,14 @@
 body {
     background-color: rgb(red, rgb(5, 129, 102), blue);
 }
+
+#cabecalho {
+    position: fixed;
+}
+
+#rodape{
+
+}
+.img{
+    width: 100px;
+}
