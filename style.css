@@ -6,6 +6,7 @@
 body{
     background-color: #ccc;
     height: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 main{
     padding-top: 60px;
@@ -33,7 +34,28 @@ header#cabecalho{
 .articles{
     background-color: #fff;
     padding: 15px;
-
+    border: 1px solid #000;
+    margin-bottom: 15px;
+}
+.articles p{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.articles header{
+    border-bottom: 1px dashed #000;
+    margin-bottom: 15px;
+}
+.articles footer{
+    border-top: 1px dashed #000;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.author{
+    font-style: italic;
+    color: #101010;
+}
+.articles h1{
+    margin-bottom: 15px;
 }
 table tr, td{
     border: 1px solid #000;
@@ -46,6 +68,12 @@ aside{
     width: 30%;
     float: right;
     background-color: #c0c0c0;
+    padding: 10px;
+}
+.blocks{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
 }
 footer#rodape{
     background-color: #696969;
