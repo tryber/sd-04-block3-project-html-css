@@ -9,18 +9,39 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 main{
-    padding-top: 60px;
+    padding-top: 100px;
 }
 header#cabecalho{
     background-color: #696969;
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px 0 0px;
 }
 #cabecalho h1{
     text-align: center;
     font-size: 15px;
+    margin-bottom: 30px;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #909090;
+}
+.nav li{
+    float:left;
+}
+.nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: #111;
 }
 .lado-esquerdo{
     width: 65%;
