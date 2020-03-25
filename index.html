@@ -17,10 +17,13 @@
 
         #cabecalho {    background-color: black;
                         position: fixed;
-                        top: 0;
                         left: 0;
                         right: 0;
-                        height: 35px;  }
+                        top: 0;
+                        
+                        }
+
+
         .in-navigation { font-family: sans-serif;
                          font-family: cursive;
                          font-style: italic;
@@ -51,6 +54,15 @@
                     border-width: 4px;
                     border-style: solid;
                     border-color: black;
+                    margin-bottom: 13px;
+                    }
+                    #top-discos {  margin-left: 40px;
+                    max-width: 60%;       
+                    background-color: #833429;
+                    border-radius: 50px;
+                    border-width: 4px;
+                    border-style: solid;
+                    border-color: black;
                     }
         #section1 { margin-left: 50px;
                     margin-right: 5px;
@@ -59,7 +71,14 @@
                 }            
         .titulos-h3 {   margin-left: 70px;
                         text-decoration: underline;
-        }
+                    }
+        #recado { font-weight: bold;
+                  text-decoration: underline;  }   
+        #section2   { margin-left: 50px;
+                    margin-right: 5px;
+                    font-size: 22px;
+                    font-family: 'Architects Daughter', sans-serif ;font-size: 18px;
+                    }         
         
 
   
@@ -67,12 +86,12 @@
 </head>
 <body>
 
-    <nav id="cabecalho">	<center>
+    <header id="cabecalho">	<center>
 		<a class="in-navigation" href="https://www.linkedin.com/in/joao-lucas-soutto-mayor-8b9888171/" target="_blank">Home</a>
 		<a class="in-navigation" href="https://www.instagram.com/jsoutto/" target="_blank">Lançamentos da Década</a>
 		<a class="in-navigation" href="https://www.facebook.com/joao.soutto" target="_blank">Últimos Shows</a>
                             </center>
-    </nav>
+    </header>
 
     <br><br>
 
@@ -110,6 +129,27 @@
         </section>             
     </article>                
         
+
+    <article id="top-discos">
+        <section id="section2">
+            <h3 class="titulos-h3">Melhores Álbuns</h3>
+                <p>Caso você não conheça o trabalho da Alcione e tenha se assustado com a quantidade de álbuns lançados pela cantora, não se assuste! Eis a oportunidade perfeita
+                    para conhecer a "nata" de suas canções. Separamos pra você o top-álbuns da artista, com seus maiores sucessos, músicas mais tocadas e ótimas pedidas para adicionar
+                    às suas playlists! Acredite, essa lista salvará sua vida!
+                </p>
+
+                <ol> 
+                    <li> Faz Uma Loucura por Mim (2004)</li> 
+                    <li> Alcione (1981)</li> 
+                    <li> Profissão: Cantora (1995)</li> 
+                    <li>Eterna Alegria (2013)</li>
+                    <li>E Vamos à Luta (1980)</li>
+                </ol>
+
+                <p>Meu caro leitor, após esses álbuns, você pode ter uma certeza: <span id="recado">sua vida nunca mais será a mesma</span>.
+                </p>
+        </section>             
+    </article>        
 
 
 </body>
