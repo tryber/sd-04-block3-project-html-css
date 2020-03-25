@@ -18,8 +18,13 @@ header#cabecalho {
 }
 
 .lado-esquerdo {
-    position: absolute;
+    display: inline-block;
     margin: 100px 100px;
+}
+
+.lado-direito {
+    display: inline-block;
+
 }
 
 #rodape {
