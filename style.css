@@ -14,4 +14,16 @@ body{
 #container{
     position: absolute;
     top: 155px;
+    width: 100%;
+}
+.lado-esquerdo{
+    margin-left: 50px;
+}
+.lado-direito{
+    float: right;
+    margin-right: 200px;
+}
+nav{ 
+    width: 100%;
+    text-align: center;
 }
