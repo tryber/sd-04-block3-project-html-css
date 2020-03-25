@@ -11,3 +11,8 @@ header#cabecalho{
     height: 100px;
     width: 100;
 }
+footer#rodape{
+    background-color: #a9a9a9;
+    height: 100px;
+    width: 100%;
+}
