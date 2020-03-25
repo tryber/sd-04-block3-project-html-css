@@ -49,3 +49,13 @@ nav ul li a {
     text-align: center;
     padding-top: 100px;
 }   
+.conteudo{
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 10px;
+    font-size: 20px;
+    background-color: #F2F2F2;
+    text-align: justify;
+    color: rgba(0,0,0,.75);
+    font-family: 'Source Serif Pro', serif;
+}
