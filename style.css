@@ -3,4 +3,11 @@
 }
 body{
     background-color: #ccc;
+    height: 100%;
+}
+header#cabecalho{
+    background-color: #a9a9a9;
+    position: fixed;
+    height: 100px;
+    width: 100;
 }
