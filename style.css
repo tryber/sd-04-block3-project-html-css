@@ -1,0 +1,31 @@
+body{
+    background-color:  #2a044d;
+}
+
+#cabecalho{
+    color:#23ffc2;
+}
+.nav-menu{
+    color:#23ffc2;
+    
+}
+
+#rodape{
+    color:#f2136c;
+}
+
+#img{
+    width:4em;
+}
+
+.credits{
+    color:#23ffc2;
+}
+
+a{
+    color: #c44978;
+}
+
+.img-logo{
+    width: 15%;
+}
