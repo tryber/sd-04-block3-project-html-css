@@ -1,104 +1,104 @@
 * {
-    margin: 0;
-    padding:0;  
+        margin: 0;
+        padding: 0;  
 }
 body {
-    background-color: #ccc;
-    height: 100%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: #ccc;
+        height: 100%;
+        font-family: Impact, sans-serif;
 }
 main {
-    padding-top: 100px;
+        padding-top: 100px;
 }
 header#cabecalho {
-    background-color: #696969;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 10px 10px 0 0px;
+        background-color: dimgray;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 10px 10px 0 0px;
 }
 #cabecalho h1 {
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 30px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 30px;
 }
 .nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #909090;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #909090;
 }
 .nav li {
-    float:left;
+        float: left;
 }
 .nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
 }
 .nav li a:hover {
-    background-color: #111;
+        background-color: black;
 }
 .lado-esquerdo {
-    width: 65%;
-    float: left;
-    padding: 15px;
-    background-color: #c0c0c0;
-    margin-bottom: 15px;
+        width: 65%;
+        float: left;
+        padding: 15px;
+        background-color: silver;
+        margin-bottom: 15px;
 }
 .list {
-    margin: 15px;
+        margin: 15px;
 }
 .articles {
-    background-color :#fff;
-    padding: 15px;
-    border: 1px solid #000;
-    margin-bottom: 15px;
+        background-color: white;
+        padding: 15px;
+        border: 1px solid black;
+        margin-bottom: 15px;
 }
 .articles p {
-    font-size: 17px;
-    margin-bottom: 20px;
+        font-size: 17px;
+        margin-bottom: 20px;
 }
 .articles header {
-    border-bottom: 1px dashed #000;
-    margin-bottom: 15px;
+        border-bottom: 1px dashed black;
+        margin-bottom: 15px;
 }
 .articles footer {
-    border-top: 1px dashed #000;
-    margin-top: 15px;
-    padding-top: 10px;
+        border-top: 1px dashed black;
+        margin-top: 15px;
+        padding-top: 10px;
 }
 .author {
-    font-style: italic;
-    color :#101010;
+        font-style: italic;
+        color: black;
 }
 .articles h1 {
-    margin-bottom: 15px;
+        margin-bottom: 15px;
 }
 table tr, td {
-    border: 1px solid #000;
+        border: 1px solid black;
 }
 table td {
-    padding: 3px;
+        padding: 3px;
 }
 aside.lado-direito {
-    width: 30%;
-    float: right;
-    background-color: #c0c0c0;
-    padding: 10px;
+        width: 30%;
+        float: right;
+        background-color: silver;
+        padding: 10px;
 }
 .blocks {
-    background-color: #fff;
-    padding: 10px;
-    border: 1px solid #000;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid black;
 }
 footer#rodape {
-    background-color: #696969;
-    padding: 30px;
-    max-width: 100%;
-    clear: both;
-    text-align: center;
+        background-color: dimgray;
+        padding: 30px;
+        max-width: 100%;
+        clear: both;
+        text-align: center;
 }
