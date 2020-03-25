@@ -10,6 +10,7 @@ body {
 }
 #title {
     font-style: 'lobster', sans-serif;
+    font-size: 30px;
 }
 #artigo {
     position: relative;
@@ -36,10 +37,14 @@ body {
     position: absolute;
     width: 20%;
     border-radius: 3px;
-
 }
-
 #trybe {
     position: relative;
-    top: 500px;
+    top: 400px;
+}
+#trybe h2 {
+    text-align: center;
+}
+#trybe-picture {
+    
 }
