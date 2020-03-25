@@ -23,6 +23,7 @@ body {
     display: block;
     width: 100%;
     margin-top: -180px;
+    line-height: 10px;
     }
 #corpo {
     border: 20px solid rgb(2, 4, 83);
