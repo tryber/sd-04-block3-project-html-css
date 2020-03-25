@@ -1,8 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 5px solid lightblue;
-    position: relative;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #925ca8;
 }
 
 body {
@@ -12,13 +11,27 @@ body {
 
 #cabecalho {
     background-color: white;
+    color: rgb(15, 163, 107);
+}
+
+nav a {
+    background-color: #925ca8;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 1000px;
 }
 
 article {
     background-color: rgb(15, 163, 107);
     width: 70%;
     float: left;
-    
+}
+
+.section {
+    height: 30%;
 }
 
 aside {
@@ -28,7 +41,8 @@ aside {
 }
 
 #rodape {
-    background-color: white;
+    background-color:#333;
+    color: white;
     clear: both;
+    text-align: center;
 }
-
