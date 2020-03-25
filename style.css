@@ -27,3 +27,6 @@ figure {
 footer {
     text-align: center;
 }
+#corpo {
+    border: 20px solid rgb(2, 4, 83);
+}
