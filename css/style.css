@@ -52,11 +52,25 @@ section{
     position: relative;
     top: 7px;
     float: right;
+    margin-right: 20px;
+    width: 230px;
 }
 
 #cabecalho #login #img-login{
     margin-top: 8px;
     float: left;
+}
+
+#cabecalho #login #links-login a{
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(167, 165, 165);
+}
+
+#cabecalho #login #links-login a:hover{
+    background-color: rgb(187, 185, 185);
 }
 
 #cabecalho #login #img-login img{
