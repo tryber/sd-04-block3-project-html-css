@@ -3,17 +3,17 @@
             margin: 0px;
             background-color: rgb(175, 136, 136);
         }
-        .menu ul {
+        .cabecalho ul {
             position: fixed;
             margin: 0px;
             background-color:black;
             list-style: none; 
             width: 1450px;
         }
-        .menu ul li{
+        .cabecalho ul li{
             display: inline;
         }
-        .menu ul li a{
+        .cabecalho ul li a{
             padding: 10px 10px;
             display: inline-block;
             color: white;
@@ -34,12 +34,12 @@
             margin-left: 60px;
             margin-top: 20px;
         }
-        .footer {
+        .rodape {
             background-color: black;
             color: white;
             margin: 0px;
         }
-        .rodape {
+        .rodape2 {
             padding: 10px;
             margin-bottom: 0px;
             margin-left: 30px;
