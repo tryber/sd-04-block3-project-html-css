@@ -42,9 +42,11 @@ body {
     float: left;
     height: 180px;
     margin-left:18%;
+    margin-right: auto;
     }
 .lado-direito {
     float: right;
     height: 180px;
     margin-right:18%;
+    margin-left: auto;
 }
