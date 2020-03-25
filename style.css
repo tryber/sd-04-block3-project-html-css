@@ -1,17 +1,19 @@
 body {
     background-color: rgb(175, 175, 248)
 }
+
 #cabecalho {
     position: fixed;
     background-color: white;
-    padding: 20px 300px;
     clear: both;
     text-align: center;
-    border: auto;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
     align-items: center;
-}
-figure{
+    width: 100%;
+    margin: 0%;
+    
+    }
 
+figure{
+    margin-top: 200px;
 }
