@@ -1,8 +1,9 @@
-img {
-    margin: 10px;
+img, ul li {
+    margin: 2px;
     padding: 5px;
-    border: 2px solid rgb(212, 222, 241);
+    border: 2px solid rgb(158, 175, 206);
     width: 250px;
+    background-color: rgb(172, 207, 142);
 }
 
 body {
@@ -18,18 +19,24 @@ header#cabecalho, nav {
     top: 0;
     position: fixed;
     width: 100%;
-    background-color: #ccc;
+    background-color: rgb(54, 19, 19);
 }
 
 section {
-    margin-top: 55px;
+    margin-top: 80px;
+}
+
+section, aside {
+    width: 50%;
+    text-align: justify;
+    float: left;
 }
 
 div {
     width: 100%;
 }
 
-#esquerda {
+#esquerda, ul {
     float: left;
 }
 
@@ -40,6 +47,15 @@ div {
 ul, ol {
     list-style-type: none;
     list-style-position: inside;
+}
+
+ol {
+    clear: both;
+}
+
+ul li {
+    display: inline-block;
+    
 }
 
 table {
