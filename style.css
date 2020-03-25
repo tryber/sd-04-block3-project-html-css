@@ -4,7 +4,4 @@ body {
 
 header#cabecalho {
     position: fixed;
-    background-color: black;
-    height: 50px;
-    width: 500px;
 }
