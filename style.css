@@ -21,11 +21,11 @@ header#cabecalho {
     margin-top:100px;
     margin-bottom: 40px;
 }
-#introdução {
+.lado-direito {
     padding:10px;
     float: right;
     max-width: 550px;
-    text-align: justify;
+    text-align: ;
     margin-top:50px;
 }
 
@@ -36,7 +36,7 @@ header#cabecalho {
     margin-right: 10px;
 }
 
-.lado-direito {
+.wiki {
     background-color: #276FBF;
     line-height: 1.5em;
     float: right;
