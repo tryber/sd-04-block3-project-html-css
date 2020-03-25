@@ -1,23 +1,23 @@
-html,
-body {
-  font-family: "Sen", sans-serif;
+html, body {
+  font-family: 'Sen', sans-serif;
   margin-top: 0;
   margin-left: 2em;
   margin-right: 2em;
   box-sizing: border-box;
-  background: #ffffff;
+  background: #fff;
 }
 #container {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 15vh 12vh auto 20vh;
-  grid-template-areas:
+  grid-template:
     "figure nav nav"
     "header header header"
     "article article aside"
     "footer footer footer";
 }
-/*Section NAV*/
+
+/* Section NAV */
 nav {
   background: black;
   grid-area: nav;
@@ -47,9 +47,10 @@ nav li a {
   color: white;
   font-size: 1.5em;
 }
-/*Section HEADER*/
+
+/* Section HEADER */
 #cabecalho {
-  background: rgba(128, 128, 118, 0.87);
+  background: rgba( 128, 128, 118, 0.87 );
   grid-area: header;
 }
 
@@ -58,9 +59,10 @@ nav li a {
   font-size: 2em;
   color: white;
 }
-/*Section FIGURE*/
+
+/* Section FIGURE */
 figure {
-  background: rgb(255, 255, 253, 255);
+  background: rgb( 255, 255, 253, 255 );
   grid-area: figure;
   margin: 0px;
   justify-self: center;
@@ -68,9 +70,10 @@ figure {
 figure .logo {
   margin-top: 20%;
 }
-/*Section MAIN*/
+
+/* Section MAIN */
 article {
-  background: rgba(181, 181, 184, 0.295);
+  background: rgba( 181, 181, 184, 0.295 );
   grid-area: article;
 }
 article section {
@@ -83,13 +86,14 @@ article #jsimg {
 }
 article div {
   border: solid 1px;
-  border-color: rgba(0, 0, 0, 0.178);
+  border-color: rgba( 0, 0, 0, 0.178 );
   margin-left: 10%;
   margin-right: 10%;
 }
-/*Section ASIDE*/
+
+/* Section ASIDE */
 aside {
-  background: rgba(84, 85, 84, 0.219);
+  background: rgba( 84, 85, 84, 0.219);
   grid-area: aside;
 }
 aside #tabela {
@@ -104,7 +108,8 @@ aside #lista {
   border-radius: 8px;
   align-items: center;
 }
-/*Section FOOTER*/
+
+/* Section FOOTER */
 footer {
   background: red;
   grid-area: footer;
