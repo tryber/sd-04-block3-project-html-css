@@ -1,4 +1,4 @@
-img, ul li {
+img , ul li {
     margin: 2px;
     padding: 5px;
     border: 2px solid rgb(158 , 175 , 206);
@@ -15,7 +15,7 @@ body {
     font-style: oblique;
 }
 
-header#cabecalho, nav {
+header#cabecalho , nav {
     top: 0;
     position: fixed;
     width: 100%;
@@ -26,12 +26,12 @@ section {
     margin-top: 80px;
 }
 
-section, aside {
+section , aside {
     width: 50%;
     text-align: justify;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo , .lado-direito {
     float: left;
 }
 
@@ -39,7 +39,7 @@ div {
     width: 100%;
 }
 
-#esquerda, ul {
+#esquerda , ul {
     float: left;
 }
 
@@ -47,7 +47,7 @@ div {
     float: left;
 }
 
-ul, ol {
+ul , ol {
     list-style-type: none;
     list-style-position: inside;
 }
