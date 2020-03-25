@@ -5,6 +5,13 @@ body {
 #cabecalho {
     border: 1px solid black;
     position: fixed;
-    width: 1329px;
-    left: 17px;
+    width: 1349px;
+    left: 0px; /* 17px; */
+}
+
+#rodape {
+    border: 1px solid black;
+    position: fixed;
+    width: 1349px;
+    left: 0px;
 }
