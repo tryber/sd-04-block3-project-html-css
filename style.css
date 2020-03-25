@@ -2,6 +2,10 @@
         background-color: #C4EBF1;
     }
 
+    article {
+        padding-top: 100px;
+    }
+
     #cabecalho {
         background-color: #89C7E7;
         text-align: center;
