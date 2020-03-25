@@ -14,6 +14,7 @@ footer {
     width:  100%;
     padding:  20px 0px;
     text-align:  end;
+    margin-top: 900px;
 }
 
 #foto-aerea {
@@ -31,4 +32,17 @@ footer {
 article {
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.lado-esquerdo{
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    border: #9ca7a0 solid 5px;
+}
+.lado-direito{
+    float: right;
+    margin: 3px;
+    padding: 3px;
+    border: #466d57 solid 5px;
 }
