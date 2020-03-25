@@ -9,6 +9,11 @@ body {
     margin: 0px;
     font-family: "Baloo 2";
 }
+#bonus {
+    border: 0px;
+    margin-left:auto;
+    margin-right:auto;
+}
 #cabecalho {
     position: fixed;
     background-color: rgb(2, 4, 83);
@@ -30,5 +35,5 @@ body {
     font-style: italic;
 }
 #rodape {
-    text-align: center;
+    text-align: left;
 }
