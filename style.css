@@ -1,0 +1,40 @@
+body {
+background-color:black;
+font-family:'Inter', sans-serif;
+color:white;
+text-align:justify;
+}
+
+#cabecalho {
+position:fixed;
+margin-top:-18px;
+font-family:'Inter', sans-serif;
+font-size:16px;
+text-decoration:bold;
+text-align:left;
+color:lightslategrey;
+}
+
+h1 {
+font-family:'Inter', sans-serif;
+font-size:50px;
+text-decoration:bold;
+text-align:left;
+color:white;
+line-height:0em;
+transition:opacity 0.9s ease-in-out;
+}
+
+h2 {
+font-family:'Inter', sans-serif;
+font-size:30px;
+text-align:left;
+color:white;
+line-height:0em;
+transition:opacity 0.9s ease-in-out;
+}
+
+#rodape {
+position:unset;
+bottom:40px;
+}
