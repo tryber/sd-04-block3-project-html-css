@@ -1,0 +1,40 @@
+/*COMENTS
+Colors: 787878 / 454545 / DCDCDC / D92832 / d2cbcb
+https://htmlcolorcodes.com/
+https://www.schemecolor.com/dressed-to-the-nines.php
+*/
+
+body
+{
+    background-color: #d2cbcb;
+    margin: 0px 0px;
+}
+
+#cabecalho
+{
+    position: fixed;
+    background-color: #787878;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    font-size: 15px;
+}
+
+#taca
+{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    max-width: 500px;
+    
+}
+
+p
+{
+    /*margin: 40px 0px 40px 0px;*/
+    margin-top: 100px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
