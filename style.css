@@ -1,0 +1,12 @@
+    body {
+        background-color: #C4EBF1;
+    }
+
+    #cabecalho {
+        background-color: #89C7E7;
+        text-align: center;
+        position: fixed;
+        width: 99%;
+        border-radius: 10px;
+        
+    }
