@@ -29,6 +29,9 @@ section {
 section, aside {
     width: 50%;
     text-align: justify;
+}
+
+.lado-esquerdo, .lado-direito {
     float: left;
 }
 
