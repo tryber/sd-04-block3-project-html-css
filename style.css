@@ -14,7 +14,7 @@ body {
     font-style: oblique;
 }
 
-header#cabecalho {
+header#cabecalho, nav {
     top: 0;
     position: fixed;
     width: 100%;
