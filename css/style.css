@@ -1,4 +1,4 @@
-html, body {
+html , body {
   font-family: 'Sen', sans-serif;
   margin-top: 0;
   margin-left: 2em;
@@ -6,15 +6,12 @@ html, body {
   box-sizing: border-box;
   background: rgba( 236, 236, 236, 0.473 );
 }
+
 #container {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 15vh 12vh auto 20vh;
-  grid-template:
-    "figure nav nav"
-    "header header header"
-    "article article aside"
-    "footer footer footer";
+  grid-template-areas: 'figure nav nav' 'header header header' 'article article aside' 'footer footer footer';
 }
 
 /* Section NAV */
@@ -30,6 +27,7 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+
 nav ul {
   margin: 0px;
   padding: 24px 0px 5px 30px;
@@ -67,6 +65,7 @@ figure {
   margin: 0px;
   justify-self: center;
 }
+
 figure .logo {
   margin-top: 20%;
 }
@@ -76,14 +75,17 @@ article {
   background: rgba( 181, 181, 184, 0.295 );
   grid-area: article;
 }
+
 article section {
   margin-top: 1em;
   margin-left: 10%;
   margin-right: 10%;
 }
+
 article #jsimg {
   width: 50%;
 }
+
 article div {
   border: solid 1px;
   border-color: rgba( 0, 0, 0, 0.178 );
@@ -96,12 +98,14 @@ aside {
   background: rgba( 84, 85, 84, 0.219);
   grid-area: aside;
 }
+
 aside #tabela {
   padding: 1em;
   border: solid;
   border-radius: 8px;
   align-items: center;
 }
+
 aside #lista {
   padding: 1em;
   border: solid;
