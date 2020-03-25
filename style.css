@@ -9,11 +9,6 @@ body {
     background-color: rgba(246,244,243,1.0);
 }
 
-#all {
-    min-height: 100%;
-    position: relative;
-}
-
 header#cabecalho {
     background-color: rgba(24, 48, 89, 1.0);
     position: fixed;
@@ -24,11 +19,13 @@ header#cabecalho {
 footer#rodape {
     background-color: #276FBF;
     width: 100%;
-    color: rgba(24, 48, 89, 1.0);
+    color: rgba(246,244,243,1.0);
     position: absolute;
     bottom: 0;
+    text-align: center;
 }
 
 .imagem {
-    weigth: 40px;
+    position: absolute;
+    margin: 100px 100px;
 }
