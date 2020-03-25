@@ -59,6 +59,22 @@ nav ul li a {
     color: rgba(0,0,0,.75);
     font-family: 'Source Serif Pro', serif;
 }
+.conteudo p {
+    padding-top: 15px;
+}
+.conteudo h2, h3, h4{
+    padding-top: 28px;
+    padding-bottom: 15px;
+}
+.conteudo h2 {
+    font-size: 35px;
+}
+.conteudo h3 {
+    font-size: ;
+}
+.conteudo h4{
+    text-decoration: underline;
+}
 #rodape {
     height: 30px;
     background: #585858;
