@@ -54,9 +54,6 @@ a:hover {
 .lado-direito {
     float: right;
     width: 26%;
-}
-
-aside {
     padding-top: 80px;
     border: 1px solid rgba(148, 9, 148, 0.911);
     background-color: white;
