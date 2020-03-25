@@ -29,6 +29,13 @@ header#cabecalho{
     background-color: #fff;
 
 }
+table tr, td{
+    border: 1px solid #000;
+    
+}
+table td{
+    padding: 3px;
+}
 aside{
     width: 30%;
     float: right;
@@ -39,4 +46,5 @@ footer#rodape{
     height: 100px;
     width: 100%;
     clear: both;
+    text-align: center;
 }
