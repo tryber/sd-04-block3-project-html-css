@@ -6,21 +6,37 @@
         <head>
                 <meta charset="utf-8">
                 <title>Meu primeiro projeto</title>
+                <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
 
     <style>
     
         body{   margin: 30px 30px 30px 0px;     
                 padding: 30px 30px 30px 0px;
                 background-color: #AF4935;
+                font-family: 'Parisienne';font-size: 30px;
             }
 
-        #cabecalho {    width: 100%;
+        #cabecalho {    width: 70%;
                         position: fixed;
                         background-color: #241816;
                         top: 0;
                         color: #fff;
                         padding: 10px 10px 10px 10px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                        border-radius: 30px;
+                        border-style: groove;
+                        border-width: 4px;
+                        border-color: black;
                     }    
+        #rodape {       position:absolute;
+                        font-size: 20px;
+                        bottom:0;
+                        width:70%;
+                        background-color: #241816;
+                        color: #fff;
+                        padding: 10px 10px 10px 10px;
+                        margin-left: 10px;}
         #foto-principal {float: left;
                         margin-right: 20px;
                         border-radius: 30%;
@@ -28,7 +44,7 @@
                         border-style: solid;
                         border-color: black;
                        }
-        #titulo-principal { font-size: 70px;
+        #titulo-principal { font-size: 60px;
                             margin-right: 150px; }
         #links-navegacao { float: left;}
         .navegacao-header {font-size: 30px;
@@ -39,9 +55,11 @@
 </head>
 <body>
     <header id="cabecalho">
-        <img id="foto-principal" src="https://emc-src.eptv.com.br/dbimagens/alcione_790x444_06012020101240.jpg" alt="Alcione sorrindo" width= 300px>  
+        <img id="foto-principal" src="https://s2.glbimg.com/n4z4FjUUK7yQg7xsyw_omKhwkQY=/0x0:960x960/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/w/D/lKlfDORXW1oPTv1tZmwA/alcionefacebook2019.jpg" alt="Alcione sorrindo" width= 150px>  
         <h1 id="titulo-principal">Alcione, a deusa</h1>
         </header>  
+
+    <footer id="rodape">Para mais informações, acesse o <a href="http://http://www.alcioneamarrom.com.br/" target="_blank" >site oficial</a> da Marrom</footer>
            
 </body>
 </html>
