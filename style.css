@@ -40,13 +40,11 @@ body {
 }
 .lado-esquerdo {
     float: left;
-    height: 200px;
-    margin-left:100px;
-    margin-right:auto;
+    height: 180px;
+    margin-left:18%;
     }
 .lado-direito {
     float: right;
-    height: 200px;
-    margin-right:100px;
-    margin-left:auto;
+    height: 180px;
+    margin-right:18%;
 }
