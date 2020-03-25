@@ -5,11 +5,9 @@
             background-color: rgb(175, 136, 136);
         }
         #cabecalho {
-            margin: 0;
             position: fixed;
             background-color:black;
-            color:white;
-            width: 1450px;
+            width: 100%;
         }
         #picture {
             margin-left: 60px;
