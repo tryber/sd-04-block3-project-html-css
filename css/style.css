@@ -143,4 +143,14 @@ header #menu ul li a:hover{
 
 #main #content #recommendations ul{
     margin: 5px 20px;
+    font-size: 18px;
+}
+
+#main #content #recommendations ul li a{
+    text-decoration: none;
+    color: black;
+}
+#main #content #recommendations ul li a:hover{
+    color: gray;
+    /* font-weight: bold; */
 }
