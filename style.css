@@ -10,7 +10,7 @@ h1 {
     padding: 20px;
     line-height: 15px;
     border-radius: 500px;
-    margin: 30px;
+    margin-top: -120px;
 }
 #cabecalho {
     position: fixed;
@@ -18,18 +18,45 @@ h1 {
 }
 ol {
     float: left;
-    margin-top: 300px;
+    margin-top: 90px;
 }
 #rodape {
     width: 100%;
     text-align: center;
-    margin: 0;
-
 }
 p {
-    text-align: center;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     line-height: 30px;
     margin: 30px;
+}
+img {
+    border-radius: 40px;
+    width: auto;
+}
+#text-img {
+    float: right;
+    width:  55%;
+    margin-top: 150px;
+
+}
+#alinhar-text-img {
+    margin-top: 160px;
+    background-color: rgb(191, 223, 159);
+    border-radius: 40px;
+}
+h2 {
+    font-size: 25px;
+    background-color: rgb(191, 223, 159);
+    border-radius: 40px;
+    margin: 100px;
+}
+#article {
+    margin-top: 400px;
+    width: 100%;
+    text-align: center;
+}
+.links {
+    color: rgb(12, 85, 85);
 }
