@@ -7,7 +7,7 @@ body {
 }
 
 #rodape{
-
+clear: both;
 }
 .img{
     width: 100px;
