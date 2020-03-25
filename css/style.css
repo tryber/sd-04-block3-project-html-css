@@ -1,5 +1,5 @@
 html , body {
-  font-family: 'Sen', sans-serif;
+  font-family: "Sen", 'Ancient Runes', serif;;
   margin-top: 0;
   margin-left: 2em;
   margin-right: 2em;
@@ -62,7 +62,7 @@ nav li a {
 figure {
   background: rgb( 255, 255, 253, 255 );
   grid-area: figure;
-  margin: 0px;
+  margin: 0;
   justify-self: center;
 }
 
