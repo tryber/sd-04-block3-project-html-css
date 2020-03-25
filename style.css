@@ -8,6 +8,12 @@ header {
   left: 0;
 }
 
+#content-header {
+  position: fixed;
+  top: 60px;
+  left: 0;
+}
+
 #main-content {
   position: relative;
   padding: 30px;
