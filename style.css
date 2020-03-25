@@ -3,28 +3,28 @@
     padding: 0;
 }
 
-html, body {height:100%;}
+html, body { height: 100%; }
 
 body {
     background-color: rgba(246,244,243,1.0);
 }
 
-#all{
+#all {
     min-height: 100%;
     position: relative;
 }
 
-#cabecalho {
-    background-color: rgba(24,48,89,1.0);
+header#cabecalho {
+    background-color: rgba(24, 48, 89, 1.0);
     position: fixed;
     width: 100%;
-    color:rgba(246,244,243,1.0);
+    color: rgba(246,244,243,1.0);
 }
 
-#rodape {
-    background-color:rgba(24,48,89,1.0);
+footer#rodape {
+    background-color: #276FBF;
     width: 100%;
-    color:rgba(246,244,243,1.0);
-    position:absolute;
-    bottom:0;
+    color: rgba(24, 48, 89, 1.0);
+    position: absolute;
+    bottom: 0;
 }
