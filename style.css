@@ -16,11 +16,24 @@ header#cabecalho {
     color: rgba(246,244,243,1.0);
     padding:20px;
 }
+#section1 {
+    display:inline-block;
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+#introdução {
+    padding:10px;
+    float: right;
+    max-width: 550px;
+    text-align: justify;
+    margin-top:50px;
+}
 
 .lado-esquerdo {
-    display: inline-block;
-    margin: 100px 100px;
-    
+    display: inline;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
 }
 
 .lado-direito {
