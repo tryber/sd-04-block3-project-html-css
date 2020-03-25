@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+    margin: 0px 0px;
+    font-size: 16px;
+
+}
+#cabecalho{
+    text-align: center;
+    font-weight: 300;
+    font-family: monospace;
+    font-size: 20px;
+    position: fixed;
+    background-color: aqua;
+    width: ;
+}
+#rodape{
+    text-align: center;
+    font-weight: 300;
+    font-family: monospace;
+    font-size: 20px;
+  
+}
+.rodape{
+    font-size: 12px;
+}
+.background{
+    background-position: center;
+}
