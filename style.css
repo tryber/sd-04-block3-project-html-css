@@ -1,10 +1,15 @@
 
         body {
-            margin: 0px;
+            margin: 0;
+            padding: 0;
             background-color: rgb(175, 136, 136);
         }
-        #cabecalho{
+        #cabecalho {
+            margin: 0;
             position: fixed;
+            background-color:black;
+            color:white;
+            width: 1450px;
         }
         #picture {
             margin-left: 60px;
