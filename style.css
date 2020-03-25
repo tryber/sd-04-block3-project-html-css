@@ -1,0 +1,17 @@
+#cabecalho{
+    color: brown;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+#rodape{
+    color: brown;
+    background-color: black;
+    text-align: center;
+}
+
+#link_julio{
+    text-decoration: none;
+    color: brown;
+}
