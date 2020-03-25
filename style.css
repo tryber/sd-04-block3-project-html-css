@@ -42,8 +42,8 @@ h1{
     color: #CCA445;
 }
 
-article{
-    margin-left: 16px;
+.content{
+    margin-left: 32px;
     padding: 8px;
 }
 
@@ -51,6 +51,29 @@ article{
     margin-top: 150px;
     width: 550px;
     border: 15px ridge #80662B;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+table, th, td { 
+    border: 0.5px solid #807252;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 16px;
 }
 
 .img-2 {
@@ -64,6 +87,20 @@ article{
 
 ul, ol {
     list-style-position: inside;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+footer {
+    background-color: #807252;
+    width: 100%;
+
+}
+
+footer h4 {
+    color: #FFCD57;
+    margin-left: 16px;
+    padding: 8px;
 }
 
 
