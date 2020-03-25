@@ -1,38 +1,38 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;  
 }
-body{
+body {
     background-color: #ccc;
     height: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-main{
+main {
     padding-top: 100px;
 }
-header#cabecalho{
-    background-color: #696969;
+header#cabecalho {
+    background-color #696969;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 10px 10px 0 0px;
 }
-#cabecalho h1{
+#cabecalho h1 {
     text-align: center;
     font-size: 15px;
     margin-bottom: 30px;
 }
-.nav{
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #909090;
 }
-.nav li{
+.nav li {
     float:left;
 }
-.nav li a{
+.nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -42,60 +42,60 @@ header#cabecalho{
 .nav li a:hover {
     background-color: #111;
 }
-.lado-esquerdo{
+.lado-esquerdo {
     width: 65%;
     float: left;
     padding: 15px;
     background-color: #c0c0c0;
     margin-bottom: 15px;
 }
-.list{
+.list {
     margin: 15px;
 }
-.articles{
-    background-color: #fff;
+.articles {
+    background-color :#fff;
     padding: 15px;
     border: 1px solid #000;
     margin-bottom: 15px;
 }
-.articles p{
+.articles p {
     font-size: 17px;
     margin-bottom: 20px;
 }
-.articles header{
+.articles header {
     border-bottom: 1px dashed #000;
     margin-bottom: 15px;
 }
-.articles footer{
+.articles footer {
     border-top: 1px dashed #000;
     margin-top: 15px;
     padding-top: 10px;
 }
-.author{
+.author {
     font-style: italic;
-    color: #101010;
+    color :#101010;
 }
-.articles h1{
+.articles h1 {
     margin-bottom: 15px;
 }
-table tr, td{
+table tr, td {
     border: 1px solid #000;
 }
-table td{
+table td {
     padding: 3px;
 }
-aside.lado-direito{
+aside.lado-direito {
     width: 30%;
     float: right;
     background-color: #c0c0c0;
     padding: 10px;
 }
-.blocks{
+.blocks {
     background-color: #fff;
     padding: 10px;
     border: 1px solid #000;
 }
-footer#rodape{
+footer#rodape {
     background-color: #696969;
     padding: 30px;
     max-width: 100%;
