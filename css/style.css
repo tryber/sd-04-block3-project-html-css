@@ -38,7 +38,7 @@ a:hover {
     font-weight: bolder;
 }
 
-article {
+.lado-esquerdo {
     margin-top: 80px;
     background-color: rgb(15, 163, 107);
     width: 60%;
@@ -50,7 +50,7 @@ article {
     height: 30%;
 }
 
-aside {
+.lado-direito {
     padding-top: 80px;
     border: 1px solid rgba(148, 9, 148, 0.911);
     background-color: white;
