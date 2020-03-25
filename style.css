@@ -9,6 +9,9 @@ body{
     height: 150px;
     background-color:black; 
     position: fixed;
-    color: darkgray;
-    text-align: center;
+  
+}
+#container{
+    position: absolute;
+    top: 155px;
 }
