@@ -15,17 +15,17 @@ Lembre-se de verificar sua página no [achecker](https://achecker.ca/checker/ind
 ## Requisitos do projeto
 
 ### 1 - O corpo da página deve possuir uma cor (diferente da cor branca) como cor de fundo
-
+ok
 ### 2 - A página deve possuir uma barra superior fixa com o ID "cabecalho"
-
+ok
 ### 3 - A página deve possuir um rodapé com o ID "rodape"
-
+ok
 ### 4 - A página deve possuir pelo menos uma imagem criada com a tag "img"
-
+ok
 ### 5 - A página deve possuir duas listas, uma ordenada e a outra não
 
 ### 6 - A página deve possuir pelo menos um link externo (não se esqueça de configurar a abertura desse link em uma nova aba)
-
+ok
 ### 7 - Torne o seu site mais acessível e melhore seu ranqueamento em mecanismos de busca na Web aplicando os elementos HTML de acordo com o sentido e propósito de cada um deles
 
 ### 8 - Seu site deve passar sem problemas na verificação de semântica do site achecker
