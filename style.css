@@ -1,5 +1,6 @@
 body{
     background-color: #718E5E;
+    margin: 3px;
 }
 
 header {
@@ -11,8 +12,18 @@ header {
 footer {
     background-color: #466D57;
     width: 100%;
+    padding: 20px 0px;
+    text-align: end;
 }
 
 #foto-aerea {
     width: 500px;
+}
+
+#container {
+    padding-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
