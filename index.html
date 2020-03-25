@@ -15,9 +15,12 @@
         }
 
         #cabecalho {
-            position: relative;
-            ;
-            text-align: center;
+            position: fixed;
+            left: 30%;
+            right: 30%;
+            background-color: darkgoldenrod;
+            border-radius: 10%;
+            z-index: 1;
         }
 
         #cabecalho ul {
@@ -29,6 +32,7 @@
             margin: 0px 2px;
             padding: 5px;
             background-color: burlywood;
+            border-radius: 10%;
         }
 
         #cabecalho a {
@@ -42,34 +46,39 @@
 
         }
 
-        footer {
-            text-align: center;
-            position: relative;
-            top: 80px;
-        }
-
-        footer div {
-            display: inline-block;
-        }
-
-        footer img {
-            width: 48px;
-            margin: 0 15px;
-
-        }
-
-        #artigo-principal {
+        .lado-esquerdo {
             float: left;
             border: 1px;
             border-color: black;
-            width: 70%;
-            margin-right: 30px;
+            width: 60%;
+            margin-right: 100px;
+            position: relative;
+            margin-top: 100px;
+            padding-left: 20%;
         }
 
-        #artigo-segundario {
+        .lado-direito {
             border: 1px;
             border-color: black;
-            width: 30%;
+            width: 20%;
+            position: relative;
+            top: 150px;
+        }
+
+        #rodape {
+            text-align: center;
+            position: relative;
+            top: 600px;
+            clear: both;
+        }
+
+        #rodape div {
+            display: inline-block;
+        }
+
+        #rodape img {
+            width: 48px;
+            margin: 0 15px;
 
         }
     </style>
@@ -82,26 +91,70 @@
             <h1>Menu de Navegação</h1>
             <ul>
                 <li><a href="#cabecalho">Ínicio</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Projetos</a></li>
+                <li><a href="">Motivos para jogar</a></li>
+                <li><a href="">Curiosidades</a></li>
                 <li><a href="#rodape">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <div id="artigo-principal">
+    <div class="lado-esquerdo">
         <article>
             <h2>Motivos para começar a jogar</h1>
+                <video controls><source src="https://youtu.be/eBU_Fxd0Jf4"></video>
+                <h3>1 – GRÁTIS ATÉ INJEÇÃO NA TESTA!</h3>
                 <section>
+                    Albion Online foi lançado oficialmente no dia 17 de julho de 2017. Um lançamento na Steam se seguiu
+                    em 18 de maio de 2018, e o jogo se tornou grátis para jogar no dia 10 de abril de 2019.
+                    ensas exclusivas, desde montagens poderosas a roupas e móveis exclusivos, até Fama e Prata.
+                </section>
+                <h3> 2 – ECONOMIA CONDUZIDA POR JOGADORES</h3>
+
+                <section>
+
+
+                    O jogador constrói o próprio destino!
+
+                    Seja um conjunto de armadura poderoso, um bastão mágico ou um conjunto de ferramentas robusto –
+                    todos os itens são forjados pelos jogadores, assim como a economia é conduzida pelos mesmos!
+
+                    Além disso, o jogo possui ainda um sistema de ilha pessoal, que fica fora do mundo, ou seja, na
+                    costa de Albion onde você pode construir e manter uma fazenda, inclusive com cultivo e animais e um
+                    conjunto totalmente novo de construções.
+
+                    Assim você pode gerar comida e abastecer os esforços de guerra da sua guilda ou vende-los no mercado
+                    para obter lucro!
+
 
                 </section>
+                <h3> 3 – PERSONALIZAÇÃO DO PERSONAGEM</h3>
                 <section>
+                    Para criar o personagem perfeito, você precisa conhecer os diversos caminhos pelos quais seu destino
+                    pode levá-lo. É aí que entra em cena o Painel do Destino! Ele mostra tudo o que você é e o que
+                    poderia ser — e não é pouca coisa!
 
+                    Durante o seu progresso você pode mudar de ideia e reaver suas escolhas! O que torna todo o processo
+                    por si só muito divertido e abre margem para bastante experimentação!
+
+                    Esqueça o que conhece de outros MMOs. Não há classes em Albion Online, ou seja, não há restrições de
+                    equipamentos. Experimente projetar e criar seu próprio estilo — no Albion Online, você é o que usa!
+                    (Frase está que foi usada como marketing do jogo!)
+                </section>
+                <h3>4 – UMA BASE DE JOGADORES ROBUSTA</h3>
+                <section>
+                    Com aproximadamente 30.000 usuários ativos por mês jogando em um único servidor gigante, o mundo de
+                    Albion está em constante estado de movimento. Com uma ampla gama de atividades em grupo disponíveis,
+                    seu próximo mergulho em masmorras, ataque avançado ou batalha de mundo aberto está sempre à mão.
+                </section>
+                <h3>5 – CONTEÚDO SAZONAL</h3>
+                <section>
+                    No ano passado, foi introduzido as temporadas GvG e o Desafio do Aventureiro mensal. Estes oferecem
+                    recompensas exclusivas, desde montagens poderosas a roupas e móveis exclusivos, até Fama e Prata.
                 </section>
         </article>
     </div>
 
-    <aside id="artigo-secundario">
+    <aside class="lado-direito">
         <table>
             <ol>
                 <li></li>
