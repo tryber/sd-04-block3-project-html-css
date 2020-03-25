@@ -1,16 +1,16 @@
-body{
-    background-color: #718E5E;
+body {
+    background-color: #718e5e;
     margin: 3px;
 }
 
 header {
     position: fixed;
-    background-color: #466D57;
+    background-color: #466d57;
     width: 100%;
 }
 
 footer {
-    background-color: #466D57;
+    background-color: #466d57;
     width: 100%;
     padding: 20px 0px;
     text-align: end;
