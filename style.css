@@ -1,15 +1,35 @@
 body {
     background-color: rgb(248, 233, 147);
+    overflow-x: hidden;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 #cabecalho {
     position: fixed;
     width: 100%;
     background-color: rgb(253, 158, 80);
     text-align: center;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
 }
-#title {
-    font-style: 'lobster', sans-serif;
+#cabecalho h1{
+    font-size: 50px;
+}
+.linksone {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(252, 74, 30);
+    padding: 5px 10px;
+    border-radius: 4px; 
+    border: 2px black;
+    margin: 10px;
+    font-weight: bold;
+}
+.title {
+    font-style: 'Annie Use Your Telescope';
     font-size: 30px;
 }
 #artigo {
@@ -20,7 +40,7 @@ body {
 .picture-left {
     border-radius: 50px;
     float: left;
-    width: 25%;
+    width: 30%;
     margin-left: 50px;
     padding: 6px;
 }
@@ -28,23 +48,60 @@ body {
     font-family:'Times New Roman', Times, serif;
     font-size: 18px;
     float: right;
-    width: 65%;
+    width: 60%;
     border-style: none;
     border-width: 50%;
     text-align: justify;
+    margin-right: 15px;
 }
-.travel-picture {
-    position: absolute;
-    width: 20%;
-    border-radius: 3px;
-}
+#photos-container {
+    position: relative;
+    width: 100%;
+}  
+#photos-container img {
+    width: 15%;
+    float: center;
+  }
 #trybe {
     position: relative;
-    top: 400px;
+    top: 300px;
 }
 #trybe h2 {
     text-align: center;
+    position: relative;
+    top: 30px;
 }
-#trybe-picture {
-    
+#trybe p {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+}
+#trybe .picture-left {
+    position: relative;
+    top: 80px;
+}
+#trybe ol {
+    margin-left: 500px;
+    text-align: left;
+    line-height: 1.5;
+    position: relative;
+    top: 160px;
+    font-size: 18px;
+}
+#trybe h3 {
+    margin-left: 500px;
+    text-align: left;
+    line-height: 1.5;
+    position: relative;
+    top: 160px;
+}
+#rodape {
+    position: relative;
+    bottom: 0px;
+    top: 700px;
+    left: 50px;
+}
+.rede {
+    float: center;
 }
