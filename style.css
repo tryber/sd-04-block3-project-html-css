@@ -42,12 +42,12 @@ body {
     border: 4px groove   red;
     width: 100px;
 }   
-#left{
+.lado-esquerdo{
     width: 100%;
     float: left;
 }
 
-#right{
+#lado-direito{
  float: right;
 }
 
