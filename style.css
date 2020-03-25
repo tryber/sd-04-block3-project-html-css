@@ -1,6 +1,39 @@
 body {
   background-color: #ec5e64;
+  margin: 0px;
 }
-table {
-  border: 5px solid;
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border: 5px solid #28a98f;
+  padding-right: 30px;
+}
+
+#cabecalho {
+  position: fixed;
+  overflow: hidden;
+  background-color: #6b3979;
+  width: 100%;
+  top: 0px;
+  clear: both;
+}
+
+#lado-direito {
+  margin: auto;
+  float: right;
+  position: relative;
+  top: 100px;
+}
+
+#lado-esquerdo {
+  float: left;
+}
+
+#rodape {
+  position: relative;
+  margin-top: -100px;
+  width: 100%;
+  clear: both;
 }
