@@ -8,6 +8,12 @@ header {
   left: 0;
 }
 
+#main-content {
+  position: relative;
+  padding: 30px;
+  padding-top: 200px;
+}
+
 footer {
   position: absolute;
   bottom: 0;
