@@ -1,4 +1,4 @@
-* {
+img {
     margin: 10px;
     padding: 5px;
     border: 2px solid rgb(212, 222, 241);
@@ -15,23 +15,33 @@ body {
 
 header#cabecalho {
     position: fixed;
+    width: 100%;
+    background-color: #ccc;
 }
 
 div {
-    width: 150vh;
+    width: 100%;
 }
 
-.left-side, .right-side {
+ul.left-side, ol.right-side {
     width: 50%;
     margin: 15px;
 }
 
 .left-side {
     float: left;
+    margin: 0;
+    list-style-type: none;
 }
 
-.right-side {
+.left-side li {
+    display: inline-block;
+    border: 1px solid #fff;
+}
+
+ol.right-side {
     float: right;
+    list-style-position: inside;
 }
 
 table {
