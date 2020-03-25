@@ -2,56 +2,86 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link href="https://fonts.google.com/specimen/Lobster?selection.family=Lobster&sidebar.open" media="all">
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'> 
         <title>Primeiro Projeto da Trybe</title>
-        <link rel="stylesheet" type="text/css" src="./style.css">
+        <link rel="stylesheet" type="text/css" href="./style.css">
 
     </head>
     <body>
-        <header id="Cabeçalho">
+        <header id="cabecalho">
             <h1 class:"title">Minha vida na Trybe</h1>
             <nav>
                 <ul>
-                    <li class="linksone">Sobre a Trybe</li>
-                    <li class="linksone">Sobre mim</li>
-                    <li class="linksone">Meu contatos!</li>
+                    <li class="linksone"><a src="#sobre-mim">Sobre a Trybe</a></li>
+                    <li class="linksone"><a src="#sobre-mim">Sobre mim</a></li>
+                    <li class="linksone"><a src="#rodape">Meus contatos!</a></li>
                 </ul>
             </nav>
         </header>
-        <article>
-            <section id="sobre mim">
+        <article id="artigo">
+            <section id="sobre-mim">
                 <h2 class="title">Que tal me conhecer um pouco?</h2>
-                <img class="picture" src="" alt="Uma foto minha de rosto"> 
-                <p id="info-sobre-mim">Brasileira nascida e criada em Belo Horizonte, Minas Gerais. <br>
+                <img class="picture-left" src="./img/picture1.JPG" alt="Uma foto minha"> 
+                <p class="info-sobre-mim">Brasileira nascida e criada em Belo Horizonte, Minas Gerais. <br>
                     Graduada em Engenharia Eletrica pela UNIFEI - Universidade Federal de Itajubá<br>
                     Morei por 8 meses na Irlanda, onde estudei Inglês e me desenvolvi muito como pessoa.<br>
-                    Hoje sou estudante de Desenvolvimento de Software na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>!<br>
+                    Hoje sou estudante de Desenvolvimento de Software na <a class="link" href="https://www.betrybe.com/" target="_blank">Trybe</a>!<br>
                     Em busca constante de aprendizado e conhecimento!
                     </p>
-                    <p>Durante a faculdade comecei a trabalhar como cerimonialista de casamentos, com a 
-                       <a href="" target="_blank">OBA! eventos</a> onde descobri um amor incrível por 
-                       essa profissão, mesmo não sendo muito ligada a engenharia, rsrs. </p>
-                    <p>Depois de formada decidi fazer um intercâmbio para a Irlanda, 6 meses de curso 
-                       de inglês, onde tive o prazer de trabalhar em cozinha do <a href="" target="_blank">Bewley's Grafton Street</a> 
-                       como commis chef de bakery, que era um sonho, conheci 6 países e vijei com meus 
-                       pais e meu irmão.Posto junto algumas fotinhas pra mostrar esse momento muito bacana.</p>
-                    <p>Sou apaixonada por viagens já deu pra perceber, rsrs. depois que voltei da Irlanda viajei 
-                       pra vários lugares, vou ate deixar umas fotos bacaninhas aqui. Mas nesse tempo que passou 
-                       depois que voltei, senti a necessidade de me encontrar em algum lugar em uma profissão. 
-                       Sempre tive um interesse por programação, o pouco que vi na faculdade tinha me cativado bem, 
-                       da area de Engenharia Elétrica o que mais me cativava era automação, e trabalhei um tempo 
-                       com a programação de plc's, mas não tinha achado ainda um curso que cortava a parte da 
-                       teoria que eu ja tinha tido na faculdade e focasse na parte prática da coisa, foi ai que o 
-                       anuncio da <a href="" target="_blank">Trybe</a> apareceu, caiu do céu como um presente de 
-                       Deus, e hoje esse é o meu projeto na Trybe, com exatos 13 dias de aula!</p>
+                <p class="info-sobre-mim">Durante a faculdade comecei a trabalhar como cerimonialista de casamentos, com a 
+                    <a href="http://obaeventos.com.br/site/" target="_blank">OBA! eventos</a> onde descobri um amor incrível por 
+                    essa profissão, mesmo não sendo muito ligada a engenharia, rsrs. </p>
+                <p class="info-sobre-mim">Depois de formada decidi fazer um intercâmbio para a Irlanda, 6 meses de curso 
+                    de inglês, onde tive o prazer de trabalhar em cozinha do <a href="https://www.bewleys.com/ie/grafton-street-cafe/" target="_blank">Bewley's Grafton Street</a> 
+                    como commis chef de bakery, que era um sonho, conheci 6 países e vijei com meus 
+                    pais e meu irmão.Posto junto algumas fotinhas pra mostrar esse momento muito bacana.</p>
+                <p class="info-sobre-mim">Sou apaixonada por viagens já deu pra perceber, rsrs. depois que voltei da Irlanda viajei 
+                    pra vários lugares, vou ate deixar umas fotos bacaninhas aqui. Mas nesse tempo que passou 
+                    depois que voltei, senti a necessidade de me encontrar em algum lugar em uma profissão. 
+                    Sempre tive um interesse por programação, o pouco que vi na faculdade tinha me cativado bem, 
+                    da area de Engenharia Elétrica o que mais me cativava era automação, e trabalhei um tempo                        com a programação de plc's, mas não tinha achado ainda um curso que cortava a parte da 
+                    teoria que eu ja tinha tido na faculdade e focasse na parte prática da coisa, foi ai que o 
+                    anuncio da <a href="https://www.betrybe.com/" target="_blank">Trybe</a> apareceu, caiu do céu como um presente de 
+                    Deus, e hoje esse é o meu projeto na Trybe, com exatos 13 dias de aula!</p>
+                <br>
+                <br>
+                <p>
+                    <img class="travel-picture" src="./img/travel-picture1.JPG" alt="fotos de viagens">
+                    <img class="travel-picture" src="./img/travel-picture2.JPG" alt="fotos de viagens">
+                    <img class="travel-picture" src="./img/travel-picture3.JPG" alt="fotos de viagens">
+                    <img class="travel-picture" src="./img/travel-picture4.JPG" alt="fotos de viagens">
+                </p>
             </section>
             <section id="trybe">
-
+                <h2 class="title">Como funciona a formação da Trybe?</h2>
+                <img src="" alt="log da trybe">
+                <p>A formação da Trybe tem duração de aproximadamente 12 meses, com aulas de segunda a sexta, 
+                    de 14h às 20h e carga horária aproximada de 1.500 horas.<br>
+                    Independente da modalidade escolhida, as aulas, os conteúdos, a plataforma, o time de 
+                    profissionais e a conexão com as empresas serão sempre idênticos!
+                </p>
+                <h3>Principais Benefícios da Trybe para mim!</h3>
+                <ol>
+                    <li>Ensino de metodologia ativa, escola do futuro.</li>
+                    <li>Só paga quando estiver trabalhando!</li>
+                    <li>! ano de curso, apesar de intenso o que é um ano pra quem ja viveu 27? rs</li>
+                    <li>O ambiente é incrível, profissional e acolhedor uma mistura muito dificl de encontrar no mercado!</li>
+                    <li>Vários outros que não vou listar, porque preciso terminar o Projeto!</li>
+                </ol>
+                
             </section>
 
         </article>
         <footer id="rodape">
-
+            <center>
+                <p id="social">Quer me conhecer mais? Me segue nas redes sociais!</p>
+                <a class="rede" href="https://www.linkedin.com/in/j%C3%A9ssicatavaresrocha/" target="_blank">
+                    <img src="https://cdn.icon-icons.com/icons2/1269/PNG/512/1497553283-108_84845.png" width="130px">
+                </a>
+                <a id="rede" href="https://www.instagram.com/jehhdisney/" target="_blank">
+                    <img src="https://cdn.icon-icons.com/icons2/1269/PNG/512/1497553304-104_84834.png" width="130px">
+                </a>
+            </center>
         </footer>
 
     </body>
