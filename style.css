@@ -54,17 +54,9 @@ body {
     text-align: justify;
     margin-right: 15px;
 }
-#photos-container {
-    position: relative;
-    width: 100%;
-}  
-#photos-container img {
-    width: 15%;
-    float: center;
-  }
 #trybe {
     position: relative;
-    top: 300px;
+    top: 100px;
 }
 #trybe h2 {
     text-align: center;
@@ -99,7 +91,7 @@ body {
 #rodape {
     position: relative;
     bottom: 0px;
-    top: 700px;
+    top: 540px;
     left: 50px;
 }
 .rede {
