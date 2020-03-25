@@ -14,7 +14,11 @@ header #cabecalho {
   position: fixed;
   background-color: rgb(22 , 91 , 51);
   width: 100%;
-  font: italic small-caps 600 16px/3 cursive;
+  margin: 0px;
+}
+
+header #cabecalho {
+    font: italic small-caps 600 16px/3 cursive;
 }
 
 footer {
