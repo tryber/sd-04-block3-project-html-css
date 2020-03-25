@@ -1,30 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 
-body{
+body {
     background-color: #FFCD57;
     font-family: 'Baloo 2', cursive;
     color: #807252;
+    
+    
 }
 
-.cabecalho{
-    position: fixed;
+#cabecalho {
+    position: fixed; 
+    background-color: #80662B; 
+    width: 100%;
+    
 }
 
-.menu a{
+h1{
+    font-size: 42px;
+    color: #FFCD57;
+    margin-left: 16px;
+}
+
+.menu{
+    margin-bottom: 8px;
+    margin-left: 16px;
+    
+}
+
+.menu a {
     text-decoration: none;
-    color: #807252;
+    color: #FFCD57;
+    margin-right: 24px;
+    font-size: 24px;
 }
 
-.menu a:hover, #space-cat:hover, ul li a:hover{
-    color: #FFE3A3;
+.menu a:hover, #space-cat:hover, ul li a:hover {
+    color: #CCA445;
 }
 
-.img-1{
+article{
+    margin-left: 16px;
+    padding: 8px;
+}
+
+.img-1 {
+    margin-top: 150px;
     width: 550px;
     border: 15px ridge #80662B;
 }
 
-.img-2{
+.img-2 {
     width: 350px;
     border: 15px ridge #80662B;
 }
