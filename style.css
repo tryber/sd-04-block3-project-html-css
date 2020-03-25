@@ -1,6 +1,7 @@
 /* Body style */
 body{
-    background-color:#F8F0ED;
+    /* background-color:#F8F0ED; */
+    background-color: #DAE4EA;
 }
 /* Header style */
 #cabecalho{
@@ -20,4 +21,7 @@ body{
     background-color: white;
     color:black;
     text-align: center;
+}
+img{
+    padding: 10px;
 }
