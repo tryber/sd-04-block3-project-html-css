@@ -7,10 +7,21 @@ body {
 .lado-direito {
   float: right;
   clear: both;
+  width: 20%;
 }
 
-.lado-esquerdo {
+.lado-esquerdo { 
+  width: 75%;
+}
+
+.lado-direito-comp {
+  float: right;
+  clear: both;
+}
+  
+.lado-esquerdo-comp { 
   float: left;
+  
 }
 
 #content-wrap {
@@ -72,7 +83,7 @@ body {
 }
 
 #aside {
-  width: 20%;
+  width: 100%;
   border: 2px white solid;
   border-radius: 10px;
   text-align: center;
@@ -84,7 +95,7 @@ body {
 }
 
 .table {
-  width: 95%;
+  width: 90%;
   text-align: center;
   margin: auto;
   margin-bottom: 10px;
@@ -96,7 +107,7 @@ td {
 }
 
 #article {
-  width: 75%;
+  width: 100%;
 }
 
 #important-info {
@@ -138,10 +149,8 @@ td {
 }
 
 .news-img {
-  width: 200px;
+  width: 300px;
   height: auto;
-  float: left;
-  clear: both;
   margin-right: 25px;
   border: 2px solid white;
   border-radius: 10px;
@@ -151,6 +160,7 @@ td {
   background-color: rgba(0 , 0 , 0 , 0.25);
   margin: 2% 0;
   padding: 1%;
+  border: 2px solid white;
   border-radius: 10px;
 }
 
