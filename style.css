@@ -1,41 +1,42 @@
-/* 
-    GERAL
-*/
+
 * {
     box-sizing: border-box;
 }
-*:before,
+
+*:before ,
 *:after {
     box-sizing: border-box;
 }
-html,
+
+html , 
 body {
     height: 100%;
     position: relative;
 }
+
 body {
-    font-family: 'Baloo Da 2', cursive;
+    font-family: 'Baloo Da 2' , cursive;
     background-color: #e5460e;
-    color:white;
+    color: white;
 }
+
 .lado-direito {
     float: right;
     clear: both;
 }
+
 .lado-esquerdo {
     float: left;
 }
+
 #content-wrap {
     padding-bottom: 50px;
-    min-height: 100vh; /* will cover the 100% of viewport */
+    min-height: 100vh;
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 100px; /* height of your footer */
 }
-/* 
-    NAVBAR
-*/
+
 .navmenu {
     list-style-type: none;
     margin: 0;
@@ -47,6 +48,7 @@ body {
     background-color: #333;
     left: 0;
 }
+
 .navitem {
     float: right;
     color: white;
@@ -54,14 +56,13 @@ body {
     padding: 15px 2%;
     text-decoration: none;
 }
+
 .navitem:hover {
     background-color: #111;
 }
-/* 
-    HEADER
-*/
+
 #cabecalho {
-    background-image: url("img/bg-header.jpg");
+    background-image: url('img/bg-header.jpg');
     width: 100%;
     margin: 0;
     padding: 0;
@@ -70,16 +71,15 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .hero-title {
     color: white;
     font-size: 64px;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0, 0, 0, 0.25);
     padding: 10px;
     border-radius: 10px;
 }
-/* 
-    ASIDE
-*/
+
 #aside {
     width: 20%;
     border: 2px white solid;
@@ -87,35 +87,37 @@ body {
     text-align: center;
     margin: 1% 1% 0 0;
 }
+
 .aside-title {
     font-size: 30px;
 }
+
 .table {
     width: 95%;
     text-align: center;
     margin: auto;
     margin-bottom: 10px;
 }
+
 td {
     padding: 1% 5%;
     border: 2px solid white;
     
 }
 
-/* 
-    ARTICLE
-*/
 #article {
     width: 75%;
 }
+
 #important-info {
     display: flexbox;
     background-color: #e5460e;
     border: 2px white solid;
     border-radius: 10px;
-    margin: 1% 0 0 0;
+    margin: 1% 0 0;
     text-align: center;
 }
+
 .map-container {
     width: 70%;
     height: auto;
@@ -123,54 +125,57 @@ td {
     padding: 20px;
     border-radius: 10px;
 }
+
 .map {
     min-width: 100%;
     min-height: 100%;
 }
+
 .list-container {
     width: 25%;
     padding: 1%;
     border: 2px solid white;
     border-radius: 10px;
     text-align: center;
-    
 }
+
 .article-list {
-    margin: 0 0 5% 0;
+    margin: 0 0 5%;
 }
+
 .article-title {
     text-align: center;
 }
-/* 
-    NEWS
-*/
+
 .news-img {
     width: 200px;
-    height: 1x;
+    height: auto;
     float: left;
     clear: both;
     margin-right: 25px;
     border: 2px solid white;
     border-radius: 10px;
 }
+
 .news-list-item {
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0, 0, 0, 0.25);
     margin: 2% 0;
     padding: 1%;
     border-radius: 10px;
 }
+
 .news-title {
     color: white;
 }
+
 .news-text {
     color: white;
 }
+
 .news-link {
     text-decoration: none;
 }
-/* 
-    FOOTER
-*/
+
 #rodape {
     position: absolute;
     bottom: 0;
@@ -180,6 +185,7 @@ td {
     left: 0;
     text-align: center;
 }
+
 #rodape p {
     color: white;
 }
