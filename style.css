@@ -16,3 +16,14 @@ img{
     margin-left: 40px;
     border-radius: 50px 15px;
 }
+#picture{
+    clear: both;
+}
+.lado-esquerdo{
+    float: left;
+    margin-left: 150px;
+}
+.lado-direito{
+    float: right;
+    margin-right:  250px;
+}
