@@ -3,7 +3,8 @@ article {
     padding-right: 20%;
     font-size: 20px;
     text-align: justify;
-}body {
+}
+body {
     background-color: rgb(96, 180, 195);
     margin: 0px;
     font-family: "Baloo 2";
@@ -19,14 +20,14 @@ article {
     width: 100%;
     margin: 0px;
     padding-top: 0px;
-    }
-figure {
-    margin-top: 200px;
-    text-align: center;
-}
-footer {
-    text-align: center;
 }
 #corpo {
     border: 20px solid rgb(2, 4, 83);
+}
+#imagem {
+    margin-top: 180px;
+    text-align: center;
+}
+#rodape {
+    text-align: center;
 }
