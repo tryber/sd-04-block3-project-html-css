@@ -1,3 +1,24 @@
 body{
-    background-color: cornflowerblue;
+    background-color: rgb(146, 12, 63);
+}
+
+#cabecalho div{
+     background-color: #aab3a9;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     margin: 0 0 0 -9px;
+    
+     
+}
+
+#cabecalho p{
+    position:relative;
+    text-align: center;
+    font-size: 22px;
+}
+
+#artigo div{
+    margin-top: 100px;
+    font-size: 50px;
 }
