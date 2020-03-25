@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(178, 191, 207);
+}
+h1 {
+    margin: 50px;
+    font-family: 'Asar', serif;
+    font-size: 50px;
+    position: fixed;
+}
