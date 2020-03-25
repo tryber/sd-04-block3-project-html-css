@@ -13,6 +13,7 @@ header{
     height: 65px;
     background-color: #fff;
     border: rgb(173, 173, 173) 1px solid;
+    z-index: 100;
 }
 
 header #menu ul{
@@ -47,7 +48,7 @@ header #menu ul li a:hover{
     width: 80px;
 }
 
-section{
+#main{
     width: 100%;
     min-height: 100vh;
     background-color: rgb(231, 230, 230);
@@ -72,6 +73,7 @@ section{
     color: rgb(255, 255, 255);
     font-weight: bold;
     background-color: rgb(167, 165, 165);
+    border-radius: 5px;
 }
 
 #cabecalho #login #links-login a:hover{
@@ -97,6 +99,7 @@ section{
     background-size: cover;
     height: 280px;
     margin:auto;
+    z-index: 1;
 }
 
 #banner #banner-img-slogan #slogan{
@@ -110,7 +113,7 @@ section{
 }
 
 #banner #banner-img-slogan #slogan #slogan-title{
-    font-size: 40px;
+    font-size: 42px;
     color:white;
     text-shadow: rgb(54, 54, 54) 2px 2px 0px;
     padding: 0;
