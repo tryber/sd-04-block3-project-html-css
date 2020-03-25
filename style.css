@@ -6,12 +6,16 @@ body{
     color: #807252;
 }
 
+.cabecalho{
+    position: fixed;
+}
+
 .menu a{
     text-decoration: none;
     color: #807252;
 }
 
-.menu a:hover{
+.menu a:hover, #space-cat:hover, ul li a:hover{
     color: #FFE3A3;
 }
 
@@ -24,3 +28,10 @@ body{
     width: 350px;
     border: 15px ridge #80662B;
 }
+
+#space-cat, ul li a {
+    color: #807252;
+}
+
+
+
