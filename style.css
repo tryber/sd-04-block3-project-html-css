@@ -1,45 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,600,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
+:root {
+    --ylw: #ffcd57;
+    --brwn: #80662b;
+    --lghtbrwn: #807252;
+    --orange: #cca445;
+}
+
 body {
-    background-color: #FFCD57;
+    background-color: var(--ylw);
     font-family: 'Baloo 2', cursive;
-    color: #807252;
-    
-    
+    color: var(--lghtbrwn)
 }
 
 #cabecalho {
     position: fixed; 
-    background-color: #80662B; 
+    background-color: var(--brwn); 
     width: 100%;
-    
 }
 
-h1{
+h1 {
     font-size: 42px;
-    color: #FFCD57;
+    color: var(--ylw);
     margin-left: 16px;
 }
 
-.menu{
+.menu {
     margin-bottom: 8px;
-    margin-left: 16px;
-    
+    margin-left: 16px;   
 }
 
 .menu a {
     text-decoration: none;
-    color: #FFCD57;
+    color: var(--ylw);
     margin-right: 24px;
     font-size: 24px;
 }
 
 .menu a:hover, #space-cat:hover, ul li a:hover {
-    color: #CCA445;
+    color: var(--orange)
 }
 
 .content{
@@ -50,7 +54,7 @@ h1{
 .img-1 {
     margin-top: 150px;
     width: 550px;
-    border: 15px ridge #80662B;
+    border: 15px ridge var(--lghtbrwn);
 }
 
 h2 {
@@ -58,7 +62,7 @@ h2 {
 }
 
 table, th, td { 
-    border: 0.5px solid #807252;
+    border: 0.5px solid var(--lghtbrwn);
     border-collapse: collapse;
 }
 
@@ -78,7 +82,7 @@ p {
 
 .img-2 {
     width: 350px;
-    border: 15px ridge #80662B;
+    border: 15px ridge var(--brwn)
 }
 
 #space-cat, ul li a {
@@ -92,13 +96,13 @@ ul, ol {
 }
 
 footer {
-    background-color: #807252;
+    background-color: var(--lghtbrwn);
     width: 100%;
 
 }
 
 footer h4 {
-    color: #FFCD57;
+    color: var(--ylw);
     margin-left: 16px;
     padding: 8px;
 }
