@@ -56,8 +56,12 @@ nav li a {
   text-align: center;
   font-size: 2em;
   color: white;
+  font-style: italic;
 }
 
+#cabecalho .heading2 {
+  font-style: bold;
+}
 /* Section FIGURE */
 figure {
   background: rgb( 255, 255, 253, 255 );
@@ -71,38 +75,38 @@ figure .logo {
 }
 
 /* Section MAIN */
-article {
+#lado-esquerdo  {
   background: rgba( 181, 181, 184, 0.295 );
   grid-area: article;
 }
 
-article section {
+#lado-esquerdo  section {
   margin-top: 1em;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-article #jsimg {
+#lado-esquerdo  #jsimg {
   width: 50%;
 }
 
-article #javaimg {
+#lado-esquerdo  #javaimg {
   width: 50%;
 }
 
-article #cimg {
+#lado-esquerdo  #cimg {
   width: 50%;
 }
 
-article #phpimg {
+#lado-esquerdo  #phpimg {
   width: 50%;
 }
 
-article #pythonimg {
+#lado-esquerdo  #pythonimg {
   width: 50%;
 }
 
-article div {
+#lado-esquerdo div {
   border: solid 1px;
   border-color: rgba( 0, 0, 0, 0.178 );
   margin-left: 10%;
@@ -110,19 +114,19 @@ article div {
 }
 
 /* Section ASIDE */
-aside {
+#lado-direito {
   background: rgba( 84, 85, 84, 0.219);
   grid-area: aside;
 }
 
-aside #tabela {
+#lado-direito #tabela {
   padding: 1em;
   border: solid;
   border-radius: 8px;
   align-items: center;
 }
 
-aside #lista {
+#lado-direito #lista {
   padding: 1em;
   border: solid;
   border-radius: 8px;
