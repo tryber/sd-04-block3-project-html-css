@@ -1,3 +1,14 @@
 body{
-    background-color: beige;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #EBEBEB;
+    font-family: Helvetica, sans-serif;
+}
+#cabecalho {    
+    width: 100%;
+    position: fixed;  
+    margin-left: -10px;      
+    background: #333;
+    color: #fff;
+    top: 0;
 }
