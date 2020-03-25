@@ -13,12 +13,12 @@ main {
         padding-top: 100px;
 }
 
-header#cabecalho {
+#cabecalho {
         background-color: dimgray;
         position: fixed;
         top: 0;
         width: 100%;
-        padding: 10px 10px 0px 0px;
+        padding: 10px 10px 0 0;
 }
 
 .articles h1 {
@@ -103,7 +103,7 @@ table td {
         padding: 3px;
 }
 
-aside.lado-direito {
+.lado-direito {
         width: 30%;
         float: right;
         background-color: silver;
@@ -116,10 +116,10 @@ aside.lado-direito {
         border: 1px solid black;
 }
 
-footer#rodape {
-        background-color: dimgray;
-        padding: 30px;
-        max-width: 100%;
-        clear: both;
-        text-align: center;
+#rodape {
+  background-color: dimgray;
+  padding: 30px;
+  max-width: 100%;
+  clear: both;
+  text-align: center;
 }
