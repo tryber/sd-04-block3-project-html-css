@@ -78,38 +78,38 @@ figure .logo {
 }
 
 /* Section MAIN */
-#lado-esquerdo  {
+.lado-esquerdo  {
   background: rgba( 181, 181, 184, 0.295 );
   grid-area: article;
 }
 
-#lado-esquerdo  section {
+.lado-esquerdo  section {
   margin-top: 1em;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-#lado-esquerdo  #jsimg {
+.lado-esquerdo  #jsimg {
   width: 50%;
 }
 
-#lado-esquerdo  #javaimg {
+.lado-esquerdo  #javaimg {
   width: 50%;
 }
 
-#lado-esquerdo  #cimg {
+.lado-esquerdo  #cimg {
   width: 50%;
 }
 
-#lado-esquerdo  #phpimg {
+.lado-esquerdo  #phpimg {
   width: 50%;
 }
 
-#lado-esquerdo  #pythonimg {
+.lado-esquerdo  #pythonimg {
   width: 50%;
 }
 
-#lado-esquerdo div {
+.lado-esquerdo div {
   border: solid 1px;
   border-color: rgba( 0, 0, 0, 0.178 );
   margin-left: 10%;
@@ -117,19 +117,19 @@ figure .logo {
 }
 
 /* Section ASIDE */
-#lado-direito {
+.lado-direito {
   background: rgba( 84, 85, 84, 0.219);
   grid-area: aside;
 }
 
-#lado-direito #tabela {
+.lado-direito #tabela {
   padding: 1em;
   border: solid;
   border-radius: 8px;
   align-items: center;
 }
 
-#lado-direito #lista {
+.lado-direito #lista {
   padding: 1em;
   border: solid;
   border-radius: 8px;
