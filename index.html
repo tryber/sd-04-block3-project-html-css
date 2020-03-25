@@ -13,7 +13,7 @@
     
         body{   background-color: #BD6542;
                 font-family: 'Parisienne', sans-serif; font-size: 20px;
-                line-height: 15px/1.5em;}
+                line-height: 1.5em;}
 
         #cabecalho {    background-color: black;
                         position: fixed;
@@ -36,11 +36,17 @@
                     border-width: 4px;
                     border-style: solid;
                     border-color: black;
-                    max-width: 27%;  }
+                    max-width: 100%;  }
 
         #foto-principal { margin: 10px 10px 10px 40px;
                           border-radius: 70%;
                           border-width: 4px;
+                          border-style: solid;
+                          border-color: black;
+                          float: left;    }
+                          #foto-secundaria { margin: 10px 10px 10px 5px;
+                          border-radius: 50px;
+                          border-width: 2px;
                           border-style: solid;
                           border-color: black;
                           float: left;    }
@@ -65,7 +71,7 @@
                     border-color: black;
                     }
         #section1 { margin-left: 50px;
-                    margin-right: 5px;
+                    margin-right: 25px;
                     font-size: 22px;
                     font-family: 'Architects Daughter', sans-serif ;font-size: 18px;
                 }            
@@ -75,10 +81,42 @@
         #recado { font-weight: bold;
                   text-decoration: underline;  }   
         #section2   { margin-left: 50px;
-                    margin-right: 5px;
+                    margin-right: 25px;
                     font-size: 22px;
                     font-family: 'Architects Daughter', sans-serif ;font-size: 18px;
-                    }         
+                    }    
+        #rodape {   clear: both;
+                    text-align: center;
+                    color: #fff;
+                    font-family: sans-serif;
+                    font-family: cursive;
+                    font-style: italic;
+                    font-size: 15px;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-bottom: 0;
+                    max-width: 100%;
+                    background:black;
+                    }
+        #sobre {    padding: 50px 15px ;
+                    border-radius: 50px;
+                    border-width: 4px;
+                    border-style: solid;
+                    border-color: black;
+                    background-color: #772014;
+                    height: 80%;
+                    margin-right: 6%;
+                    margin-top: 5%;
+                    float: right;
+                    width: 25%;
+                    max-width: 80%;
+                    
+                       }
+        #titulo-h2 {  text-align: center;
+                        text-decoration: underline;
+                        font-size: 60px;
+                        margin-top: -15px;  }
+     
         
 
   
@@ -86,11 +124,14 @@
 </head>
 <body>
 
-    <header id="cabecalho">	<center>
-		<a class="in-navigation" href="https://www.linkedin.com/in/joao-lucas-soutto-mayor-8b9888171/" target="_blank">Home</a>
-		<a class="in-navigation" href="https://www.instagram.com/jsoutto/" target="_blank">Lançamentos da Década</a>
-		<a class="in-navigation" href="https://www.facebook.com/joao.soutto" target="_blank">Últimos Shows</a>
-                            </center>
+    <header id="cabecalho">	
+        <nav>
+            <center>
+		    <a class="in-navigation" href="https://www.linkedin.com/in/joao-lucas-soutto-mayor-8b9888171/" target="_blank">Home</a>
+		    <a class="in-navigation" href="https://www.instagram.com/jsoutto/" target="_blank">Lançamentos da Década</a>
+		    <a class="in-navigation" href="https://www.facebook.com/joao.soutto" target="_blank">Últimos Shows</a>
+            </center>
+        </nav>
     </header>
 
     <br><br>
@@ -99,10 +140,18 @@
                           <h2 id="titulo-principal">Alcione, a deusa</h2>
 
     </header>
+    <aside id="sobre"><h2 id="titulo-h2">Sobre a deusa</h2>
+    <p><img id="foto-secundaria" src="https://www.ibahia.com/fileadmin/user_upload/ibahia/2019/agosto/14/Alcione_cantora.png?width=1200&enable=upscale" alt="Alcione sorrindo" width= 200px></p>
 
+
+</aside>
+    <br><br>
     <br>
+
+    
     <article id="disco">
         <section id="section1">
+            
             <h3 class="titulos-h3">Lançamentos da década:</h3>
                 <p>A Marrom é uma artista de longa data . Tendo lançado seu primeiro álbum (A Voz do Samba) no ano de 1975, no ano de 2020 ela chega na marca de 45 anos de carreira.<br>
                     Ao longo do tempo, ela produziu 39 álbuns e fez inúmeras participações em álbuns de grandes artistas da música brasileira, como João Nogueira, Zeca Pagodinho, Chitãozinho e Xororó 
@@ -126,6 +175,8 @@
 
                 <p>É preciso admitir, essa mulher gosta é de trablhar! Como visto acima, nos últimos dez anos, ela lançou doze álbuns novos, cada um com um gostinho de quero mais.
                 </p>
+
+                
         </section>             
     </article>                
         
@@ -149,8 +200,12 @@
                 <p>Meu caro leitor, após esses álbuns, você pode ter uma certeza: <span id="recado">sua vida nunca mais será a mesma</span>.
                 </p>
         </section>             
-    </article>        
+    </article>      
+    
+    
 
+<br><br>
+    <footer id="rodape">Para mais informações, acesse o <a href="http://www.alcioneamarrom.com.br/" target="_blank" >site oficial</a> da Marrom</footer>    
 
 </body>
 </html>
