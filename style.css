@@ -1,4 +1,6 @@
 *{
+    margin:0;
+    padding: 0;
     
 }
 body{
@@ -22,11 +24,15 @@ header#cabecalho{
 #allArticles{
     width: 65%;
     float: left;
+    padding: 15px;
     background-color: #c0c0c0;
-
+}
+.list{
+    margin: 15px;
 }
 .articles{
     background-color: #fff;
+    padding: 15px;
 
 }
 table tr, td{
