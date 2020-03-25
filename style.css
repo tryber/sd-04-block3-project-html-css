@@ -91,3 +91,14 @@ nav ul li a {
     text-align: center;
     font-weight: bold;
 }
+
+.lado-esquerdo {
+    float: left;
+    
+}
+.lado-direito {
+    float: right;
+}
+#dicas {
+    clear: both;
+}
