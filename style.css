@@ -1,191 +1,174 @@
-
-* {
-    box-sizing: border-box;
-}
-
-*:before ,
-*:after {
-    box-sizing: border-box;
-}
-
-html , 
 body {
-    height: 100%;
-    position: relative;
-}
-
-body {
-    font-family: 'Baloo Da 2' , cursive;
-    background-color: #e5460e;
-    color: white;
+  font-family: 'Baloo Da 2' , cursive;
+  background-color: rgb(229 , 70 , 14);
+  color: white;
 }
 
 .lado-direito {
-    float: right;
-    clear: both;
+  float: right;
+  clear: both;
 }
 
 .lado-esquerdo {
-    float: left;
+  float: left;
 }
 
 #content-wrap {
-    padding-bottom: 50px;
-    min-height: 100vh;
-    overflow: hidden;
-    display: block;
-    position: relative;
+  padding-bottom: 50px;
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
 }
 
 .navmenu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-    background-color: #333;
-    left: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(51 , 51 , 51);
+  left: 0;
 }
 
 .navitem {
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 15px 2%;
-    text-decoration: none;
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 15px 2%;
+  text-decoration: none;
 }
 
 .navitem:hover {
-    background-color: #111;
+  background-color: rgb(17 , 17 , 17);
 }
 
 #cabecalho {
-    background-image: url('img/bg-header.jpg');
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 35vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: url('img/bg-header.jpg');
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-title {
-    color: white;
-    font-size: 64px;
-    background-color: rgba(0, 0, 0, 0.25);
-    padding: 10px;
-    border-radius: 10px;
+  color: white;
+  font-size: 64px;
+  background-color: rgba(0 , 0 , 0 , 0.25);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 #aside {
-    width: 20%;
-    border: 2px white solid;
-    border-radius: 10px;
-    text-align: center;
-    margin: 1% 1% 0 0;
+  width: 20%;
+  border: 2px white solid;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1% 1% 0 0;
 }
 
 .aside-title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .table {
-    width: 95%;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 10px;
+  width: 95%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 td {
-    padding: 1% 5%;
-    border: 2px solid white;
-    
+  padding: 1% 5%;
+  border: 2px solid white;
 }
 
 #article {
-    width: 75%;
+  width: 75%;
 }
 
 #important-info {
-    display: flexbox;
-    background-color: #e5460e;
-    border: 2px white solid;
-    border-radius: 10px;
-    margin: 1% 0 0;
-    text-align: center;
+  display: flexbox;
+  background-color: rgb(229 , 70 , 14);
+  border: 2px white solid;
+  border-radius: 10px;
+  margin: 1% 0 0;
+  text-align: center;
 }
 
 .map-container {
-    width: 70%;
-    height: auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+  width: 65%;
+  height: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .map {
-    min-width: 100%;
-    min-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .list-container {
-    width: 25%;
-    padding: 1%;
-    border: 2px solid white;
-    border-radius: 10px;
-    text-align: center;
+  width: 25%;
+  padding: 1%;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .article-list {
-    margin: 0 0 5%;
+  margin: 0 0 5%;
 }
 
 .article-title {
-    text-align: center;
+  text-align: center;
 }
 
 .news-img {
-    width: 200px;
-    height: auto;
-    float: left;
-    clear: both;
-    margin-right: 25px;
-    border: 2px solid white;
-    border-radius: 10px;
+  width: 200px;
+  height: auto;
+  float: left;
+  clear: both;
+  margin-right: 25px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .news-list-item {
-    background-color: rgba(0, 0, 0, 0.25);
-    margin: 2% 0;
-    padding: 1%;
-    border-radius: 10px;
+  background-color: rgba(0 , 0 , 0 , 0.25);
+  margin: 2% 0;
+  padding: 1%;
+  border-radius: 10px;
 }
 
 .news-title {
-    color: white;
+  color: white;
 }
 
 .news-text {
-    color: white;
+  color: white;
 }
 
 .news-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #rodape {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: #333;
-    left: 0;
-    text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(51 , 51 , 51);
+  left: 0;
+  text-align: center;
 }
 
 #rodape p {
-    color: white;
+  color: white;
 }
