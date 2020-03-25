@@ -3,38 +3,14 @@
             margin: 0px;
             background-color: rgb(175, 136, 136);
         }
-        .cabecalho ul {
+        #cabecalho{
             position: fixed;
-            margin: 0px;
-            background-color:black;
-            list-style: none; 
-            width: 1450px;
-        }
-        .cabecalho ul li{
-            display: inline;
-        }
-        .cabecalho ul li a{
-            padding: 10px 10px;
-            display: inline-block;
-            color: white;
-            text-decoration: none;
-        }
-        .title {
-            text-align: left;
-            padding: 50px 5px 5px 50px;
-            margin-left: 120px;
-        }
-        .article {
-            text-align: left;
-            margin-left: 165px;
-            width: 700px;
-
         }
         #picture {
             margin-left: 60px;
             margin-top: 20px;
         }
-        .rodape {
+        #rodape {
             background-color: black;
             color: white;
             margin: 0px;
