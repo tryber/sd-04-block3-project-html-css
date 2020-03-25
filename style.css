@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,600,700&display=swap');
+
+body{
+    background-color: #FFCD57;
+    font-family: 'Baloo 2', cursive;
+    color: #807252;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #807252;
+}
+
+.menu a:hover{
+    color: #FFE3A3;
+}
+
+.img-1{
+    width: 550px;
+    border: 15px ridge #80662B;
+}
+
+.img-2{
+    width: 350px;
+    border: 15px ridge #80662B;
+}
