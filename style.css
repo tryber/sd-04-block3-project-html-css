@@ -135,6 +135,39 @@ td {
     text-align: center;
     
 }
+.article-list {
+    margin: 0 0 5% 0;
+}
+.article-title {
+    text-align: center;
+}
+/* 
+    NEWS
+*/
+.news-img {
+    width: 200px;
+    height: 1x;
+    float: left;
+    clear: both;
+    margin-right: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.news-list-item {
+    background-color: rgba(0,0,0,0.25);
+    margin: 2% 0;
+    padding: 1%;
+    border-radius: 10px;
+}
+.news-title {
+    color: white;
+}
+.news-text {
+    color: white;
+}
+.news-link {
+    text-decoration: none;
+}
 /* 
     FOOTER
 */
