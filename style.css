@@ -64,7 +64,7 @@ nav li a {
 }
 /* Section FIGURE */
 figure {
-  background: rgb( 255, 255, 253, 255 );
+  background: rgba(243, 239, 239, 0.87);
   grid-area: figure;
   margin: 0;
   justify-self: center;
