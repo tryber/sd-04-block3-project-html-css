@@ -9,7 +9,7 @@ body {
   width: 100%;
   position: fixed;
   margin-left: -10px;
-  background: rgb(95 ,95 ,95);
+  background: rgb(95 , 95 , 95);
   color: white;
   top: 0;
 }
@@ -59,7 +59,7 @@ table {
   padding: 10px;
 }
 
-th, td {
+th , td {
   border: 1px solid black;
 }
 
@@ -76,12 +76,12 @@ th {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(95, 95, 95);
+  background-color: rgb(95 , 95 , 95);
 }
 
 .list_nav a {
   display: block;
-  color: rgb(241, 241, 241);
+  color: rgb(241 , 241 , 241);
   text-align: center;
   padding: 6px 16px;
   text-decoration: none;
@@ -91,8 +91,8 @@ th {
 }
 
 li a:hover {
-  background-color: rgb(238, 187, 238);
-  color: rgb(95, 95, 95);
+  background-color: rgb(238 , 187 , 238);
+  color: rgb(95 , 95 , 95);
 }
 
 aside {
