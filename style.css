@@ -5,8 +5,11 @@ body{
     background-color: #ccc;
     height: 100%;
 }
+main{
+    padding-top: 60px;
+}
 header#cabecalho{
-    background-color: #a9a9a9;
+    background-color: #696969;
     position: fixed;
     top: 0;
     width: 100%;
@@ -19,13 +22,20 @@ header#cabecalho{
 #allArticles{
     width: 65%;
     float: left;
+    background-color: #c0c0c0;
 
 }
 .articles{
+    background-color: #fff;
 
 }
+aside{
+    width: 30%;
+    float: right;
+    background-color: #c0c0c0;
+}
 footer#rodape{
-    background-color: #a9a9a9;
+    background-color: #696969;
     height: 100px;
     width: 100%;
     clear: both;
