@@ -1,13 +1,37 @@
 
         body {
-            margin: 0;
-            padding: 0;
+            margin: 0px;
             background-color: rgb(175, 136, 136);
         }
-        #cabecalho {
+        #cabecalho{
             position: fixed;
+        }
+        .cabecalho1 ul {
+            position: fixed;
+            margin: 0px;
             background-color:black;
-            width: 100%;
+            list-style: none; 
+            width: 1450px;
+        }
+        .cabecalho1 ul li{
+            display: inline;
+        }
+        .cabecalho1 ul li a{
+            padding: 10px 10px;
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+        }
+        .title {
+            text-align: left;
+            padding: 50px 5px 5px 50px;
+            margin-left: 120px;
+        }
+        .article {
+            text-align: left;
+            margin-left: 165px;
+            width: 700px;
+
         }
         #picture {
             margin-left: 60px;
@@ -23,4 +47,12 @@
             margin-bottom: 0px;
             margin-left: 30px;
         }
-        
+        .table {
+            border: 1px solid black;
+            border-spacing: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .table td{
+            border: 1px solid black;
+        }
