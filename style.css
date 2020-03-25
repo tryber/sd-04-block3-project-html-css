@@ -10,15 +10,15 @@ a {
   text-align: left;
 }
 
-header #cabecalho {
+header {
   position: fixed;
   background-color: rgb(22 , 91 , 51);
   width: 100%;
-  margin: 0px;
+  margin: 0;
 }
 
 header #cabecalho {
-    font: italic small-caps 600 16px/3 cursive;
+  font: italic small-caps 600 16px/3 cursive;
 }
 
 footer {
