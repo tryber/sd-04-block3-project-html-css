@@ -28,3 +28,7 @@ footer#rodape {
     position: absolute;
     bottom: 0;
 }
+
+.imagem {
+    weigth: 40px;
+}
