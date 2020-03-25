@@ -10,7 +10,7 @@ body {
   width: 20%;
 }
 
-.lado-esquerdo { 
+.lado-esquerdo {
   width: 75%;
 }
 
@@ -18,7 +18,7 @@ body {
   float: right;
   clear: both;
 }
-  
+
 .lado-esquerdo-comp { 
   float: left;
   
