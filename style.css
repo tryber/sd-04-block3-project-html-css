@@ -134,12 +134,12 @@ figure .logo {
 }
 
 /* Section FOOTER */
-footer {
+#rodape {
   background: rgba(37, 1, 1, 0.336);
   grid-area: footer;
 }
 
-footer div ul {
+#rodape div ul {
   margin-top: 3em;
   text-align: center;
   font-size: 1em;
