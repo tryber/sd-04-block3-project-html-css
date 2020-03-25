@@ -88,12 +88,33 @@ article section{
   margin-left: 10%;
   margin-right: 10%;
 }
+article #jsimg{
+  width: 50%;
+}
+article div{
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0.178);
+  margin-left: 10%;
+  margin-right: 10%;
+}
 /*
     Section ASIDE
 */
 aside {
   background: rgba(84, 85, 84, 0.219);
   grid-area: aside;
+}
+aside #tabela{
+  padding: 1em;
+  border: solid;
+  border-radius: 8px;
+  align-items: center;
+}
+aside #lista{
+  padding: 1em;
+  border: solid;
+  border-radius: 8px;
+  align-items: center;
 }
 /*
     Section FOOTER
