@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Projeto bloco 3 dia 5
+        </title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <header id="cabecalho"><h1>Gravidade: preposições sobre</h1></header>
+        <div id="inicial"></div>
+        <div id="containerA">
+            <div id="containerD">
+                <img src="./earth.jpg" alt="universe graphic">
+            </div> 
+            <div id="containerC">
+                <main>
+                    <h2>Aceleração da Gravidade</h2>
+                    <p>Aceleração da gravidade é a intensidade do campo gravitacional em um
+                         determinado ponto. Geralmente, o ponto é perto da superfície
+                          de um corpo massivo. Um exemplo é a aceleração da gravidade
+                           na Terra ao nível do mar e à latitude de 45° ,(g) possuindo
+                            o valor aproximado de 9,80665 m/s².
+                    </p>
+                    <h2>Aceleração da Gravidade para Corpos Externos à Terra ou outro planeta</h2>
+                    <p>Para calcularmos a aceleração da gravidade de corpos que estão no entorno
+                        de planetas, como a nossa Lua, por exemplo, utilizamos a seguinte equação matemática:
+                    </p>
+                    <img src="./formula1.svg" alt="formula matematica">
+                    <p>onde:</p>
+                        <ul>
+                            <li>g = aceleração da gravidade</li>    
+                            <li>M = massa do planeta de origem do campo gravitacional</li>
+                            <li>h = altura entre o objeto e a superfície do planeta</li>
+                            <li>R = raio da Terra ou do planeta em questão</li>
+                            <li>G = constante universal da gravitação</li>
+                        </ul>
+                </main>
+            </div>
+            <div id="containerB">
+                    <nav>
+                        <ul>
+                            <li><a href="#inicial">Inicial</a></li>
+                            <li><a href="https://hugo-netuno.github.io/" target="_blank">Sobre</a></li>
+                            <li id="click"><a>Contato</a></li>
+                            <li id="email"class="email">hugo.urano@gmail.com</li>
+                        </ul>
+                    </nav>
+                    <aside>
+                        <summary>Por que as coisas caem???</summary>
+                        <img src="./drop.png" alt="ioio">
+                        <details>
+                        <a href="https://www.youtube.com/watch?v=Hw5ArwWGwZY">Video aula</a>
+                        </details>
+                    </aside>
+            </div>
+        </div>     
+                <article>
+                    <section>
+                        <p>Bibliografia:</p>
+                        <ol>
+                            <li><a href="https://pt.wikipedia.org/wiki/Acelera%C3%A7%C3%A3o_da_gravidade" target="_blank">
+                                Wikipedia</a></li>
+                            <li><a href="" target="_blank"></a></li>
+                            <li><a href="" target="_blank"></a></li>
+                        </ol>
+                    </section>
+                </article>
+
+            <footer id="rodape">Conteúdo compilado por: <a href="https://hugo-netuno.github.io/" target="_blank">Hugo Jr</a><br>
+                <div id="time">
+                    <script>
+                        let boolean = false;
+                        document.getElementById("click").addEventListener(
+                            "click", function(){
+                                if(boolean===false){
+                                    document.getElementById("email").classList.remove("email");
+                                    boolean = true;                            
+                                } else if(boolean===true){
+                                    document.getElementById("email").classList.add("email");
+                                    boolean = false;
+                                }
+                            });
+                        let tag = document.querySelector("#time");
+                        tag.innerHTML = new Date()
+                    </script>
+                </div>
+            </footer>
+    </body>
+</html>

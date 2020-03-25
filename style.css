@@ -1,0 +1,89 @@
+body {
+    background-color: #0D3372;
+    color: #C2B588;
+}
+
+#cabecalho {
+    position: fixed;
+    background-color: #3C74D4;
+    width: 100%;
+    margin: auto;
+    height: 80ṕx;
+}
+
+h1 {
+    color: #C2B588;
+    text-align: center;
+}
+
+#containerA {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+#containerB {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+
+#containerD {
+    width: 30%;
+}
+
+main {
+    color: #3C74D4;
+    border: 3px solid #0D3372;
+    border-radius: 10px;
+    padding: 20%;
+    padding-top: 5%;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 90px;
+    background-image: linear-gradient(#C2B588,#948067);
+}
+
+nav {
+    position: fixed;
+    left: 81%;
+    margin-top: 90px;
+    color: #3C74D4;
+    border: 3px solid #0D3372;
+    border-radius: 10px;
+    width: 220px;
+    background-image: linear-gradient(#C2B588,#948067);
+}
+
+aside {
+    position: fixed;
+    right: 1%;
+    margin-top: 270px;
+}
+
+a:hover {
+    background-color: lawngreen;
+}
+a:visited {
+    color: #674F41;
+}
+
+aside a {
+    color: #C2B588;
+}
+
+#rodape {
+    text-align: center;
+    position: absolute;
+    top: 235%;
+    width: 90%;
+    height: 35px;
+    right: 5%;
+    margin-bottom: 10px;
+    background-color: #674F41;
+}
+
+.email {
+    display: none;
+}
+
