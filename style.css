@@ -1,7 +1,7 @@
 img, ul li {
     margin: 2px;
     padding: 5px;
-    border: 2px solid rgb(158, 175, 206);
+    border: 2px solid rgb(158 , 175 , 206);
     width: 250px;
     background-color: rgb(172, 207, 142);
 }
@@ -57,5 +57,5 @@ ol {
 }
 
 ul li {
-    display: inline-block;    
+    display: inline-block;
 }
