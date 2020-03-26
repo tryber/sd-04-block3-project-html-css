@@ -1,4 +1,7 @@
 <style>
+#cabecalho{
+    color:blue;
+}
 ul.nav { 
     margin:0; 
     padding:0;
@@ -31,7 +34,7 @@ ul.nav a:hover{
     list-style-type: none;
     display: inline;
 }
-.aligning{
+/*.aligning{
     background: gray;
     text-align: justify;
 }
@@ -39,11 +42,11 @@ ul.nav a:hover{
     width: 400px;
     height: 200px;
     display: inline-block;
-}
-#lado-esquerdo{
+}*/
+.lado-esquerdo{
     float: left;
 }
-#lado-direito{
+.lado-direito{
     float: right;
 }
 #rodape{
