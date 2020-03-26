@@ -1,6 +1,8 @@
 /* Body style */
 body{
-    background-color: #DAE4EA;
+    background-color: #F8F0ED;
+    margin: 50px;
+    text-align: center;
 }
 /* Header style */
 #cabecalho{
@@ -12,47 +14,113 @@ body{
     background-color: white;
     color: black;
     text-align: center;
+    z-index: 1;
 }
 /* Jump to section tag style*/
 .sectiontag{
-    color:white;
+    color:#141D19;
     padding: 5px 10px;
-    background-color: #3C5260;
     text-decoration: none;
-    position: center;
     font-size: 20px;
+    z-index: 2;
+}
+/* Cover box = pic+title */
+.coverbox{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+/* Page title */
+.coverbox .pagetitle{
+    position: absolute;
+    z-index: 0;
+    margin: 0 auto;
+    top: 0%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 60%;
+    color: white;
+}
+/* Article style*/
+article{
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#section1{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+#section2{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+#section3{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+#section4{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+/* To put things at the left side*/
+.lado-esquerdo{
+    float: left;    
+}
+/* To put things at the right side*/
+.lado-direito{
+    float: right;
+}
+/* White box */
+.whitebox{
+    border: 2px solid white;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    text-align: justify;
 }
 /* Table style */
- table{
+table{
      background-color: white;
      padding: 5px;
- }
+}
  /* Table header */
- th{
+th{
      text-align: center;
      border-bottom: 1px solid black;
      padding: 3px;
- }
+}
  /* Table data */
- td{
+td{
     text-align: center;
     padding: 3px;
- }
+}
 /* Footer style */
 #rodape{
     color:black;
-    background-color: white;
+    border: 2px solid black;
     width: 100%;
     padding: 5px;
     text-align: center;
 }
 /* GitHub contact style */
-.github{
+#github{
     text-decoration:none;
     font-weight: 700;
     color:black;
 }
-/* Images style */
-img{
-    padding: 10px;
+/* Dog foot style */
+#footpic{
+    border-radius: 50%;
 }
+/* Class for centering things */
+/* .center{
+    text-align: center;
+} */
