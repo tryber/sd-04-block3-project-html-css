@@ -77,6 +77,10 @@ h3 {
   float: left;
 }
 
+.float-right {
+  float: right;
+}
+
 .spotlight {
   position: relative;
   min-height: 350px;
