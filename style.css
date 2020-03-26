@@ -52,7 +52,7 @@ p, li
 nav
 {
     margin-top: 120px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     background-color: #787878;
 }
 
@@ -83,3 +83,49 @@ h4
     padding: 10px;
 }
 
+.clear
+{
+    clear: both;
+}
+
+table.tabelaPrincipal
+{
+    margin: 20px;
+    float: left;
+    border-width: 2px;
+	border-spacing: 5px;
+	border-style: solid;
+	border-color: #787878;
+	border-collapse: collapse;
+}
+
+table.tabelaPrincipal th, td
+{
+    border-width: 2px;
+	padding: 2px;
+	border-style: inset;
+	border-color: #787878;
+}
+
+/*border-width: 2px;
+	border-spacing: 5px;
+	border-style: solid;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: red;
+}
+table.sample th {
+	border-width: 2px;
+	padding: 2px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table.sample td {
+	border-width: 2px;
+	padding: 2px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius: ;*/
