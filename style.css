@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: rgba(68 , 68 , 68 , 1);
   font-family: Roboto, sans-serif;
-  font-size: 27px;
+  font-size: 24px;
   color: white;
 }
 
@@ -52,7 +52,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 100;
 }
 
