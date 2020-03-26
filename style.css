@@ -3,10 +3,21 @@
     padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { 
+    height: 100%;
+ }
 
 body {
     background-color: rgba(246,244,243,1.0);
+    min-height: 100%;
+}
+#all {
+    min-height: 100%;
+    position: relative;
+}
+
+* html #all {
+    height: 100%;
 }
 
 header#cabecalho {
@@ -21,15 +32,15 @@ header#cabecalho {
     margin-top:100px;
     margin-bottom: 40px;
 }
-.lado-direito {
+.intro { 
     padding:10px;
     float: right;
     max-width: 550px;
-    text-align: ;
+    text-align: justify;
     margin-top:50px;
 }
 
-.lado-esquerdo {
+.picture1 {
     display: inline;
     margin-bottom: 20px;
     margin-left: 30px;
@@ -45,12 +56,30 @@ header#cabecalho {
     padding:20px;
     margin:100px 20px 20px 20px;
 }
+.lado-direito {
+    float: right;
+    width: 10px;
+    height: 10px;
+}
 
-#rodape {
+.lado-esquerdo {
+    float: left;
+    width: 10px;
+    height: 10px;
+}
+
+#nav {
+    min-height: 100%;
+    display: block;
+}
+footer#rodape {
     background-color: #276FBF;
     width: 100%;
     color: rgba(246,244,243,1.0);
+    text-align: center;
     position: absolute;
     bottom: 0;
-    text-align: center;
+    left: 0;
 }
+
+
