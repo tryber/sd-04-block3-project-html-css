@@ -76,9 +76,16 @@ h3 {
 
 .spotlight-text {
   max-width: 50%;
-  text-align: justify;
 }
 
 .spotlight img{
+  margin-right: 20px;
   width: 700px;
+
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.44);
+
+  filter: saturate(120%);
+  -webkit-filter: saturate(120%);
 }
