@@ -1,23 +1,37 @@
     body {
         background-color: #C4EBF1;
     }
-
-    article {
+    nav {
         padding-top: 100px;
     }
-
+    table, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
     #cabecalho {
         background-color: #89C7E7;
         text-align: center;
         position: fixed;
         width: 99%;
         border-radius: 10px;
+        margin: 2px;
+        padding: 2px;
+        border: 2px;
     }
-
     #rodape {
+        
+        clear: both;
         text-align: center;
-        background-color: #C4EBF1;
     }
     p strong {
         color:#0fa36b
+    }
+    .lado-esquerdo {
+        float: left;
+        clear: right;
+        max-width: 80%;
+    }
+    .lado-direito {
+        float: right;
+        max-width: 19%;
     }
