@@ -14,7 +14,7 @@ body
 
 .geral
 {
-    margin-top: 100px;
+    margin-left: 100px;
 }
 
 #cabecalho
@@ -43,15 +43,23 @@ body
 p
 {
     /*margin: 40px 0px 40px 0px;*/
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 10px;
     padding-left: 10px;
+}
+
+nav
+{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #787878;
 }
 
 nav h3 a
 {
     margin-left: 3em;
     text-decoration: underline;
+
 }
 
 nav h3 a:hover
@@ -60,4 +68,8 @@ nav h3 a:hover
     color:#DCDCDC;
 }
 
+h4
+{
+    margin-left: 20px;
+}
 
