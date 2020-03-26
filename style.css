@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to bottom right, rgb(236, 130, 236), rgb(105, 128, 0), rgb(223, 135, 223))
+    background-color: rgb(190, 233, 141);
 }
 table, tr, th, td {
     border: 2px solid black;
@@ -15,11 +15,9 @@ table, tr, th, td {
 .table-title {
     text-align: center;
 }
-#nav {
-    background-color: rgb(161, 190, 128);
+#cabecalho {
+    position: fixed;
     width: 100%;
-    display: inline-block;
-    border-radius: 500px;
 }
 .nav-menu {
     float: right;
@@ -46,4 +44,16 @@ p {
 }
 ul {
     text-align: center;
+}
+.lado-esquerdo {
+    text-align: left;
+}
+.lado-direito {
+    text-align: right;
+}
+ol, ul, h4 {
+    text-align: left;
+}
+#rodape, h4 {
+    text-align: left;
 }
