@@ -1,32 +1,35 @@
 body{
 background: #FCF3E4;
 }
-#cabecalho{width: 1200px;
+#cabecalho{
+background: #41607D;
+position: fixed;
+width: 1400px;
 height: 130px;
-background: #C8E0CF;
 margin: 0 auto;
 }
 #cabecalho h1{text-align: center;
-padding-top: 40px;
+padding-top: 25px;
 }
 #topo{
-background: #FAEBC7;
-width: 1188px;
+background: #687E8A;
+width: 800px;
+height: 0px;
 margin: 0 auto;
-padding: 6px;
+padding: 150px;
 text-align: center;
-margin-top: 14px;
+margin-top: 10px;
 }
 #lado-direito{
 background: #FAEBC7;
-float: right;
+display: inline-block;
 margin-right: 64px;
 margin: 3px;
 padding: 3px;
 }
 #lado-esquerdo{
 background: #FAEBC7;
-float: :left;
+display: inline-block;
 margin-left: 64px;
 margin: 3px;
 padding: 3px;
