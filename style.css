@@ -27,3 +27,12 @@ header img{
     top: 10px;
     width: 40px;
 }
+.lado-esquerdo{
+    float: left;
+}
+.lado-direito{
+    float: right;
+}
+.clear-both{
+    clear: both;
+}
