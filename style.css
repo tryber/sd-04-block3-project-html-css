@@ -1,7 +1,4 @@
 <style>
-/*#cabecalho{
-    
-}*/
 ul.nav { 
     margin:0; 
     padding:0;
@@ -26,7 +23,7 @@ ul.nav li a {
     text-decoration:none;
 }
 ul.nav a:hover{
-    background:#999;
+    /*background:#999;*/
     color:#fff;
     border-color:#000 #fafafa #fafafa #000;
 }
@@ -34,19 +31,26 @@ ul.nav a:hover{
     list-style-type: none;
     display: inline;
 }
-.section-content{
-    width: 45%;
-    display: inline;
+.aligning{
+    background: gray;
+    text-align: justify;
+}
+.aligning-block{
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+#lado-esquerdo{
+    float: left;
+}
+#lado-direito{
+    float: right;
 }
 #rodape{
     background: darkcyan;
 }
-#picture{
-    width: 30%;
-    /*display: inline;*/
-}
 #bodystyle{
-    background:blueviolet;
+    background: pink;
     font-family: "Lucida Console", monospace;
 }
 </style>

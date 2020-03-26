@@ -6,7 +6,7 @@
         <link href="style.css" rel="stylesheet">         
         </head>
     <body id="bodystyle">
-<!---->        <nav>
+        <nav> 
             <ul  class="nav">
                 <li><a href="#na">Panorama</a></li>
                 <li><a href="#nb">Lista de Ações</a></li>
@@ -16,8 +16,8 @@
         </nav>
             <div>
             <h2 id="na"><br><br>Panorama</h2>
-            <section class="section-container">
-                <p class="section-content">
+            <section>
+                <p id="lado-esquerdo">
                     Vou mostrar aqui uma lista com as 21 ações que pagam bons dividendos em 2020, ou melhor, 
                     que possuem potencial de pagamento de dividendos para o ano, 
                     pois entendo que pode ser muito útil como um ponto de partida 
@@ -32,10 +32,51 @@
                     e através de determinados filtros e método quantitativo, 
                     podemos separar algumas dezenas de ações para um estudo mais qualitativos.<br><br> 
                 </p>
-                <img id="picture" src="/home/douglas/Trybe/sd-04-block3-project-html-css/dividendos2020.jpg" alt="Requisito 4: imagem de uma cesta com ovos representando os dividendos pagos por ações">
+                    <img id="lado-direito" src="/home/douglas/Trybe/sd-04-block3-project-html-css/dividendos2020.jpg" alt="Requisito 4: imagem de uma cesta com ovos representando os dividendos pagos por ações" width="500px">
             </section>
         </div>
         <h2 id="nb">Lista completa de Ações</h2>
+        <p>
+            No início de 2020 a Economatica publicou uma tabela 
+            com a relação das “ações com potencial de pagamento de dividendos em 2020” 
+            seguindo apenas critérios quantitativos.  
+            Não significa que essas serão as melhores pagadoras de dividendos, 
+            pois a distribuição de dividendos, juros sobre capital próprio 
+            e outros proventos vão depender dos resultados financeiros das empresas 
+            e das decisões que envolvem sua administração sobre 
+            a distribuição desses lucros entre as pessoas que possuem ações.<br><br>
+
+            De qualquer forma, as empresas possuem números e padrões vistos no passado 
+            que podem elevar a possibilidade (sempre falamos de possibilidades e nunca de certezas) 
+            de que ocorra bons pagamentos de dividendos no futuro próximo. 
+            O que existe de mais interessante, no meu entendimento, 
+            ao se observar listas como essas, são os setores envolvidos. 
+            Eles costumam ser os mesmos no decorrer do tempo e grandes investidores 
+            costumam citar esses setores em seus conteúdos.<br></br>
+        </p>
+        <table>
+            <tr>
+                <th>Empresa</th>
+                <th>Código</th>
+                <th>Segmento</th>
+                <th>DY% 2019</th>
+                <th>DY% 2020 (Projetado)</th>
+            </tr>
+            <tr>
+                <th>Itau</th>
+                <th>ITUB3</th>
+                <th>Bancos</th>
+                <th>9.34</th>
+                <th>8.76</th>
+            </tr>
+            <tr>
+                <th>Wiz</th>
+                <th>WIZS3</th>
+                <th>Corretoras de Seguros</th>
+                <th>15.85</th>
+                <th>7.87</th>
+            </tr>
+        </table>
         <ol>Segmentos das ações com maior potencial para pagamento de dividendos:
             <li>Setor bancário (38%);</li>
             <li>Energia elétrica (19%);</li>
