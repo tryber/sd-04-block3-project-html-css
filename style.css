@@ -1,8 +1,4 @@
 <style>
-#cabecalho{
-    color:blue;
-}
-
 #cabecalho {
     overflow: hidden;
     background-color: #333;
@@ -78,10 +74,16 @@ ul.nav li a {
 }
 
 .lado-esquerdo{
+    width: 40%;
     margin: 0 10px;
+    text-align: center;
+    display: inline-block;
 }
 .lado-direito{
-    float: right;
+    width: 40%;
+    margin: 0 10px;
+    text-align: center;
+    display: inline-block;
 }
 #rodape{
     background: burlywood;
