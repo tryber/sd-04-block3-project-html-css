@@ -3,16 +3,19 @@ body {
   color: rgb(17 , 16 , 90);
   margin: 0;
 }
+
 #cabecalho {
   position: fixed;
   width: 100%;
 }
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: rgb(36 , 35 , 35);
   overflow: hidden;
 }
-  /* Style the links inside the navigation bar */
+
+/* Style the links inside the navigation bar */
 .topnav a {
   color: rgb(215 , 255 , 222);
   float: left;
@@ -21,12 +24,14 @@ body {
   text-align: center;
   text-decoration: none;
 }
-  /* Change the color of links on hover */
+
+/* Change the color of links on hover */
 .topnav a:hover {
   background-color: rgb(224 , 224 , 224);
   color: black;
 }
-  /* Add a color to the active/current link */
+
+/* Add a color to the active/current link */
 .topnav a.active {
   background-color: rgb(92 , 163 , 104);
   color: white;
@@ -41,18 +46,20 @@ body {
 label {
   font-size: 20px;
 }
-  /* Tabela */
+
+/* Tabela */
 table {
   border-collapse: collapse;
   border-spacing: 0;
   border: 1px solid rgb(221 , 221 , 221);
   width: 100%;
 }
-th , 
+th ,
 td {
   padding: 16px;
   text-align: left;
 }
+
 tr:nth-child( even ) {
   background-color: rgb(92 , 163 , 104);
 }
