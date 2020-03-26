@@ -116,3 +116,11 @@ table.tabelaPrincipal th, td
     border-color: #787878;
     text-align: center;
 }
+
+div h2 a
+{
+    font-size: 1.7em;
+    text-align: center;
+    margin-left: 20px;
+    color: black;
+}
