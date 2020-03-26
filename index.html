@@ -1,84 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet">
+    <title>Projeto HTML-CSS</title>
+  </head>
 
-  <title>Projeto HTML-CSS</title>
-</head>
+  <body>
+    <header id="cabecalho">
+      <nav class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#exemplo">Exemplos</a>
+        <a href="#contato">Contato</a>
+        <a href="#about">Sobre</a>
+      </nav>
+    </header>
 
-<body>
-  <header id="cabecalho">
-    <nav class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#exemplo">Exemplos</a>
-      <a href="#contato">Contato</a>
-      <a href="#about">Sobre</a>
-    </nav>
+    <article>
+      <section id="top">
+        <h1>List and View</h1>
+        <p>Software de listagem e visualização de produtos</p>
+        <label for="pesquisar">Pesquisar</label>
+        <input
+          type="text"
+          id="pesquisar"
+          name="pesquisar"
+          placeholder="Pesquisar Produto"
+        />
+        <button>
+          <img
+            src="https://cdn.pixabay.com/photo/2015/12/14/20/35/magnifier-1093183_960_720.png"
+            alt="icone de lupa"
+            width="10px"
+          />
+        </button>
+      </section>
 
-  </header>
+      <section id="exemplo">
+        <table>
+          <tr>
+            <th>Produto</th>
+            <th>Código</th>
+            <th>Valor</th>
+          </tr>
+          <ul>
+            <tr>
+              <td><li>Playstation 4</li></td>
+              <td>#45965</td>
+              <td>R$ 2.350,00</td>
+            </tr>
+            <tr>
+              <td><li>Processador Core I7</li></td>
+              <td>#442233</td>
+              <td>R$ 1.700,00</td>
+            </tr>
+            <tr>
+              <td><li>Exemplo</li></td>
+              <td>#00000</td>
+              <td>R$ 0,00</td>
+            </tr>
+          </ul>
+        </table>
+      </section>
 
+      <aside>
+        <ol>
+          <li>
+            Playstation 4 | #45965 | R$ 2.350,00 | >> 25-03-2020- 21:29
+          </li>
+          <li>
+            Playstation 4 | #45965 | R$ 2.350,00 | >> 25-03-2020- 23:00
+          </li>
+          <li>
+            Processador Core I7| #442233 | R$ 1.700,00 | >> 25-03-2020- 23:29
+          </li>
+        </ol>
+      </aside>
+    </article>
 
-
-  <article>
-    <section id="top">
-      <h1>List and View</h1>
-      <p>Software de listagem e visualização de produtos</p>
-      <label for="pesquisar">Pesquisar</label>
-      <input type="text" id="pesquisar" name="pesquisar" placeholder="Pesquisar Produto"> 
-      <button><img src="https://cdn.pixabay.com/photo/2015/12/14/20/35/magnifier-1093183_960_720.png" alt="icone de lupa" width="10px" /></button>
-      
-
-    </section>
-
-    <section id="exemplo">
-      <table>
-        <tr>
-          <th>Produto</th>
-          <th>Código</th>
-          <th>Valor</th>
-        </tr>
-        <ul>
-        <tr>
-          <td><li>Playstation 4</li></td>
-          <td>#45965</td>
-          <td>R$ 2.350,00</td>
-        </tr>
-        <tr>
-          <td><li>Processador Core I7</li></td>
-          <td>#442233</td>
-          <td>R$ 1.700,00</td>
-        </tr>
-        <tr>
-          <td><li>Exemplo</li></td>
-          <td>#00000</td>
-          <td>R$ 0,00</td>
-        </tr>
-        </ul>
-      </table>
-    </section>
-
-    <aside>
-      <ol>
-        <li>
-          Playstation 4 | #45965	| R$ 2.350,00 | >> 25-03-2020- 21:29
-        </li>
-        <li>
-          Playstation 4 | #45965	| R$ 2.350,00 | >> 25-03-2020- 23:00
-        </li>
-        <li>
-          Processador Core I7| #442233	| R$ 1.700,00 | >> 25-03-2020- 23:29
-        </li>
-      </ol>
-    </aside>
-  </article>
-
-
-  <footer id="rodape">
-    <p>Desenvolvido por <a href="https://www.linkedin.com/in/igorgiamoniano/" target="_blank">Igor G. </a></p>
-  </footer>
-</body>
-
+    <footer id="rodape">
+      <p>
+        Desenvolvido por
+        <a href="https://www.linkedin.com/in/igorgiamoniano/" target="_blank"
+          >Igor G.
+        </a>
+      </p>
+    </footer>
+  </body>
 </html>
