@@ -56,3 +56,15 @@ h3 {
   font-size: 2em;
   font-weight: 600;
 }
+
+.lado-esquerdo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lado-direito {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
