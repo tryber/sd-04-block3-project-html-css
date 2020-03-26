@@ -17,10 +17,7 @@ body {
     font-size: 20px;
     color: gray;
     padding: 10px;
-}
-
-#sublinhado {
-    text-decoration: underline;
+    width: 50%;
 }
 
 #artigo-dois {
@@ -29,8 +26,26 @@ body {
     font-size: 20px;
     color: gray;
     padding: 10px;
+    width: 50%;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+    float: right;
+}
+
+#sublinhado {
+    text-decoration: underline;
 }
 
 #rodape {
     border: 1px solid black;
+}
+
+aside {
+    border: 1px solid black;
+    width: 50%;
 }
