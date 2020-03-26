@@ -69,20 +69,20 @@ main {
     vertical-align: middle;
     padding-left: 50px;
 }
-.listsU {
+.lado-esquerdo {
     float: right;
     padding-top: 25px;
     width: 50%;
 }
-.listsO {
+.llado-direito{
     padding-top: 25px;
     float: left;
     width: 50%;
 }
-.listsO li {
+.lado-direito li {
     font-size: 19px;
 }
-.listsU li {
+.lado-esquerdo li {
     font-size: 19px;
 }
 .about {
