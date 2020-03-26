@@ -25,12 +25,12 @@ td {
   clear: both;
 }
 
-#lado-direito {
+.lado-direito {
   float: right;
   margin-top: 100px;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   float: left;
   margin-top: 100px;
 }
