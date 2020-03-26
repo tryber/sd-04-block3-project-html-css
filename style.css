@@ -48,7 +48,9 @@ width: 100%;
     color: white;
     font-size: 30px;
   }
-
+label{
+    font-size: 20px;
+}
 
   /* Tabela */
   table {
@@ -56,6 +58,10 @@ width: 100%;
     border-spacing: 0;
     width: 100%;
     border: 1px solid rgb(221, 221, 221);
+  }
+  
+  th{
+
   }
   
   th, td {
