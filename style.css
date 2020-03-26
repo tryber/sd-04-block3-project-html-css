@@ -41,7 +41,7 @@ h1 {
 #cabecalho {
   font-size: x-large;
   background-color: white;
-  color: rgb(15, 163, 107);
+  color: rgb(15 , 163 , 107);
   position: fixed;
   margin-top: -20px;
   margin-left: -20px;
@@ -71,7 +71,7 @@ nav a {
 nav {
   height: 30px;
   width: 70%;
-  border: 1px solid rgb(15, 163, 107);
+  border: 1px solid rgb(15 , 163 , 107);
   margin-right: 300px;
   padding-top: 15px;
   font-size: 10px;
@@ -99,7 +99,7 @@ text-decoration: none;
 color: white;
 border: 5px solid white;
 margin-top: 70px;
-background-color: rgb(15, 163, 107);
+background-color: rgb(15 , 163 , 107);
 width: 60%;
 }
 
@@ -109,7 +109,7 @@ h2 {
   padding: 40px;
   margin: 1px;
   font-size: 30px;
-  color: rgb(15, 163, 107);
+  color: rgb(15 , 163 , 107);
   text-decoration: underline;
 }
 
@@ -117,7 +117,7 @@ aside {
   font-size: medium;
   width: 26%;
   padding-top: 80px;
-  border: 1px solid rgba(148, 9, 148, 0.911);
+  border: 1px solid rgba(148 , 9 , 148 , 0.911);
   background-color: white;
   color: rgb(15, 163, 107);
   margin: 1px;
@@ -129,7 +129,7 @@ section {
   margin-top: 5px;
   height: 30%;
   padding: 40px;
-  border: 1px solid rgba(148, 9, 148, 0.911);
+  border: 1px solid rgba(148 , 9 , 148 , 0.911);
 }
 
 ol {
@@ -145,14 +145,14 @@ ul {
 }
 
 li {
-  border: 2px solid rgba(148, 9, 148, 0.911);
+  border: 2px solid rgba(148 , 9 , 148 , 0.911);
   margin: 1px;
   padding: 1px;
 }
 
 #rodape {
   padding: 40px;
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(51 , 51 , 51);
   color: white;
   clear: both;
   text-align: center;
@@ -165,7 +165,7 @@ footer {
   text-decoration: none;
   margin: 1px;
   padding-left: 1px;
-  border: 1px solid rgba(148, 9, 148, 0.911);
+  border: 1px solid rgba(148 , 9 , 148 , 0.911);
 }
 
 footer {
