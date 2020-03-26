@@ -151,8 +151,44 @@ header #menu ul li a:hover{
     text-decoration: none;
     color: black;
 }
+
 #main #content a:hover{
     color: gray;
 }
 
+#main #rating{
+    position: relative;
+    top: 60px;
+    width: 90%;
+    margin: auto;
+}
+
+#main #rating #table-rating{
+    margin: 10px 30px;
+}
+
+#main #rating #table-rating table{
+    border-spacing: 0;
+    padding-top: 5px;
+}
+
+#main #rating #table-rating td, th{
+    margin: 10px 30px;
+    border: solid rgb(180, 179, 179) 1px;
+    border-spacing: 0;
+}
+
+#main #rating #table-rating th, td{
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+#main #rating #table-rating img{
+    width: 23px;
+}
+
+.star:hover{
+    cursor: pointer;
+    filter: brightness(5)
+}
 
