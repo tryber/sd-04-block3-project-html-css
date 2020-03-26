@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(236, 236, 236);
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
+    background-color: rgb(236 ,236 ,236);
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 #cabecalho {
@@ -18,7 +18,7 @@ body {
     color: gray;
     padding: 10px;
     width: 50%;
-    margin: 0px;
+    margin: 0;
 }
 
 #artigo-dois {
@@ -28,7 +28,7 @@ body {
     color: gray;
     padding: 10px;
     width: 50%;
-    margin: 0px;
+    margin: 0;
 }
 
 .lado-esquerdo {
