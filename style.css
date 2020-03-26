@@ -12,6 +12,11 @@ body
     margin: 0px 0px;
 }
 
+.geral
+{
+    margin-top: 100px;
+}
+
 #cabecalho
 {
     position: fixed;
@@ -42,4 +47,17 @@ p
     margin-left: 10px;
     padding-left: 10px;
 }
+
+nav h3 a
+{
+    margin-left: 3em;
+    text-decoration: underline;
+}
+
+nav h3 a:hover
+{
+    background-color: #D92832;
+    color:#DCDCDC;
+}
+
 
