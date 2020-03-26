@@ -1,131 +1,151 @@
   
-        body{   background-color: #BD6542;
-            font-family: 'Parisienne', sans-serif; font-size: 20px;
-            line-height: 1.5em;}
+    body            {   background-color: #BD6542;
+                        font-family: 'Parisienne', sans-serif; font-size: 20px;
+                        line-height: 1.5em;
+                    }
 
-    #cabecalho {    background-color: black;
-                    position: fixed;
-                    left: 0;
-                    right: 0;
-                    top: 0;
-                    
+    #cabecalho      {   background-color: black;
+                        position: fixed;
+                        left: 0;
+                        right: 0;
+                        top: 0;
                     }
 
 
-    .in-navigation { font-family: sans-serif;
-                     font-family: cursive;
-                     font-style: italic;
-                     color: #fff;
-                     font-size: 15px;
-                     margin-left: 15px;
-                    margin-right: 15px; }
+    .in-navigation  {   font-family: sans-serif;
+                        font-family: cursive;
+                        font-style: italic;
+                        color: #fff;
+                        font-size: 15px;
+                        margin-left: 15px;
+                        margin-right: 15px;
+                    }
 
-    #header {   background-color: #772014;
-                border-radius: 50px;
-                border-width: 4px;
-                border-style: solid;
-                border-color: black;
-                max-width: 95%;  }
+    #header         {   background-color: #772014;
+                        border-radius: 50px;
+                        border-width: 4px;
+                        border-style: solid;
+                        border-color: black;
+                        max-width: 95%;  
+                    }
 
-    #foto-principal { margin: 10px 10px 10px 40px;
-                      border-radius: 70%;
-                      border-width: 4px;
-                      border-style: solid;
-                      border-color: black;
-                      float: left;    }
-                      #foto-secundaria { margin: 10px 10px 10px 5px;
-                      border-radius: 50px;
-                      border-width: 2px;
-                      border-style: solid;
-                      border-color: black;
-                      float: left;    }
+    #foto-principal {   margin: 10px 10px 10px 40px;
+                        border-radius: 70%;
+                        border-width: 4px;
+                        border-style: solid;
+                        border-color: black;
+                        float: left; 
+                    }
+
+    #foto-secundaria {  margin: 10px 10px 10px 5px;
+                        border-radius: 50px;
+                        border-width: 2px;
+                        border-style: solid;
+                        border-color: black;
+                        float: left;  
+                    }
     #titulo-principal { font-size: 45px;
                         text-decoration: underline;
-                         }
-    #disco {  margin-left: 40px;
-                max-width: 60%;       
-                background-color: #833429;
-                border-radius: 50px;
-                border-width: 4px;
-                border-style: solid;
-                border-color: black;
-                margin-bottom: 13px;
-                }
-                #top-discos {  margin-left: 40px;
-                max-width: 60%;       
-                background-color: #833429;
-                border-radius: 50px;
-                border-width: 4px;
-                border-style: solid;
-                border-color: black;
-                }
-    #section1 { margin-left: 50px;
-                margin-right: 25px;
-                font-size: 22px;
-                font-family: 'Architects Daughter', sans-serif ;font-size: 18px;
-            }            
-    .titulos-h3 {   margin-left: 70px;
-                    text-decoration: underline;
-                }
-    #recado { font-weight: bold;
-              text-decoration: underline;  }   
-    #section2   { margin-left: 50px;
-                margin-right: 25px;
-                font-size: 22px;
-                font-family: 'Architects Daughter', sans-serif ;font-size: 18px;
-                }    
-    #rodape {   clear: both;
-                text-align: center;
-                color: #fff;
-                font-family: sans-serif;
-                font-family: cursive;
-                font-style: italic;
-                font-size: 15px;
-                margin-left: 0;
-                margin-right: 0;
-                margin-bottom: 0;
-                max-width: 100%;
-                background:black;
-                }
-    #sobre {    padding: 50px 15px ;
-                border-radius: 50px;
-                border-width: 4px;
-                border-style: solid;
-                border-color: black;
-                background-color: #772014;
-                height: 80%;
-                margin-right: 6%;
-                margin-top: 5%;
-                float: right;
-                width: 25%;
-                max-width: 80%;
-                font-weight: bold;
-                
-                   }
-    #titulo-h2 {  text-align: center;
-                    text-decoration: underline;
-                    font-size: 60px;
-                    margin-top: -15px;  }
-    #shows {    padding: 5px 15px ;
-                border-radius: 50px;
-                border-width: 4px;
-                border-style: solid;
-                border-color: black;
-                background-color: #772014;
-                height: 80%;
-                margin-right: 6%;
-                margin-top: 5%;
-                float: right;
-                width: 25%;
-                max-width: 80%;
-                }
-    #hshows {text-align: center;
-            font-size: 45px;
-            margin-bottom: 19px;}
-    #tabela {font-family: 'Architects Daughter', sans-serif ;font-size: 18px;
-            margin-bottom: 15px;
-            border-radius: 20px;
-            background-color: #833429 ;
-}
+                        }
+
+    #disco          {   margin-left: 40px;
+                        max-width: 60%;       
+                        background-color: #833429;
+                        border-radius: 50px;
+                        border-width: 4px;
+                        border-style: solid;
+                        border-color: black;
+                        margin-bottom: 13px;
+                    }
+
+    #top-discos     {   margin-left: 40px;
+                        max-width: 60%;       
+                        background-color: #833429;
+                        border-radius: 50px;
+                        border-width: 4px;
+                        border-style: solid;
+                        border-color: black;
+                    }
+
+    #section1       {   margin-left: 50px;
+                        margin-right: 25px;
+                        font-size: 22px;
+                        font-family: 'Architects Daughter', sans-serif ;font-size: 18px;
+                    }
+
+    .titulos-h3     {   margin-left: 70px;
+                        text-decoration: underline;
+                    }
+
+    #recado         {   font-weight: bold;
+                        text-decoration: underline;
+                    }
+
+    #section2       {   margin-left: 50px;
+                        margin-right: 25px;
+                        font-size: 22px;
+                        font-family: 'Architects Daughter', sans-serif ;font-size: 18px;
+                    }    
+            
+    #rodape         {   clear: both;
+                        text-align: center;
+                        color: #fff;
+                        font-family: sans-serif;
+                        font-family: cursive;
+                        font-style: italic;
+                        font-size: 15px;
+                        margin-left: 0;
+                        margin-right: 0;
+                        margin-bottom: 0;
+                        max-width: 100%;
+                        background:black;
+                    }
+
+    #sobre          {   padding: 50px 15px ;
+                        border-radius: 50px;
+                        border-width: 4px;
+                        border-style: solid;
+                        border-color: black;
+                        background-color: #772014;
+                        height: 80%;
+                        margin-right: 6%;
+                        margin-top: 5%;
+                        float: right;
+                        width: 25%;
+                        max-width: 80%;
+                        font-weight: bold;
+                    }
+
+    #titulo-h2      {   text-align: center;
+                        text-decoration: underline;
+                        font-size: 60px;
+                        margin-top: -15px;
+                    }
+
+    #shows          {   padding: 5px 15px ;
+                        border-radius: 50px;
+                        border-width: 4px;
+                        border-style: solid;
+                        border-color: black;
+                        background-color: #772014;
+                        height: 80%;
+                        margin-right: 6%;
+                        margin-top: 5%;
+                        float: right;
+                        width: 25%;
+                        max-width: 80%;
+                    }
+
+    #hshows         {   text-align: center;
+                        font-size: 45px;
+                        margin-bottom: 19px;
+                    }
+
+    #tabela         {   font-family: 'Architects Daughter', sans-serif ;font-size: 18px;
+                        margin-bottom: 15px;
+                        border-radius: 20px;
+                        background-color: #833429 ;
+                    }
  
+    
     
