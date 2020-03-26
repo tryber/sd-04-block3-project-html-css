@@ -68,3 +68,17 @@ h3 {
   top: 0;
   right: 0;
 }
+
+.spotlight {
+  position: relative;
+  min-height: 350px;
+}
+
+.spotlight-text {
+  max-width: 50%;
+  text-align: justify;
+}
+
+.spotlight img{
+  width: 700px;
+}
