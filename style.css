@@ -56,6 +56,11 @@ h3 {
   font-weight: 300;
 }
 
+.text-observation {
+  font-weight: 300;
+  font-size: 20px;
+}
+
 .lado-esquerdo {
   position: absolute;
   top: 0;
@@ -91,4 +96,20 @@ table {
   border: none;
   padding: 15px;
   margin: 5px;
+  border-collapse: separate;
+  border-spacing: 60px 15px;
+  text-align: left;
+  width: 100%;
+}
+
+th {
+  background-color: rgba(27 , 27 , 27 , 1);
+  border-radius: 10px;
+  padding: 10px 0px 10px 30px;
+  font-weight: 600;
+}
+
+td {
+  font-weight: 300;
+  padding-left:30px;
 }
