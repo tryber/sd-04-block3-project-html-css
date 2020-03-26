@@ -1,14 +1,14 @@
 body {
   background-color: #ec5e64;
-  margin: 0px;
+  margin: 0;
   font-family: sans-serif;
   font-size: medium;
   font-style: italic;
   color: white;
 }
 
-table,
-tr,
+table, 
+tr, 
 td {
   border-collapse: collapse;
   border: 5px solid #28a98f;
@@ -20,7 +20,7 @@ td {
   overflow: hidden;
   background-color: #6b3979;
   width: 100%;
-  top: 0px;
+  top: 0;
   clear: both;
 }
 
