@@ -78,7 +78,7 @@ nav {
   text-align: center;
   text-decoration: none;
 }
-
+    
 a {
   border: 1px solid black;
   margin: 7px;
@@ -90,17 +90,17 @@ a {
 a:hover {
   font-weight: bold;
 }
-      
+
 article {
-padding: 1px;
-font-size: medium;
-text-align: center;
-text-decoration: none;
-color: white;
-border: 5px solid white;
-margin-top: 70px;
-background-color: rgb(15 , 163 , 107);
-width: 60%;
+  padding: 1px;
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 5px solid white;
+  margin-top: 70px;
+  background-color: rgb(15 , 163 , 107);
+  width: 60%;
 }
 
 h2 {
@@ -119,13 +119,13 @@ aside {
   padding-top: 80px;
   border: 1px solid rgba(148 , 9 , 148 , 0.911);
   background-color: white;
-  color: rgb(15, 163, 107);
+  color: rgb(15 , 163 , 107);
   margin: 1px;
 }
 
 section {
   background-color: white;
-  color: rgb(15, 163, 107);
+  color: rgb(15 , 163 , 107);
   margin-top: 5px;
   height: 30%;
   padding: 40px;
@@ -158,7 +158,7 @@ li {
   text-align: center;
   text-decoration: none;
 }
-  
+
 footer {
   font-style: italic;
   font-size: large;
