@@ -51,12 +51,12 @@ h1 {
 }
 
 a {
-    border: 1px solid black;
-    margin: 7px;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-  }
+  border: 1px solid black;
+  margin: 7px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
 
 nav a {
   font-size: small;
@@ -88,7 +88,7 @@ nav {
 }
 
 a:hover {
-  font-weight: bold;
+  font-size: 15px;
 }
 
 article {
@@ -161,13 +161,12 @@ li {
 
 footer {
   font-style: italic;
-  font-size: large;
   text-decoration: none;
   margin: 1px;
   padding-left: 1px;
   border: 1px solid rgba(148 , 9 , 148 , 0.911);
   color: white;
-  font-size: 60px;  
+  font-size: 60px;
 }
 
 p {
