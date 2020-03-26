@@ -18,17 +18,15 @@ table, tr, th, td {
 #cabecalho {
     position: fixed;
     width: 100%;
-}
-.nav-menu {
-    float: right;
-    padding: 25px;
-    color: rgb(80, 48, 121);
-}
-#h1 {
     text-align: center;
     font-family: 'Charm', cursive, sans-serif;
     font-size: 80px;
     color: rgb(97, 8, 8);
+    top: 20px;
+}
+.nav-menu {
+    padding: 25px;
+    color: rgb(80, 48, 121);
 }
 img {
     width: 500px;
@@ -38,6 +36,7 @@ img {
     margin-right: 30px;
     margin-bottom: 30px;
     clear: both;
+    margin: 30px;
 }
 p {
     line-height: 25px;
@@ -46,14 +45,26 @@ ul {
     text-align: center;
 }
 .lado-esquerdo {
+    display: flex;
+    float: left;
+    width: 45%;
     text-align: left;
 }
 .lado-direito {
-    text-align: right;
+    display: flex;
+    float: right;
+    width: 45%;
+    text-align: left;
 }
 ol, ul, h4 {
     text-align: left;
 }
-#rodape, h4 {
-    text-align: left;
+#rodape {
+    width: 100%;
+    display: inline-block;
+
+}
+#corpo{
+    margin-top: 300px;
+
 }
