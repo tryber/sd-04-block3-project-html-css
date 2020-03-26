@@ -6,23 +6,33 @@
 body {
     background-color: rgb(15, 163, 107);
     color: white;
+    border: 2px rgb(15, 163, 107);
+    padding: 1px;
+    margin: 1px;
 }
 
 h2 {
     text-align: center;
     border: 1px solid black;
+    padding: 1px;
+    margin: 1px;
 }
 
 #cabecalho {
+    font-size: x-large;
     background-color: white;
     color: rgb(15, 163, 107);
     position: fixed;
     margin-top: -20px;
     margin-left: -20px;
     width: 100%;
+    padding: 1px;
+    border: 1px;
 }
 
 nav a {
+    font-size: small;
+    font-style: oblique;
     background-color: rgba(148, 9, 148, 0.911);
     color: white;
     text-decoration: none;
@@ -40,18 +50,17 @@ a:hover {
 }
 
 .lado-esquerdo {
+    font-size: large;
+    border: 50px solid white;
     margin-top: 80px;
     background-color: rgb(15, 163, 107);
     width: 60%;
     float: left;
-}
-
-.section {
-    margin-top: 80px;
-    height: 30%;
+    z-index: -2;
 }
 
 .lado-direito {
+    font-size: medium;
     float: right;
     width: 26%;
     padding-top: 80px;
@@ -60,8 +69,19 @@ a:hover {
     color: rgb(15, 163, 107);
 }
 
+.lado-esquerdo.section {
+    background-color: white;
+    color: rgb(15, 163, 107);
+    margin-top: 80px;
+    height: 30%;
+    padding: 1px;
+    border: 1px solid rgba(148, 9, 148, 0.911);
+}
+
 ol li {
     border: 2px solid rgba(148, 9, 148, 0.911);
+    margin: 1px;
+    padding: 1px;
 }
 
 #rodape {
@@ -70,4 +90,13 @@ ol li {
     color: white;
     clear: both;
     text-align: center;
+}
+
+footer {
+    font-style: italic;
+    font-size: large;
+    text-decoration: none;
+    margin: 1px;
+    padding-left: 1px;
+    border: 1px solid rgba(148, 9, 148, 0.911);
 }
