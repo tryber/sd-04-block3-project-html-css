@@ -1,82 +1,82 @@
 body {
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-background-color: rgb(223,116,83);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(223,116,83);
 }
 table, tr, th, td {
-border: 2px solid black;
-width: 30%;
+    border: 2px solid black;
+    width: 30%;
 }
 #table {
-float: center;
-margin: auto;
-background-color: rgb(235,80,53);
+    float: center;
+    margin: auto;
+    background-color: rgb(235,80,53);
 }
 .table-title {
-text-align: center;
+    text-align: center;
 }
 #cabecalho {
-position: fixed;
-width: 100%;
-text-align: center;
-font-family: Charm,cursive,sans-serif;
-font-size: 40px;
-color: black;
-top: 20px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-family: Charm,cursive,sans-serif;
+    font-size: 40px;
+    color: black;
+    top: 20px;
 }
 .nav-menu {
-padding: 25px;
-color: rgb(80,48,121);
+    padding: 25px;
+    color: rgb(80,48,121);
 }
 img {
-width: 600px;
-height: 500px;
-float: center;
-border-radius: 40px;
-clear: both;
-margin: 30px;
+    width: 600px;
+    height: 500px;
+    float: center;
+    border-radius: 40px;
+    clear: both;
+    margin: 30px;
 }
 p {
-line-height: 25px;
-margin-top: 80px;
-margin-bottom: 80px;
+    line-height: 25px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .lado-esquerdo {
-display: table;
-float: left;
-width: 45%;
-text-align: left;
+    display: table;
+    float: left;
+    width: 45%;
+    text-align: left;
 }
 .lado-direito {
-display: table;
-float: right;
-width: 45%;
-text-align: left;
+    display: table;
+    float: right;
+    width: 45%;
+    text-align: left;
 }
 ol, ul {
-text-align: left;
+    text-align: left;
 }
 #rodape {
-width: 100%;
-display: inline-block;
+    width: 100%;
+    display: inline-block;
 }
 #corpo {
-margin-top: 200px;
+    margin-top: 200px;
 
 }
 #aside {
-width: 100%;
-display: inline-block;
+    width: 100%;
+    display: inline-block;
 }
 h3 {
-text-align: center;
+    text-align: center;
 }
 h4 {
-text-align: left;
+    text-align: left;
 }
 .listas {
-display: table;
-float: left;
-width: 45%;
-text-align: left;
+    display: table;
+    float: left;
+    width: 45%;
+    text-align: left;
 }
