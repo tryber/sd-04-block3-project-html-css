@@ -152,6 +152,30 @@ body{
     margin-top:12%;
 }
 
+.lado-esquerdo {
+    float: left;
+    width: 45%;
+    margin: 2%;
+  }
+
+.lado-esquerdo ol{
+    margin-top:1.5%;
+}
+  
+  .lado-direito {
+    float: right;
+    width: 45%;
+    margin: 2%;
+  }
+
+.lado-direito td{ 
+    border: 1px solid #f2136c;
+}
+
+.lado-direito td{ 
+    width: 5%;
+}
+
 #rodape{
     color:#f2136c;
 }
