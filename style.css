@@ -1,11 +1,16 @@
-            body{ 
+            body{
                 background-color: rgb(144, 144, 148);
             }
             #cabecalho{
-                position: fixed;
+                font-weight: bold;
+            }
+            #barra{
+                position: relative;
                 top: 0;
             }
-            #cabecalho ol li{
+            #barra ol li{
                 display: inline-block;
             }
-            
+            #rodape{
+                font-weight: bold;
+            }          
