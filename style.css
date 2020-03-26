@@ -23,7 +23,7 @@ body
     text-align: center;
     width: 100%;
     top: 0px;
-    font-size: 15px;
+    font-size: 2em;
 }
 
 #taca
@@ -116,27 +116,3 @@ table.tabelaPrincipal th, td
     border-color: #787878;
     text-align: center;
 }
-
-
-/*border-width: 2px;
-	border-spacing: 5px;
-	border-style: solid;
-	border-color: gray;
-	border-collapse: collapse;
-	background-color: red;
-}
-table.sample th {
-	border-width: 2px;
-	padding: 2px;
-	border-style: inset;
-	border-color: gray;
-	background-color: white;
-	-moz-border-radius: ;
-}
-table.sample td {
-	border-width: 2px;
-	padding: 2px;
-	border-style: inset;
-	border-color: gray;
-	background-color: white;
-	-moz-border-radius: ;*/
