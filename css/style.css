@@ -12,6 +12,7 @@
 }
 
 body {
+    font-family: sans-serif;
     background-color: rgb(15, 163, 107);
     color: white;
     margin: -1px;
