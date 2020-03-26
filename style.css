@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,600,700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+        margin: 0;
+        padding: 0;
 }
 
 :root {
-    --ylw: #ffcd57;
-    --brwn: #80662b;
-    --lghtbrwn: #807252;
-    --orange: #cca445;
+        --ylw: #FFCD57;
+
+        --brwn: #80662b;
+
+       --lghtbrwn: #807252;
+
+        --orange: #cca445;
 }
 
 body {
     background-color: var(--ylw);
     font-family: 'Baloo 2', cursive;
-    color: var(--lghtbrwn)
+    color: var(--lghtbrwn);
 }
 
 #cabecalho {
@@ -43,7 +46,7 @@ h1 {
 }
 
 .menu a:hover, #space-cat:hover, ul li a:hover {
-    color: var(--orange)
+    color: var(--orange);
 }
 
 .content {
@@ -82,7 +85,7 @@ p {
 
 .img-2 {
     width: 350px;
-    border: 15px ridge var(--brwn)
+    border: 15px ridge var(--brwn);
 }
 
 #space-cat, ul li a {
@@ -101,7 +104,7 @@ footer {
 
 }
 
-footer p{
+footer p {
     color: var(--ylw);
     margin-left: 32px;
     margin-bottom: 0px;
