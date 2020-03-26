@@ -1,53 +1,53 @@
-  body {
-    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    margin: 100px 50px 20px 50px;
-    background-color: #eeeeee;
+body {
+  font-family: medium-content-sans-serif-font, Geneva, Arial, sans-serif;
+  margin: 100px 50px 20px 50px;
+  background-color: rgb(229, 208, 204);
 }
-  #cabecalho {
-    position: fixed;
-    width: 100%;
-    margin: 0 50 0 0;
-    background-color: white;
-    top: 0;
-    z-index: 9999;
+#cabecalho {
+  position: fixed;
+  width: 100%;
+  margin: 0 50 0 0;
+  background-color: white;
+  top: 0;
+  z-index: 9999;
 }
 
-    #rodape{
-        width: 400px;
+#rodape {
+  width: 400px;
 
-    }
+}
 
-  th {
-    text-align: start;
-    text-decoration: underline;
+th {
+  text-align: start;
+  text-decoration: underline;
 }
-  .thick-border {
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    padding: 5px;
+.thick-border {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
 }
-  .lado-esquerdo {
-    float: left;
-    left: 0;
-    width: 70%;
+.lado-esquerdo {
+  float: left;
+  left: 0;
+  width: 70%;
 }
-  .lado-direito {
-    float: right;
-    width: 30%;
+.lado-direito {
+  float: right;
+  width: 30%;
 }
-  a {
-    text-decoration: none;
-    color: #2d7500;
+a {
+  text-decoration: none;
+  color: rgb(127, 123, 130);
 }
-  .nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    width: 30%;
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
 }
-  h2 {
-    color:#333333;
-    font-weight: 600;
-    font-size: 34px;
+h2 {
+  color: rgb(68, 69, 84);
+  font-weight: 600;
+  font-size: 34px;
 }
