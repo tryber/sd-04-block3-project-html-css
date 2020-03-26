@@ -6,6 +6,11 @@
     -webkit-box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: #f2136c;
+}
+
 .font-zero{
     font-size: 0;
 }
@@ -28,13 +33,17 @@
 
 body{
     background-color:  #2a044d;
+    color: #ffffff;
 }
 
 #cabecalho{
     color:#23ffc2;
     position: -webkit-sticky;
-    position: sticky;
-    left: 0;
+    position: fixed;
+    width: 100%;
+    margin: 0 50 0 0;
+    top: 0;
+    z-index: 9999;
 }
 
 #logo{
@@ -139,12 +148,10 @@ body{
     }
 }
 
+.m-top{
+    margin-top:12%;
+}
+
 #rodape{
     color:#f2136c;
 }
-
-.credits{
-    color:#23ffc2;
-}
-
-
