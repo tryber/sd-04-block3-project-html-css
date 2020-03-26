@@ -53,12 +53,18 @@ a {
 
 article {
     border: 1px;
-    margin: 1px;
     padding: 1px;
     font-size: medium;
     text-align: center;
     text-decoration: none;
     color: white;
+    font-size: large;
+    border: 50px solid white;
+    margin-top: 80px;
+    background-color: rgb(15, 163, 107);
+    width: 60%;
+    float: left;
+    z-index: -2;
 }
 
 h2 {
@@ -104,18 +110,16 @@ a:hover {
 }
 
 .lado-esquerdo {
-    font-size: large;
-    border: 50px solid white;
-    margin-top: 80px;
-    background-color: rgb(15, 163, 107);
-    width: 60%;
-    float: left;
-    z-index: -2;
+    float: left;  
 }
 
 .lado-direito {
-    font-size: medium;
     float: right;
+    
+}
+
+aside {
+    font-size: medium;
     width: 26%;
     padding-top: 80px;
     border: 1px solid rgba(148, 9, 148, 0.911);
