@@ -41,12 +41,21 @@
             background-color: black;
             color: white;
             margin: 0px;
+            padding: 15px;
         }
-        .rodape2 {
-            padding: 10px;
-            margin-bottom: 0px;
-            margin-left: 30px;
+        .lado-esquerdo {
+            position: absolute;
+            top:38cm;
+            left:1cm;
+            
         }
+        .lado-direito {
+            position: absolute;
+            top:38cm;
+            left:2cm;
+            
+        }
+
         .table {
             border: 1px solid black;
             border-spacing: 0px;
