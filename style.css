@@ -1,48 +1,53 @@
 article {
-    padding-left: 20%;
-    padding-right: 20%;
-    font-size: 20px;
-    text-align: justify;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 20px;
+  text-align: justify;
 }
+
 body {
-    background-color: rgb(96, 180, 195);
-    margin: 0px;
-    font-family: "Baloo 2";
+  background-color: rgb(96 , 180 , 195);
+  margin: 0;
+  font-family: 'Baloo 2', Arial, Helvetica, sans-serif;
 }
+
 #bonus {
-    border: 0px;
-    margin-left:auto;
-    margin-right:auto;
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 #cabecalho {
-    position: fixed;
-    background-color: rgb(2, 4, 83);
-    color: whitesmoke;
-    clear: both;
-    text-align: center;
-    display: block;
-    width: 100%;
-    margin-top: -180px;
-    line-height: 10px;
-    }
-#corpo {
-    border: 20px solid rgb(2, 4, 83);
+  position: fixed;
+  background-color: rgb(2 , 4 , 83);
+  color: whitesmoke;
+  clear: both;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: -180px;
+  line-height: 10px;
 }
+
 #imagem {
-    margin-top: 180px;
-    text-align: center;
+  margin-top: 180px;
+  text-align: center;
 }
+
 #quote {
-    font-style: italic;
+  font-style: italic;
 }
+
 #rodape {
-    text-align: left;
+  text-align: left;
 }
+
 .lado-esquerdo {
-    float: left;
-    height: 180px;
-    }
+  float: left;
+  height: 180px;
+}
+
 .lado-direito {
-    float: right;
-    height: 180px;
+  float: right;
+  height: 180px;
 }
