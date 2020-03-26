@@ -101,8 +101,6 @@ article {
     margin-top: 70px;
     background-color: rgb(15, 163, 107);
     width: 60%;
-    float: left;
-    z-index: -2;
 }
 
 h2 {
