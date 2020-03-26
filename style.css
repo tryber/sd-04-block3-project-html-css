@@ -126,6 +126,17 @@ header #menu ul li a:hover {
   line-height: 22px;
 }
 
+#main #promotion{
+  margin: auto;
+  position: relative;
+  top: 80px;
+  width: 95%;
+  height: 250px;
+  border: rgb(199, 199, 199) solid 1px;
+  padding: 0;
+  z-index: 5;
+}
+
 #main #content {
   position: relative;
   top: 80px;
