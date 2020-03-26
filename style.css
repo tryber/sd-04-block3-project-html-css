@@ -13,10 +13,22 @@ body {
 
 #artigo-um {
     border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+}
+
+#sublinhado {
+    text-decoration: underline;
 }
 
 #artigo-dois {
     border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
 }
 
 #rodape {
