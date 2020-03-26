@@ -60,6 +60,7 @@ nav h3 a
 {
     margin-left: 3em;
     text-decoration: underline;
+    color: black;
 
 }
 
@@ -72,7 +73,7 @@ nav h3 a:hover
 h4
 {
     margin-left: 20px;
-    font-size: 1.3em;
+    font-size: 1.7em;
 }
 
 .logos
@@ -90,8 +91,7 @@ h4
 
 table.tabelaPrincipal
 {
-    margin: 20px;
-    float: left;
+    margin: 30px;
     border-width: 2px;
 	border-spacing: 5px;
 	border-style: solid;
@@ -99,13 +99,25 @@ table.tabelaPrincipal
 	border-collapse: collapse;
 }
 
+.lado-esquerdo
+{
+    float: left;
+}
+
+.lado-direito
+{
+    float: right;
+}
+
 table.tabelaPrincipal th, td
 {
     border-width: 2px;
 	padding: 2px;
 	border-style: inset;
-	border-color: #787878;
+    border-color: #787878;
+    text-align: center;
 }
+
 
 /*border-width: 2px;
 	border-spacing: 5px;
