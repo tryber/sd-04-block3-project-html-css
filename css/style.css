@@ -80,7 +80,7 @@ nav {
 }
 
 a {
-    border: 1px;
+    border: 1px solid black;
     margin: 7px;
     padding: 5px;
     text-align: center;
@@ -92,13 +92,11 @@ a:hover {
 }
 
 article {
-    border: 1px solid white;
     padding: 1px;
     font-size: medium;
     text-align: center;
     text-decoration: none;
     color: white;
-    font-size: large;
     border: 5px solid white;
     margin-top: 70px;
     background-color: rgb(15, 163, 107);
@@ -114,7 +112,6 @@ h2 {
     margin: 1px;
     font-size: 30px;
     text-align: center;
-    text-decoration: none;
     color: rgb(15, 163, 107);
     text-decoration: underline;
 }
