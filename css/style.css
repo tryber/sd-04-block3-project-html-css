@@ -14,6 +14,9 @@
 body {
     background-color: rgb(15, 163, 107);
     color: white;
+    margin: -1px;
+    padding: -1px;
+    border: 1px solid white;
 }
 
 header {
@@ -28,6 +31,7 @@ header {
 h1 {
     margin: 10px;
     padding: 10px;
+    border: 1px solid white;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
@@ -51,6 +55,9 @@ nav a {
     background-color: rgba(148, 9, 148, 0.911);
     color: white;
     text-decoration: none;
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid white;
 }
 
 #logo-trybe {
@@ -84,7 +91,7 @@ a:hover {
 }
 
 article {
-    border: 1px;
+    border: 1px solid white;
     padding: 1px;
     font-size: medium;
     text-align: center;
@@ -117,6 +124,7 @@ aside {
     border: 1px solid rgba(148, 9, 148, 0.911);
     background-color: white;
     color: rgb(15, 163, 107);
+    margin: 1px;
 }
 
 section {
@@ -126,6 +134,18 @@ section {
     height: 30%;
     padding: 40px;
     border: 1px solid rgba(148, 9, 148, 0.911);
+}
+
+ol {
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid white;
+}
+
+ul {
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid white;
 }
 
 li {
@@ -156,4 +176,10 @@ footer {
 footer a {
     color: white;
     font-size: 60px;
+}
+
+p {
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid white;
 }
