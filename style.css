@@ -1,0 +1,9 @@
+            body{
+                background-color: rgb(144, 144, 148);
+            }
+            #cabecalho{
+                position: relative;
+                top: 0;
+            }
+            #cabecalho ol li{
+                display: inline-block;
