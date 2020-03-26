@@ -1,14 +1,52 @@
 <style>
-.body-style{
-    background: burlywood;
+/*#cabecalho{
+    
+}*/
+ul.nav { 
+    margin:0; 
+    padding:0;
 }
-#cabecalho{
-
+ul.nav li{
+    list-style-type: none;
+    display: inline;
+}
+ul.nav li a {
+    float:left;
+    border-top:0.1em solid #fff;
+    border-right:0.1em solid #909090;
+    border-bottom:0.1em solid #909090;
+    border-left:0.1em solid #fff;
+    width:10.0em;
+    font:1.68em  Verdana, Arial, Helvetica, 
+    sans-serif;
+    background:#f1f1f1;
+    color:#333;
+    text-align:center;
+    padding:0  0.2em 0.2em  0;
+    text-decoration:none;
+}
+ul.nav a:hover{
+    background:#999;
+    color:#fff;
+    border-color:#000 #fafafa #fafafa #000;
+}
+.section-container{
+    list-style-type: none;
+    display: inline;
+}
+.section-content{
+    width: 45%;
+    display: inline;
 }
 #rodape{
     background: darkcyan;
 }
 #picture{
-    width: 500px;
+    width: 30%;
+    /*display: inline;*/
+}
+#bodystyle{
+    background:blueviolet;
+    font-family: "Lucida Console", monospace;
 }
 </style>
