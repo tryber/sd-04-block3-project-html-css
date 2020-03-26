@@ -1,11 +1,86 @@
 body {
-  background-color: aquamarine;
+    margin:0;
+    background-color: rgb(215, 255, 222);
+    color:rgb(17, 16, 90);
 }
 
 #cabecalho {
-    position: fixed;
+
+position: fixed;
+width: 100%;
 }
 
-#rodape {
+
+
+    /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
     
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #top {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+
+
+  /* Tabela */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid rgb(221, 221, 221);
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #6ba76e;
+  }
+
+  
+
+#rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(10, 7, 7);
+    color: white;
+    text-align: center;
+    
+}
+
+#rodape a{
+    color: #bdbdbd;
+    text-decoration: none;
 }
