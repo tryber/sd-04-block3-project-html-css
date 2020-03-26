@@ -10,8 +10,13 @@
     background-color: white;
     top: 0;
     z-index: 9999;
-    
 }
+
+    #rodape{
+        width: 400px;
+
+    }
+
   th {
     text-align: start;
     text-decoration: underline;
@@ -25,10 +30,11 @@
   .lado-esquerdo {
     float: left;
     left: 0;
+    width: 70%;
 }
   .lado-direito {
     float: right;
-    right: 0;
+    width: 30%;
 }
   a {
     text-decoration: none;
