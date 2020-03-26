@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corona's Website</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body>
-    <header id="cabecalho">
-        <h1>Corona Virus Diary</h1>
-         
-    </header>
-    <section>
-        
-        <img class="background" src="https://www.hopkinsmedicine.org/-/media/images/health/1_-conditions/infectious-diseases/coronavirus-hero.ashx?h=500&la=en&mh=500&mw=1300&w=1297&hash=6464CC9E4F6364821A5973E670CFB3342C2D9AF4">
-            <aside>
-                <h2>Usefull links</h2>
-                <ul>
-                    <li><a href="">What's it?</a></li>
-                    <li><a href="">How to prevent?</a></li>
-                    <li><a href="">Latest news in Brasil</a></li>
-                </ul>
-                <h2>Death rank</h2>
-                <ol>
-                    <li>Italy</li>
-                    <li>China</li>
-                    <li>France</li>
-                    <li>EUA</li>
-                    <li>Brasil</li>
-                </ol>
-            </aside>
-    </section>   
-    <footer>
-        <h1 id="rodape"> Telefones úteis</h6>
-            <p class="rodape"> Telefone da agencia epidemiológia <br>
-                0800<br>
-                outros<br>
-                outros<br>
-                outros<br>
-                outros<br>
-                outros<br>
-                outros<br>
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Corona's Website</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
 
-    </footer>
-</body>
+        <header id="cabecalho">
+            <h1>Corona Virus Diary</h1>
+            
+        </header>
+        <section id="background">
+            <article id="main-article">
+                <article>
+                    <p><a target="_blank" href="https://www.bbc.com/news/world-latin-america-52040205">Bolsonaro downplays threat of pandemic to Brazil - It's a "little flu"</br>
+                    <img class="small-images" src="data:image/jpeg;base64,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" alt="Bolsonaro with mask"></a>
+                    </p>
+                </article>
+                <article>
+                    <p><a href="https://www.bbc.com/news/world-europe-52036836">Spain’s death toll surpasses China’s</p>
+                                    <img class="small-images" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png" alt="Spain Flag"></a>
+                </article> 
+                <article>
+                    <p><a href="https://www.worldometers.info/coronavirus/country/italy/">Latest News and Graphs in Italy</p>
+                               <img class="small-images" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1200px-Flag_of_Italy.svg.png" alt="Italy Flag"></a>   
+                </article> 
+                
+            </article>
+
+        </section>
+        <aside>
+            <h2>Usefull links</h2>
+            <ul>
+                <li><a target="_blank" href="https://www.who.int/health-topics/coronavirus#tab=tab_1">What's it?</a></li>
+                <li><a target="_blank" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">How to prevent?</a></li>
+                <li><a target="_blank" href="https://coronavirus.jhu.edu/map.html">Mapping the Virus</a></li>
+            </ul>
+            <h2 id="death-rank">Death rank</h2>
+            <ol>
+                <li>Italy</li>
+                <li>Spain</li>
+                <li>China</li>
+                <li>Iran</li>
+                <li>France</li>
+            </ol>
+        </aside>
+
+    </body>         
+    <footer id="rodape">
+        <h1> General tips</h6>
+            <p> Stay at home</br>
+                Wash your hand</br>
+                You can save the world working from home or watching Netflix</br>
+                You might not be affected by this virus but think about the people who can die from it</br>
+
+
+            </p>
+        </footer>
+
 </html>

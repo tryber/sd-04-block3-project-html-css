@@ -1,28 +1,43 @@
-body {
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
     background-color: aqua;
-    margin: 0px 0px;
-    font-size: 16px;
-
 }
 #cabecalho{
-    text-align: center;
-    font-weight: 300;
-    font-family: monospace;
-    font-size: 20px;
     position: fixed;
-    background-color: aqua;
-    width: ;
+    top: 20px;
+    left: 50%;
+    left: 40%;
 }
 #rodape{
     text-align: center;
-    font-weight: 300;
     font-family: monospace;
-    font-size: 20px;
-  
 }
-.rodape{
-    font-size: 12px;
+section{
+    clear: both;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 200px;
+    display: inline-block;
+    width: 60%;
 }
-.background{
-    background-position: center;
+aside{
+    float: right;
+    clear: both;
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    width: 30%;
+    margin-top: 50px;
+}
+.small-images{
+    height: 70px;
+}
+article{
+    margin: 20px 20px;
+}
+#death-rank{
+    margin-top: 20px;
 }
