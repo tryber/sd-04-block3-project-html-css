@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgb(231, 230, 230);
 }
 
-header{
+header {
     position: fixed;
     width: 100%;
     height: 65px;
@@ -16,17 +16,17 @@ header{
     z-index: 100;
 }
 
-header #menu ul{
+header #menu ul {
     list-style: none;
     margin: 0;
     padding:0;
 }
 
-header #menu ul li{
+header #menu ul li {
     float: left;
 }
 
-header #menu ul li a{
+header #menu ul li a {
     text-decoration: none;
     color: black;
     display: block;
@@ -35,26 +35,26 @@ header #menu ul li a{
     border-radius: 10px;
 }
 
-header #menu ul li a:hover{
+header #menu ul li a:hover {
     background-color: rgb(243, 243, 243);
     border-bottom: solid 2px rgb(228, 227, 227);
 }
 
 .logo{
-    padding:3px 40px 3px 20px; 
+    padding: 3px 40px 3px 20px; 
 }
 
 .logo img{
     width: 80px;
 }
 
-#main{
+#main {
     width: 100%;
     min-height: 100vh;
     background-color: rgb(231, 230, 230);
 }
 
-#cabecalho #login{
+#cabecalho #login {
     position: relative;
     top: 7px;
     float: right;
@@ -62,12 +62,12 @@ header #menu ul li a:hover{
     width: 230px;
 }
 
-#cabecalho #login #img-login{
+#cabecalho #login #img-login {
     margin-top: 8px;
     float: left;
 }
 
-#cabecalho #login #links-login a{
+#cabecalho #login #links-login a {
     padding: 15px;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -76,22 +76,22 @@ header #menu ul li a:hover{
     border-radius: 5px;
 }
 
-#cabecalho #login #links-login a:hover{
+#cabecalho #login #links-login a:hover {
     background-color: rgb(187, 185, 185);
 }
 
-#cabecalho #login #img-login img{
+#cabecalho #login #img-login img {
     width: 30px;
     cursor: pointer;
 }
 
-#cabecalho #login #links-login{
+#cabecalho #login #links-login {
     float: right;
     position: relative;
     top:15px;
 }
 
-#main #banner #banner-img-slogan{
+#main #banner #banner-img-slogan {
     position: relative;
     top: 70px;
     width: 90%;
@@ -102,7 +102,7 @@ header #menu ul li a:hover{
     z-index: 1;
 }
 
-#main #banner #banner-img-slogan #slogan{
+#main #banner #banner-img-slogan #slogan {
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     position: relative;
@@ -112,7 +112,7 @@ header #menu ul li a:hover{
     width: 600px;
 }
 
-#main #banner #banner-img-slogan #slogan #slogan-title{
+#main #banner #banner-img-slogan #slogan #slogan-title {
     font-size: 42px;
     color:white;
     text-shadow: rgb(54, 54, 54) 2px 2px 0px;
@@ -120,14 +120,14 @@ header #menu ul li a:hover{
     margin-bottom: 5px;
 }
 
-#main #banner #banner-img-slogan #slogan .slogan-p{
+#main #banner #banner-img-slogan #slogan .slogan-p {
     padding: 0px;
     font-size: 20px;
     text-align: justify;
     line-height: 22px;
 }
 
-#main #content{
+#main #content {
     position: relative;
     top: 80px;
     width: 90%;
@@ -137,27 +137,27 @@ header #menu ul li a:hover{
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#main #content ul, #main #content ol{
+#main #content ul, #main #content ol {
     margin: 5px 20px;
     font-size: 18px;
 }
 
-#main #content .lado-esquerdo{
+#main #content .lado-esquerdo {
     margin: 10px 30px;
     float: left;
 }
 
-#main #content .lado-direito{
+#main #content .lado-direito {
     margin: 10px 30px;
     float: right;
 }
 
-#main #content a{
+#main #content a {
     text-decoration: none;
     color: black;
 }
 
-#main #content a:hover{
+#main #content a:hover {
     color: gray;
 }
 
@@ -168,36 +168,36 @@ header #menu ul li a:hover{
     margin: auto;
 }
 
-#main #rating #table-rating{
+#main #rating #table-rating {
     margin: 10px 30px;
 }
 
-#main #rating #table-rating table{
+#main #rating #table-rating table {
     border-spacing: 0;
     padding-top: 5px;
 }
 
-#main #rating #table-rating td, th{
+#main #rating #table-rating td, th {
     margin: 10px 30px;
     border: solid rgb(180, 179, 179) 1px;
     border-spacing: 0;
 }
 
-#main #rating #table-rating th, td{
+#main #rating #table-rating th, td {
     font-size: 18px;
     padding: 5px 20px;
 }
 
-#main #rating #table-rating img{
+#main #rating #table-rating img {
     width: 23px;
 }
 
-.star:hover{
+.star:hover {
     cursor: pointer;
     filter: brightness(5)
 }
 
-#main #partners{
+#main #partners {
     position: relative;
     top: 20px;
     width: 90%;
@@ -208,16 +208,15 @@ header #menu ul li a:hover{
     margin-bottom: 10px;
 }
 
-#main #partners #main-partners .left{
+#main #partners #main-partners .left {
     float: left;
     padding: 5px 40px;
 }
 
-#main #partners #main-partners h3{
+#main #partners #main-partners h3 {
     padding: 5px 10px;
 }
 
-#main #partners #main-partners img{
+#main #partners #main-partners img {
     width: 160px;
 }
-
