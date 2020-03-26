@@ -73,6 +73,10 @@ h3 {
   right: 0;
 }
 
+.float-left {
+  float: left;
+}
+
 .spotlight {
   position: relative;
   min-height: 350px;
@@ -112,4 +116,8 @@ th {
 td {
   font-weight: 300;
   padding-left:30px;
+}
+
+#icon-exclusives {
+  height: 500px;
 }
