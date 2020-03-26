@@ -40,11 +40,11 @@ header #menu ul li a:hover {
   border-bottom: solid 2px rgb(228, 227, 227);
 }
 
-.logo{
+.logo {
   padding: 3px 40px 3px 20px; 
 }
 
-.logo img{
+.logo img {
   width: 80px;
 }
 
@@ -126,7 +126,7 @@ header #menu ul li a:hover {
   line-height: 22px;
 }
 
-#main #promotion{
+#main #promotion {
   margin: auto;
   position: relative;
   top: 80px;
@@ -170,7 +170,7 @@ header #menu ul li a:hover {
   color: gray;
 }
 
-#main #rating{
+#main #rating {
   position: relative;
   top: 60px;
   width: 90%;
@@ -228,4 +228,15 @@ header #menu ul li a:hover {
 
 #main #partners #main-partners img {
   width: 160px;
+}
+
+#rodape{
+    position: relative;
+    top: 90px;
+    padding: 10px 0px;
+    color: blue;
+    font-weight: bold;
+    height: 30px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
 }
