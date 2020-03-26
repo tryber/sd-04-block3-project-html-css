@@ -9,6 +9,56 @@ body {
     border: 2px rgb(15, 163, 107);
     padding: 1px;
     margin: 1px;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+}
+
+header {
+    border: 1px;
+    margin: 1px;
+    padding: 1px;
+    font-size: 0em;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    border: 1px;
+    margin: 1px;
+    padding: 1px;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav {
+    border: 1px;
+    margin: 1px;
+    padding: 1px;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    border: 1px;
+    margin: 1px;
+    padding: 1px;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+}
+
+article {
+    border: 1px;
+    margin: 1px;
+    padding: 1px;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
 
 h2 {
@@ -16,6 +66,10 @@ h2 {
     border: 1px solid black;
     padding: 1px;
     margin: 1px;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(15, 163, 107)
 }
 
 #cabecalho {
@@ -78,7 +132,7 @@ section {
     border: 1px solid rgba(148, 9, 148, 0.911);
 }
 
-ol li {
+li {
     border: 2px solid rgba(148, 9, 148, 0.911);
     margin: 1px;
     padding: 1px;
