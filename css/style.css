@@ -69,7 +69,7 @@ a:hover {
     color: rgb(15, 163, 107);
 }
 
-.lado-esquerdo.section {
+section {
     background-color: white;
     color: rgb(15, 163, 107);
     margin-top: 80px;
