@@ -33,6 +33,7 @@ body { background-color: rgba(161, 160, 99, 0.692);
     padding-left: 6px;
     background-color: black;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 img { border-style: groove;
