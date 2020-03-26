@@ -2,7 +2,7 @@
                 background-color: rgb(144, 144, 148);
             }
             #cabecalho{
-                position: relative;
+                position: fixed;
                 top: 0;
             }
             #cabecalho ol li{
