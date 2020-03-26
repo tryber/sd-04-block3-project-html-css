@@ -38,3 +38,17 @@ footer {
   left: 0;
 }
 
+h1 {
+  font-size: 3.7em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3.7em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 600;
+}
