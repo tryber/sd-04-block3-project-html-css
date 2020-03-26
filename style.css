@@ -72,9 +72,12 @@ main {
 .listsU {
     float: right;
     padding-top: 25px;
+    width: 50%;
 }
 .listsO {
     padding-top: 25px;
+    float: left;
+    width: 50%;
 }
 .listsO li {
     font-size: 19px;
@@ -108,8 +111,7 @@ main {
     bottom: 25px;
 }
 .links {
-        list-style-type: none;
-        text-align: center;
-        margin-top: 25px;
-    
+    list-style-type: none;
+    text-align: center;
+    margin-top: 13px;
 }
