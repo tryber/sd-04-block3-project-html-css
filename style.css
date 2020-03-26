@@ -20,7 +20,7 @@ table, tr, th, td {
     width: 100%;
     text-align: center;
     font-family: 'Charm', cursive, sans-serif;
-    font-size: 80px;
+    font-size: 40px;
     color: rgb(97, 8, 8);
     top: 20px;
 }
@@ -65,6 +65,6 @@ ol, ul, h4 {
 
 }
 #corpo{
-    margin-top: 300px;
+    margin-top: 200px;
 
 }
