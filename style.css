@@ -69,14 +69,14 @@ table{
     padding-top: 20px;
     padding-bottom: 30px;
 }
-#rodape li{
-   list-style-type: none;
+#rodape {
+  
    padding-left: 20px;
    float:  left;
     
 }
 
-.texto1{
+.ladoesquerdo{
     position: absolute;
     top:150px;
     background-color:#EBF5FB ;
@@ -95,7 +95,7 @@ table{
         overflow-x: hidden; 
 }
 
-.classificacaoImagem{
+.ladodireito{
   position: relative;
     top: 150px;
     width: 45%;
@@ -110,14 +110,14 @@ table{
     padding-right: 10px;
 }
 
-.classificacaoImagem img{
+.ladodireito img{
     width: 300px;
     padding-right: 0;
     padding-left: 30px;
 
 }
 
-.classificacaoImagem ol{
+.ladodireito ol{
     float: right;
     padding-right: 20px;
 }
