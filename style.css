@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
 
 
+
+body {
+   background-color: rgb(114, 112, 112);
+}
 /* Formatações Cabeçalho */
 
 header#cabecalho {
@@ -68,7 +72,6 @@ article#corpo {
     height: 2700px;
     float: left;
     margin: 100px 20px 20px 20px;
-    background-color: rgb(114, 112, 112);
 }
 
 section.perfil-section {
