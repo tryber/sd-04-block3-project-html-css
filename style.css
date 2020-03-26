@@ -62,9 +62,15 @@ ol, ul, h4 {
 #rodape {
     width: 100%;
     display: inline-block;
-
 }
 #corpo{
     margin-top: 200px;
 
+}
+#aside {
+    width: 100%;
+    display: inline-block;  
+}
+h4 {
+    text-align: center;
 }
