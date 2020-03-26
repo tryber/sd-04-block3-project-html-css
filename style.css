@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,600,700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -19,8 +19,8 @@ body {
 }
 
 #cabecalho {
-    position: fixed; 
-    background-color: var(--brwn); 
+    position: fixed;
+    background-color: var(--brwn);
     width: 100%;
 }
 
@@ -32,7 +32,7 @@ h1 {
 
 .menu {
     margin-bottom: 8px;
-    margin-left: 16px;   
+    margin-left: 16px;
 }
 
 .menu a {
@@ -46,7 +46,7 @@ h1 {
     color: var(--orange)
 }
 
-.content{
+.content {
     margin-left: 32px;
     padding: 8px;
 }
@@ -61,7 +61,7 @@ h2 {
     font-size: 32px;
 }
 
-table, th, td { 
+table, th, td {
     border: 0.5px solid var(--lghtbrwn);
     border-collapse: collapse;
 }
@@ -77,7 +77,7 @@ h3 {
 p {
     font-size: 18px;
     line-height: 30px;
-    margin-bottom: 16px;
+    
 }
 
 .img-2 {
@@ -101,9 +101,10 @@ footer {
 
 }
 
-footer h4 {
+footer p{
     color: var(--ylw);
-    margin-left: 16px;
+    margin-left: 32px;
+    margin-bottom: 0px;
     padding: 8px;
 }
 
