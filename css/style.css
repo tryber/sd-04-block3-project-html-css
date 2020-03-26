@@ -115,7 +115,8 @@ h2 {
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-    color: rgb(15, 163, 107)
+    color: rgb(15, 163, 107);
+    text-decoration: underline;
 }
 
 aside {
