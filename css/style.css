@@ -1,10 +1,10 @@
 * {
-    margin: 5px;
-    padding: 5px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .lado-esquerdo {
-    float: left;  
+    float: left;
 }
 
 .lado-direito {
@@ -13,7 +13,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: rgb(15, 163, 107);
+    background-color: rgb(15 ,163 ,107);
     color: white;
     margin: -1px;
     padding: -1px;
@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    border-bottom: 2px solid rgba(148, 9, 148, 0.911);
+    border-bottom: 2px solid rgba(148 ,9 ,148 ,0.911);
     margin: 1px;
     padding: 1px;
     font-size: medium;
@@ -88,7 +88,7 @@ a {
 }
 
 a:hover {
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 article {
@@ -109,7 +109,6 @@ h2 {
     padding: 40px;
     margin: 1px;
     font-size: 30px;
-    text-align: center;
     color: rgb(15, 163, 107);
     text-decoration: underline;
 }
@@ -153,7 +152,7 @@ li {
 
 #rodape {
     padding: 40px;
-    background-color:rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51);
     color: white;
     clear: both;
     text-align: center;
@@ -167,10 +166,9 @@ footer {
     margin: 1px;
     padding-left: 1px;
     border: 1px solid rgba(148, 9, 148, 0.911);
-    text-decoration: none;
 }
 
-footer a {
+footer {
     color: white;
     font-size: 60px;
 }
