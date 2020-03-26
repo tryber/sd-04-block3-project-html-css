@@ -7,7 +7,9 @@ body {
   color: white;
 }
 
-table, tr, td {
+table,
+tr,
+td {
   border-collapse: collapse;
   border: 5px solid rgba(40, 169, 143, 1.0);
   padding-right: 30px;
