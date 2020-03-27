@@ -88,18 +88,18 @@ article {
 }
 
 table {
-  border-top: rgb(0 , 0 , 0) solid 2px;
-  border-left: rgb(0 , 0 , 0) solid 2px;
-  border-right: rgb(0 , 0 , 0) solid 2px;
-  background-color: rgb(255 , 255 , 255);
+  border-top: black solid 2px;
+  border-left: black solid 2px;
+  border-right: black solid 2px;
+  background-color: white;
 }
 
-th, td {
-  border-bottom: rgb(0 , 0 , 0) solid 2px;
+th , td {
+  border-bottom: black solid 2px;
 }
 
 td {
-  border-left: rgb(0 , 0 , 0) solid 2px;;
+  border-left: black solid 2px;;
 }
 
 .oculto {
@@ -112,7 +112,7 @@ td {
 
 .titulo {
   color: rgb(22 , 91 , 51);
-  background-color: rgb(255 , 255 , 255);
+  background-color: white;
   font-size: larger;
   font-weight: bolder;
   padding: 6px;
