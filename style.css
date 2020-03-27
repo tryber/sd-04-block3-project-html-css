@@ -1,0 +1,84 @@
+
+
+#cabecalho {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(00, 16, 164);
+  font-weight: 90;
+  font-size: larger;
+  margin: 0px 0px;
+  background: linear-gradient(90deg, rgb(252, 225, 69) 0%, rgba(253,29,29,1) 50%, rgb(180, 58, 78) 100%);
+  position: fixed;
+  width: 100%;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(00, 16, 164);
+    font-weight: 90;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(00, 16, 164);
+    font-weight: 90;
+    margin: 0px 0px;
+    text-align: center;
+
+}
+
+body {
+  background-color: silver;
+  margin: 0;
+}
+
+p {
+  padding-left: 20px;
+}
+
+a {
+  padding-left: 20px;
+}
+
+article {
+  display: inline;
+  width: 50%;
+}
+
+#menu ul {
+  list-style-type: none;
+  background: linear-gradient(90deg, rgb(252, 225, 69) 0%, rgba(253,29,29,1) 50%, rgb(180, 58, 78) 100%);
+  padding: 15px 35%;
+  margin:0px;
+  font-family: sans-serif;
+  font-size:30px;
+}
+
+#menu ul li { 
+  display: inline;
+}
+
+#menu ul li a {
+  padding: 10px 10px;
+  display: inline-block;
+  background-color:rgba(237, 237, 237, 0);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+  background-color:#D6D6D6;
+  color: rgb(51, 0, 234);
+  border-bottom:3px solid rgb(51, 0, 234);
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right
+}
+#rodape {
+  background: linear-gradient(90deg, rgb(252, 225, 69) 0%, rgba(253,29,29,1) 50%, rgb(180, 58, 78) 100%);
+}
