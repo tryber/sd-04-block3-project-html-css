@@ -7,7 +7,7 @@ body {
 
 /* ------ Header ------ */
 
-header {
+#header {
   background-color: #11a36a;
   height: 80px;
   width: 100%;
