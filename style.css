@@ -10,6 +10,10 @@ a {
   color: rgb(242 , 19 , 108);
 }
 
+a:hover {
+  color: rgb(35 , 255 , 194);
+}
+
 .font-zero {
   font-size: 0;
 }
@@ -33,7 +37,13 @@ a {
 body {
   background-color: rgb(42 , 4 , 77);
   color: white;
+  line-height: 1.5;
 }
+
+p {
+  margin-bottom: 0.8em;
+}
+
 
 header {
   color: rgb(35 , 255 , 194);
@@ -154,11 +164,41 @@ header {
 .lado-esquerdo {
   float: left;
   width: 65%;
-  margin: 2%;
 }
 
 .lado-esquerdo ol {
   margin-top: 1.5%;
+  list-style: none;
+  counter-reset: li;
+  margin-left: 5%;
+}
+
+.lado-esquerdo ol li {
+  counter-increment: li
+}
+
+.lado-esquerdo ol li::before {
+  content: counter(li);
+  color: rgb(35 , 255 , 194);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em
+}
+
+.lado-esquerdo ul {
+  margin-left: 5%;
+}
+
+.lado-esquerdo ul li {
+  list-style: none;
+}
+
+.lado-esquerdo ul li::before {
+  content: "•";
+  color: rgb(35 , 255 , 194);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em
 }
 
 .lado-esquerdo ul {
@@ -176,11 +216,29 @@ header {
   color: rgb(229 , 149 , 181);
 }
 
+.lado-direito a:hover {
+  color: rgb(35 , 255 , 194);
+}
+
+.table {
+  margin-bottom: 15px;
+  margin-left: 2%;
+}
+
 .table td {
-  border: 1px solid rgb(242 , 19 , 108);
+  border: 1px solid rgb(35 , 255 , 194);
   width: 5%;
+  padding: 10px;
 }
 
 section {
   margin-top: 88px;
+}
+
+strong {
+  color: rgb(242 , 19 , 108)
+}
+
+h1 {
+  margin-bottom: 10px;
 }
