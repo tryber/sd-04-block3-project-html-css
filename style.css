@@ -1,12 +1,14 @@
 <style>
-#cabecalho {
+#cabecalho{
+    color:gray;
+}
+#cabecalho{
     overflow: hidden;
     background-color: #333;
     position: fixed;
     top: 0;
     width: 100%;
-  }
-  
+}
 #cabecalho a {
     float: left;
     display: block;
@@ -15,81 +17,33 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-
-/*ul.nav { 
-    margin:0; 
-    padding:0;
 }
-ul.nav li{
-    list-style-type: none;
-    display: inline;
-}
-ul.nav li a {
-    float:left;
-    border-top:0.1em solid #fff;
-    border-right:0.1em solid #909090;
-    border-bottom:0.1em solid #909090;
-    border-left:0.1em solid #fff;
-    width:12.0em;
-    font:1.68em  Verdana, Arial, Helvetica, 
-    sans-serif;
-    background:#f1f1f1;
-    color:#333;
-    text-align:center;
-    padding:0  0.2em 0.2em  0;
-    text-decoration:none;
-}*/
-/*ul.nav a:hover{
-    background:#999;
-    color:#fff;
-    border-color:#000 #fafafa #fafafa #000;
-}*/
-.section-container{
-    list-style-type: none;
-    display: inline;
-}
-/*.aligning{
-    background: gray;
-    text-align: justify;
-}
-.aligning-block{
-    width: 400px;
-    height: 200px;
-    display: inline-block;
-}*/
-
 #exemplo{
     padding: 0em 30px 6em;
 }
 .exemplo-container {
-    width: 30%;
+    width: 45%;
     margin: 0 10px;
-    text-align: center;
+    text-align: justify;
     display: inline-block;
 }
-.student-container p {
-    margin: 10px 0;
-}
-
 .lado-esquerdo{
     width: 40%;
     margin: 0 10px;
-    text-align: center;
+    text-align: justify;
     display: inline-block;
 }
 .lado-direito{
     width: 40%;
     margin: 0 10px;
-    text-align: center;
+    text-align: justify;
     display: inline-block;
 }
 #rodape{
     background: burlywood;
 }
 #bodystyle{
-    background: pink;
+    background-color: pink !important;
     font-family: "Lucida Console", monospace;
 }
 </style>

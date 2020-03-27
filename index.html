@@ -1,181 +1,199 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="utf-8">
-        <title>Projeto 01 - Douglas Costa</title>
-        <link href="style.css" rel="stylesheet">         
-    </head>
-    <body id="bodystyle">
-<!--        <nav id=cabecalho> 
-            <ul class="nav">
-                <li><a href="#na">Panorama</a></li>
-                <li><a href="#nb">Lista de Ações</a></li>
-                <li><a href="#nc">Ferramenta</a></li>
-                <li><a href="#nd">Referência</a></li>
-            </ul>
-        </nav>
--->
-            
-<div id="cabecalho">
-    <a href="#na">Panorama</a>
-    <a href="#nb">Lista de Ações</a>
-    <a href="#nc">Ferramenta</a>
-    <a href="#nd">Referência</a>
-</div>
 
-            <h2 id="na"><br><br>Panorama</h2>
-            <article>
-                <div id="exemplo">
-                    <div id="exemplo-wraper">
-                        <div class="exemplo-container">
-                <p class="lado-esquerdo"> 
-                    Vou mostrar aqui uma lista com as 21 ações que pagam bons dividendos em 2020, ou melhor, 
-                    que possuem potencial de pagamento de dividendos para o ano, 
-                    pois entendo que pode ser muito útil como um ponto de partida 
-                    para seus estudos de análise fundamentalista e análise técnica dos leitores do Clube.<br><br>
-        
-                    Aprendendo análise fundamentalista você pode selecionar as melhores empresas para investir
-                    com base naquelas que possuem os melhores resultados financeiros 
-                    e através da análise técnica você será capaz de identificar o melhor momento e preço 
-                    para comprar as ações das melhores empresas que você identificou com base nos fundamentos. 
-                    Uma análise complementa a outra. 
-                    Temos mais de 300 empresas listadas na bolsa brasileira 
-                    e através de determinados filtros e método quantitativo, 
-                    podemos separar algumas dezenas de ações para um estudo mais qualitativos.<br><br> 
-                </p>
-                        </div>
-                        <div class="exemplo-container"> <!--class="lado-direito"-->
-                    <img class="lado direito" src="/home/douglas/Trybe/sd-04-block3-project-html-css/dividendos2020.jpg" alt="Requisito 4: imagem de uma cesta com ovos representando os dividendos pagos por ações" width="500px">
-                        </div>
-                    </div>
-                </div>
-                </article>
-        <h2 id="nb">Lista completa de Ações</h2>
-        <section>
-        <p>
-            No início de 2020 a Economatica publicou uma tabela 
-            com a relação das “ações com potencial de pagamento de dividendos em 2020” 
-            seguindo apenas critérios quantitativos.  
-            Não significa que essas serão as melhores pagadoras de dividendos, 
-            pois a distribuição de dividendos, juros sobre capital próprio 
-            e outros proventos vão depender dos resultados financeiros das empresas 
-            e das decisões que envolvem sua administração sobre 
-            a distribuição desses lucros entre as pessoas que possuem ações.<br><br>
+<head>
+    <meta charset="utf-8">
+    <title>Projeto 01 - Douglas Costa</title>
+    <link href="style.css" rel="stylesheet">
+</head>
 
-            De qualquer forma, as empresas possuem números e padrões vistos no passado 
-            que podem elevar a possibilidade (sempre falamos de possibilidades e nunca de certezas) 
-            de que ocorra bons pagamentos de dividendos no futuro próximo. 
-            O que existe de mais interessante, no meu entendimento, 
-            ao se observar listas como essas, são os setores envolvidos. 
-            Eles costumam ser os mesmos no decorrer do tempo e grandes investidores 
-            costumam citar esses setores em seus conteúdos.<br></br>
-        
-        <table>
-            <tr>
-                <th>Empresa</th>
-                <th>Código</th>
-                <th>Segmento</th>
-                <th>DY% 2019</th>
-                <th>DY% 2020 (Projetado)</th>
-            </tr>
-            <tr>
-                <td>Itau</td>
-                <td>ITUB3</td>
-                <td>Bancos</td>
-                <td>9.34</td>
-                <td>8.76</td>
-            </tr>
-            <tr>
-                <td>Wiz</td>
-                <td>WIZS3</td>
-                <td>Corretoras de Seguros</td>
-                <td>15.85</td>
-                <td>7.87</td>
-            </tr>
-        </table>
-        <ol>Segmentos das ações com maior potencial para pagamento de dividendos:
-            <li>Setor bancário (38%);</li>
-            <li>Energia elétrica (19%);</li>
-            <li>Seguradoras (9.5%);</li>
-            <li>Saneamento (9.5%);</li>
-            <li>Imobiliário (9.5%);</li>
-            <li>Automotivo (4.8%);</li>
-            <li>Transporte rodoviário (4.8%);</li>
-            <li>Exploração rodoviária (4.8%);</li>
-        </ol>
-        
-            <br>Observe que 76% das empresas que estão entre as que possuem maior potencial de pagamento de dividendos, pertencem aos setores de:
-            <ul>
-                <li>bancos,</li>
-                <li>energia elétrica,</li>
-                <li>seguradoras e</li>
-                <li>saneamento</li>
-            </ul> 
-            Esses setores possuem um ponto em comum. Vamos entender isso melhor agora.
-        </p>
-        </section>
+<body id="bodystyle">
+    <div id="cabecalho">
+        <a href="#na">Panorama</a>
+        <a href="#nb">Lista de Ações</a>
+        <a href="#nc">Parâmetro</a>
+        <a href="#nc">Ferramenta</a>
+        <a href="#ne">Referência</a>
+    </div>
+    <div id="exemplo">
+        <article class="exemplo-container">
+            <p class="lado-esquerdo">
+            <br><br>
+                <h2 id="na">Panorama</h2>
+                Vou mostrar aqui uma lista com as 21 ações que pagam bons dividendos em 2020, ou melhor,
+                que possuem potencial de pagamento de dividendos para o ano,
+                pois entendo que pode ser muito útil como um ponto de partida
+                para seus estudos de análise fundamentalista e análise técnica dos leitores do Clube.<br><br>
 
-        <div id="exemplo">
-            <div id="exemplo-wrapper">
-                <div class="lado-esquerdo">
-
-        <h2 id="nc">Ferramenta de Análise</h3>
-        <p>
-            Eu recomendo que você tenha alguma ferramenta para fazer seus próprios estudos, 
-            usando seus filtros com dados sempre atualizados no decorrer do ano. 
-            A ferramenta oferecida pela Economatica tem preço proibitivo, 
-            custa mais de R$ 2000 por mês e somente bancos, fundos e instituições financeiras 
-            precisam e podem pagar por ferramentas assim. 
-            Para pequenos investidores eu recomendo essa ferramenta o <a target="_blank" href="https://site.guiainvest.com.br/">GuiaInvest</a>, 
-            pois é a ferramenta que utilizo e seu preço é extremamente acessível 
-            para o leque de possibilidades que oferece na busca 
-            e filtragem de ações com dados fundamentalistas atualizados constantemente. 
-            Frequentemente eles fazem lançamentos de cursos que incluem a assinatura da ferramenta. 
-        </p>
-                </div>
-
-                <div class="lado-direito">
-                <h2 id="nd">Bom preço para ganhar bons dividendos</h3>
+                Aprendendo análise fundamentalista você pode selecionar as melhores empresas para investir
+                com base naquelas que possuem os melhores resultados financeiros
+                e através da análise técnica você será capaz de identificar o melhor momento e preço
+                para comprar as ações das melhores empresas que você identificou com base nos fundamentos.
+                Uma análise complementa a outra.
+                Temos mais de 300 empresas listadas na bolsa brasileira
+                e através de determinados filtros e método quantitativo,
+                podemos separar algumas dezenas de ações para um estudo mais qualitativos.<br><br>
+            </p>
+        </article>
+        <aside class="exemplo-container">
+            <img class="lado direito" src="/home/douglas/Trybe/sd-04-block3-project-html-css/dividendos2020.jpg"
+                alt="Imagem de uma cesta com ovos representando os dividendos pagos por ações"
+                width="500px">
+        </aside>
+    </div>
+    <div id="exemplo">
+            <section class="lado-esquerdo">
+                <h2 id="nb">Lista completa de Ações</h2>
                     <p>
-                        Veja como o preço dessa ação se comportou durante todo o ano de 2019 no gráfico abaixo. 
-                        Cada barra representa um dia de negociação. Na coluna direita temos o preço da ação. 
-                        Essa é a mesma ferramenta que ensino a usar no livro de análise técnica 
-                        e onde faço o acompanhamento dos preços das ações.<br><br>
+                        No início de 2020 a Economatica publicou uma tabela
+                        com a relação das “ações com potencial de pagamento de dividendos em 2020”
+                        seguindo apenas critérios quantitativos.
+                        Não significa que essas serão as melhores pagadoras de dividendos,
+                        pois a distribuição de dividendos, juros sobre capital próprio
+                        e outros proventos vão depender dos resultados financeiros das empresas
+                        e das decisões que envolvem sua administração sobre
+                        a distribuição desses lucros entre as pessoas que possuem ações.<br><br>
 
-                        O gráfico acima mostra o comportamento do preço da ação do Itaú em 2019 
-                        e em parte de 2020. Observe que um investidor que tem o objetivo de receber dividendos, 
-                        deveria prestar atenção no preço pago no momento da compra da ação. 
-                        Quando a tabela do estudo foi elaborada o preço da ação estava próxima do topo de uma espécie de canal (veja as linhas pontilhadas no gráfico acima), 
-                        que em análise técnica chamamos esse canal, mas especificamente um canal de alta no caso acima (isso pode ser desenhado na ferramenta). 
-                        Veja que o preço era de R$ 32. No momento em que escrevo esse artigo, 
-                        a mesma ação custa R$ 29,50 e pode cair mais dependendo da força do movimento corretivo 
-                        que a ação vivencia. Quem estuda análise técnica logo percebe que ações que pagam dividendos 
-                        costumam ter preços que se movem dentro de canais traçados com alguma facilidade.<br><br>
-                        
-                        Se a previsão de lucros e pagamento de dividendos para 2020 não for alterada, 
-                        esse valor pago na forma de dividendos se tornará mais atrativo 
-                        se o investidor estiver tecnicamente preparado para fazer um estudo como o gráfico acima, 
-                        pois poderá selecionar os melhores momentos para comprar a ação. 
-                        É claro que não existe possibilidade de prever o futuro, 
-                        mas podemos olhar a repetição de comportamentos passados para entender os padrões. 
-                        Veja que identifiquei facilmente no gráfico a existência de ciclos 
-                        de mais ou menos 35 dias (linhas horizontais na cor azul que mostra o número de barras e de dias) 
-                        entre os pontos em que o preço tocou o menor preço do canal. 
-                        A existência de padrões eleva a probabilidade estatística de sua repetição do padrão no futuro. 
-                        Em análise técnica, quanto mais vezes o preço toca o canal (linhas de suporte e resistência) 
-                        e inverte sua tendência, maior a probabilidade de que esse padrão 
-                        se repita outras vezes (probabilidade não é igual a certeza). 
-                        Mesmo sendo impossível acertar momentos exatos, é possível comprar em uma faixa de preços 
-                        mais favoráveis se você for capaz de compreender a existência dos padrões.                    
-                    </p>                
-                </div>
+                        De qualquer forma, as empresas possuem números e padrões vistos no passado
+                        que podem elevar a possibilidade (sempre falamos de possibilidades e nunca de certezas)
+                        de que ocorra bons pagamentos de dividendos no futuro próximo.
+                        O que existe de mais interessante, no meu entendimento,
+                        ao se observar listas como essas, são os setores envolvidos.
+                        Eles costumam ser os mesmos no decorrer do tempo e grandes investidores
+                        costumam citar esses setores em seus conteúdos.<br></br>
+                        <table>
+                            <tr>
+                                <th>Empresa</th>
+                                <th>Código</th>
+                                <th>Segmento</th>
+                                <th>DY% 2019</th>
+                                <th>DY% 2020 (Projetado)</th>
+                            </tr>
+                            <tr>
+                                <td>Itau</td>
+                                <td>ITUB3</td>
+                                <td>Bancos</td>
+                                <td>9.34</td>
+                                <td>8.76</td>
+                            </tr>
+                            <tr>
+                                <td>Wiz</td>
+                                <td>WIZS3</td>
+                                <td>Corretoras de Seguros</td>
+                                <td>15.85</td>
+                                <td>7.87</td>
+                            </tr>
+                            <tr>
+                                <td>Itau</td>
+                                <td>ITUB4</td>
+                                <td>Bancos</td>
+                                <td>7.90</td>
+                                <td>7.56</td>
+                            </tr>
+                            <tr>
+                                <td>Taesa</td>
+                                <td>TAEE11</td>
+                                <td>Energia Elétrica</td>
+                                <td>8.01</td>
+                                <td>6.06</td>
+                            </tr>
+                            <tr>
+                                <td>Banrisul</td>
+                                <td>BRSR6</td>
+                                <td>Bancos</td>
+                                <td>5.61</td>
+                                <td>5.75</td>
+                            </tr>
+                        </table>
+                        <ol>Segmentos das ações com maior potencial para pagamento de dividendos:
+                            <li>Setor bancário (38%);</li>
+                            <li>Energia elétrica (19%);</li>
+                            <li>Seguradoras (9.5%);</li>
+                            <li>Saneamento (9.5%);</li>
+                            <li>Imobiliário (9.5%);</li>
+                            <li>Automotivo (4.8%);</li>
+                            <li>Transporte rodoviário (4.8%);</li>
+                            <li>Exploração rodoviária (4.8%);</li>
+                        </ol>
+
+                        <br>Observe que 76% das empresas que estão entre as que possuem maior potencial de pagamento de
+                        dividendos, pertencem aos setores de:
+                        <ul>
+                            <li>bancos,</li>
+                            <li>energia elétrica,</li>
+                            <li>seguradoras e</li>
+                            <li>saneamento</li>
+                        </ul>
+                        Esses setores possuem um ponto em comum. Vamos entender isso melhor agora.
+                    </p>
+                </section>
+            <div class="lado-direito">
+                <h2 id="nc">Bom preço para ganhar bons dividendos</h2>
+                <p>
+                    Veja como o preço dessa ação se comportou durante todo o ano de 2019 no gráfico abaixo.
+                    Cada barra representa um dia de negociação. Na coluna direita temos o preço da ação.
+                    Essa é a mesma ferramenta que ensino a usar no livro de análise técnica
+                    e onde faço o acompanhamento dos preços das ações.<br><br>
+
+                    O gráfico acima mostra o comportamento do preço da ação do Itaú em 2019
+                    e em parte de 2020. Observe que um investidor que tem o objetivo de receber dividendos,
+                    deveria prestar atenção no preço pago no momento da compra da ação.
+                    Quando a tabela do estudo foi elaborada o preço da ação estava próxima do topo de uma espécie de
+                    canal (veja as linhas pontilhadas no gráfico acima),
+                    que em análise técnica chamamos esse canal, mas especificamente um canal de alta no caso acima (isso
+                    pode ser desenhado na ferramenta).
+                    Veja que o preço era de R$ 32. No momento em que escrevo esse artigo,
+                    a mesma ação custa R$ 29,50 e pode cair mais dependendo da força do movimento corretivo
+                    que a ação vivencia. Quem estuda análise técnica logo percebe que ações que pagam dividendos
+                    costumam ter preços que se movem dentro de canais traçados com alguma facilidade.<br><br>
+
+                    Se a previsão de lucros e pagamento de dividendos para 2020 não for alterada,
+                    esse valor pago na forma de dividendos se tornará mais atrativo
+                    se o investidor estiver tecnicamente preparado para fazer um estudo como o gráfico acima,
+                    pois poderá selecionar os melhores momentos para comprar a ação.
+                    É claro que não existe possibilidade de prever o futuro,
+                    mas podemos olhar a repetição de comportamentos passados para entender os padrões.
+                    Veja que identifiquei facilmente no gráfico a existência de ciclos
+                    de mais ou menos 35 dias (linhas horizontais na cor azul que mostra o número de barras e de dias)
+                    entre os pontos em que o preço tocou o menor preço do canal.
+                    A existência de padrões eleva a probabilidade estatística de sua repetição do padrão no futuro.
+                    Em análise técnica, quanto mais vezes o preço toca o canal (linhas de suporte e resistência)
+                    e inverte sua tendência, maior a probabilidade de que esse padrão
+                    se repita outras vezes (probabilidade não é igual a certeza).
+                    Mesmo sendo impossível acertar momentos exatos, é possível comprar em uma faixa de preços
+                    mais favoráveis se você for capaz de compreender a existência dos padrões.
+                </p>
+                <h2 id="nd">Ferramenta de Análise</h2>
+                <aside>
+                    <p>
+                        Eu recomendo que você tenha alguma ferramenta para fazer seus próprios estudos,
+                        usando seus filtros com dados sempre atualizados no decorrer do ano.
+                        A ferramenta oferecida pela Economatica tem preço proibitivo,
+                        custa mais de R$ 2000 por mês e somente bancos, fundos e instituições financeiras
+                        precisam e podem pagar por ferramentas assim.
+                        Para pequenos investidores eu recomendo essa ferramenta o <a target="_blank"
+                            href="https://site.guiainvest.com.br/">GuiaInvest</a>,
+                        pois é a ferramenta que utilizo e seu preço é extremamente acessível
+                        para o leque de possibilidades que oferece na busca
+                        e filtragem de ações com dados fundamentalistas atualizados constantemente.
+                        Frequentemente eles fazem lançamentos de cursos que incluem a assinatura da ferramenta.
+                    </p>
+                </aside>
             </div>
         </div>
-        <footer id=rodape>
-            <h3 id="nd">Fonte</h3>
-            <p>
-                AÇÕES QUE PAGAM BONS DIVIDENDOS 2020. Disponível em: <a target="_blank" href="https://www.clubedospoupadores.com/acoes/pagam-dividendos.html">https://www.clubedospoupadores.com/acoes/pagam-dividendos.html</a>. Acesso em 25 mar.2020
-            </p>
-        </footer>
-    </body>
+    </div>
+    <footer id=rodape>
+        <h3 id="ne">Fonte</h3>
+        <p>
+            AÇÕES QUE PAGAM BONS DIVIDENDOS 2020. Disponível em: <a target="_blank"
+                href="https://www.clubedospoupadores.com/acoes/pagam-dividendos.html">https://www.clubedospoupadores.com/acoes/pagam-dividendos.html</a>.
+            Acesso em 25 mar.2020
+        </p>
+    </footer>
+</body>
+
 </html>
+
+<!--
+
+-->
