@@ -3,7 +3,7 @@ body {
   color: rgb(17 , 16 , 90);
   margin: 0;
   padding: 0;
-  height: ;
+  height: 100%;
 }
 
 #cabecalho {
@@ -73,10 +73,10 @@ tr:nth-child( even ) {
 }
 
 aside {
-  background-color: rgb(39, 39, 39);
-  border: 8px inset rgb(95, 53, 4);
+  background-color: rgb(39 , 39 , 39);
+  border: 8px inset rgb(95 , 53 , 4);
   color: rgb(215 , 255 , 222);
-  font-family: "Lucida Console", Courier, monospace;
+  font-family: Courier, monospace;
   margin: 13px;
   width: 500px;
 }
