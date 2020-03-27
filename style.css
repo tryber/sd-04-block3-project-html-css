@@ -174,15 +174,15 @@ header {
 }
 
 .lado-esquerdo ol li {
-  counter-increment: li
+  counter-increment: li;
 }
 
-.lado-esquerdo ol li::before {
+.lado-esquerdo ol li:before {
   content: counter(li);
   color: rgb(35 , 255 , 194);
   display: inline-block;
   width: 1em;
-  margin-left: -1em
+  margin-left: -1em;
 }
 
 .lado-esquerdo ul {
@@ -193,16 +193,12 @@ header {
   list-style: none;
 }
 
-.lado-esquerdo ul li::before {
-  content: "•";
+.lado-esquerdo ul li:before {
+  content: '•';
   color: rgb(35 , 255 , 194);
   display: inline-block;
   width: 1em;
-  margin-left: -1em
-}
-
-.lado-esquerdo ul {
-  margin-top: 1.5%;
+  margin-left: -1em;
 }
 
 .lado-direito {
@@ -236,7 +232,7 @@ section {
 }
 
 strong {
-  color: rgb(242 , 19 , 108)
+  color: rgb(242 , 19 , 108);
 }
 
 h1 {
