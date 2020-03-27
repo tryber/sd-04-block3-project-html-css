@@ -37,12 +37,13 @@ body {
     text-align: justify;
     margin: 10px;
 }
+#GIF {
+    float: right;
+}
 #rodape {
     background-color: rgb(29, 64, 102);
     width: 100%;
     font-family: Arial, sans-serif;
-    bottom: 0;
     text-align: center;
     overflow: hidden;
-    clear: both;
 }
