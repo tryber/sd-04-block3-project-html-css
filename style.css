@@ -21,15 +21,26 @@ header {
 
 #header-img {
   width: 100%;
-  height: 400px;
-
+  height: 550px;
   background-image: url('./img/ICON-A5-header.webp');
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
+  filter: saturate(160%);
 }
 
-#content-header.page-title {
+#page-title {
   position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 30px;
+  z-index: 999;
+}
+
+#page-title span {
+  font-weight: 100;
+  background-color: #292929cc;
+  border-radius: 20px;
+  padding: 0 20px 0 20px;
 }
 
 #main-content {
