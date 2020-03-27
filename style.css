@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(215 , 255 , 222);
+  color: rgb(17 , 16 , 90);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#cabecalho {
+  position: fixed;
+  width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(36 , 35 , 35);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: rgb(215 , 255 , 222);
+  float: left;
+  font-size: 17px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(224 , 224 , 224);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a .active {
+  background-color: rgb(92 , 163 , 104);
+  color: white;
+}
+
+#top {
+  background: rgb(92 , 163 , 104);
+  color: white;
+  font-size: 30px;
+  padding: 60px;
+  text-align: center;
+}
+
+label {
+  font-size: 20px;
+}
+
+article {
+  height: 1000px;
+}
+
+/* Tabela */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid rgb(221 , 221 , 221);
+  width: 100%;
+}
+
+th , td {
+  padding: 16px;
+  text-align: left;
+}
+
+tr:nth-child( even ) {
+  background-color: rgb(92 , 163 , 104);
+}
+
+aside {
+  background-color: rgb(39 , 39 , 39);
+  border: 8px inset rgb(95 , 53 , 4);
+  color: rgb(215 , 255 , 222);
+  font-family: Courier, monospace;
+  margin: 13px;
+  width: 500px;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+aside h2 {
+  padding-left: 20px;
+}
+
+#rodape {
+  background-color: rgb(10 , 7 , 7);
+  bottom: 0;
+  color: white;
+  height: 30px;
+  left: 0;
+  max-width: 100%;
+  position: rela;
+  text-align: center;
+}
+
+#rodape a {
+  color: rgb(215 , 255 , 222);
+  text-decoration: none;
+}
