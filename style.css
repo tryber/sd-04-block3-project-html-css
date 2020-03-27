@@ -24,49 +24,64 @@ body{
     font-size: 20px;
     z-index: 2;
 }
-/* Cover box = pic+title */
+/* Cover box */
 .coverbox{
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-}
-/* Page title */
-.coverbox .pagetitle{
-    position: absolute;
-    z-index: 0;
-    margin: 0 auto;
-    top: 0%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    width: 60%;
-    color: white;
+    margin-bottom: 20px;
 }
 /* Article style*/
 article{
-    text-align: justify;
+    text-align: center;
     padding-left: 20%;
     padding-right: 20%;
 }
+/* Section 1 stryle */
 #section1{
     position: relative;
     display: inline-block;
     margin: 20px;
 }
+.whitebox1{
+    border: 2px solid white;
+    background-color: white;
+    padding: 20px;
+    width: 590px;
+    height: 150px;
+    text-align: justify;
+}
+/* Section 2 stryle */
 #section2{
     position: relative;
     display: inline-block;
     margin: 20px;
 }
+.whitebox2{
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    height: 250px;
+    text-align: justify;
+    margin-right: 50px;
+}
+/* Section 3 stryle */
 #section3{
     position: relative;
     display: inline-block;
     margin: 20px;
 }
-#section4{
-    position: relative;
-    display: inline-block;
-    margin: 20px;
+.whitebox3{
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    height: 260px;
+    text-align: justify;
+    margin-right: 50px;
+}
+.whitebox4{
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    height: 260px;
+    text-align: justify;
 }
 /* To put things at the left side*/
 .lado-esquerdo{
@@ -76,22 +91,8 @@ article{
 .lado-direito{
     float: right;
 }
-/* White box */
-.whitebox{
-    border: 2px solid white;
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    width: 400px;
-    height: 300px;
-    text-align: justify;
-}
 /* Table style */
-table{
-     background-color: white;
-     padding: 5px;
-}
- /* Table header */
+/* Table header */
 th{
      text-align: center;
      border-bottom: 1px solid black;
@@ -104,10 +105,9 @@ td{
 }
 /* Footer style */
 #rodape{
-    color:black;
-    border: 2px solid black;
+    color:black;    
     width: 100%;
-    padding: 5px;
+    margin-top: 20px;
     text-align: center;
 }
 /* GitHub contact style */
