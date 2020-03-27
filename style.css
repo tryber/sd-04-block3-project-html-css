@@ -17,6 +17,7 @@ table , tr , th , td {
 
 .table-title {
   text-align: center;
+  padding: 5px;
 }
 
 #cabecalho {
