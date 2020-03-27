@@ -119,14 +119,18 @@ nav ul li a {
 }
 
 #table {
+  border: 1px solid gray;
   background-position: top left;
   width: 100%;
+  clear: both;
+  margin-bottom: 20px;
 }
 
 #table td {
-  border: 1px solid gray);
+  border: 1px solid gray;
   background-position: top left;
   padding-left: 5px;
+  padding-right: 5px;
 }
 
 #linha1 {
@@ -136,12 +140,12 @@ nav ul li a {
 
 .lado-esquerdo {
   float: left;
-  padding-left: 25%;
-  padding-bottom: 15px;
+  margin-left: 10%;
 }
 
 .lado-direito {
   float: right;
+  margin-right: 10%;
 }
 
 #dicas {
@@ -150,4 +154,18 @@ nav ul li a {
 
 .texto-fixo {
   clear: both;
+}
+
+.nodress img {
+  padding-left: 25%;
+  padding-top: 20px;
+}
+
+#dicas ol li {
+  padding-top: 15px;
+}
+
+.isolamento img {
+  padding-left: 25%;
+  padding-top: 20px;
 }
