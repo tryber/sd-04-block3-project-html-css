@@ -7,7 +7,7 @@
 
 a {
   text-decoration: none;
-  color: rgb(242, 19, 108);
+  color: rgb(242 , 19 , 108);
 }
 
 .font-zero {
@@ -31,12 +31,12 @@ a {
 }
 
 body {
-  background-color:rgb(42, 4, 77);
+  background-color: rgb(42 , 4 , 77);
   color: white;
 }
 
 header {
-  color: rgb(35, 255, 194);
+  color: rgb(35 , 255 , 194);
   position: fixed;
   width: 100%;
   margin: 0 50 0 0;
@@ -59,7 +59,7 @@ header {
   margin: 10px 0 0;
   float: right;
   cursor: pointer;
-  background: rgb(26, 89, 119) url('img/mobile.jpeg') center center no-repeat;
+  background: rgb(26 , 89 , 119) url('img/mobile.jpeg') center center no-repeat;
   border-radius: 50%;
 }
 
@@ -86,7 +86,7 @@ header {
   }
 
   .nav-menu-item a {
-    color: rgb(35, 255, 194);
+    color: rgb(35 , 255 , 194);
     text-decoration: none;
     padding: 15px;
     width: 100%;
@@ -125,17 +125,23 @@ header {
     float: left;
     padding: 10px;
     text-decoration: none;
-    color: rgb(35, 255, 194);
+    color: rgb(35 , 255 , 194);
     font-size: 0.9em;
     font-weight: 800;
   }
 
-  .nav-menu-item:hover , 
-  .nav-menu-item > a:hover {
-    color: rgb(242, 19, 108);
+  .nav-menu-item:hover {
+    color: rgb(242 , 19 , 108);
   }
 
-  .nav-menu-item:hover .main_header_nav_sub , 
+  .nav-menu-item > a:hover {
+    color: rgb(242 , 19 , 108);
+  }
+
+  .nav-menu-item:hover .main_header_nav_sub {
+    display: block;
+  }
+
   .nav-menu-item > a:hover .main_header_nav_sub {
     display: block;
   }
@@ -151,7 +157,11 @@ header {
   margin: 2%;
 }
 
-.lado-esquerdo ol , ul {
+.lado-esquerdo ol {
+  margin-top: 1.5%;
+}
+
+.lado-esquerdo ul {
   margin-top: 1.5%;
 }
 
@@ -163,11 +173,11 @@ header {
 
 .lado-direito a {
   text-decoration: none;
-  color: rgb(229, 149, 181);
+  color: rgb(229 , 149 , 181);
 }
 
 .table td {
-  border: 1px solid rgb(242, 19, 108);
+  border: 1px solid rgb(242 , 19 , 108);
   width: 5%;
 }
 
