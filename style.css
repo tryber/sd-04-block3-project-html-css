@@ -2,7 +2,7 @@ body{
     background-color: rgb(146, 12, 63);
 }
 
-#cabecalho div{
+#cabecalho{
      background-color: #aab3a9;
      position: fixed;
      top: 0;
