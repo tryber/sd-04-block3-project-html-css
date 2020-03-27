@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lavenderblush;
+}
+
+h1, h2, h3, h4{
+  font-size: xx-large;
+  color: #d35400;
+}
+
+p {
+  text-align: justify;
+  line-height: 30px;
+  text-justify: inter-word;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+  font-size: larger;
+}
+HEAD
+
+table{
+  padding-bottom: 10px;
+}
+
+
+#cabecalho{
+    position: fixed;
+    width: 100%;
+    height: 25px;
+}
+   
+table {
+  padding-bottom: 10px;
+}
+
+#cabecalho {
+  width: 100%;
+  height: 25px;
+
+}
+
+#cabecalho h1 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#cabecalho ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#cabecalho li {
+  float: right;
+}
+
+#cabecalho li a {
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#rodape{
+    position: absolute;
+    top: 970px;
+    background-color: oldlace;
+    color:#514747;
+    width: 100%;
+    height: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+.lado-esquerdo{
+
+    margin-top:150px;
+    background-color:#EBF5FB ;
+        color:#514747;
+       text-align: justify;
+       line-height: 30px;
+       text-justify: inter-word;
+       padding-left: 10px;
+       padding-top: 10px;
+       padding-right: 10px;
+       letter-spacing:2px;
+       width: 50%;
+       float: left;
+       height: 300px;
+        overflow-y: auto;
+        overflow-x: hidden; 
+}
+
+.lado-direito{
+    
+    margin-top: 150px;
+    width: 45%;
+    height: 300px;
+    float: right;
+    text-align: justify;
+    line-height: 30px;
+    text-justify: inter-word;
+    padding-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+}
+
+.lado-direito img{
+    width: 300px;
+    padding-right: 0;
+    padding-left: 30px;
+
+}
+
+.lado-direito ol{
+    float: right;
+    padding-right: 20px;
+}
+.vocesabia{
+    position: absolute;
+    top: 500px;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 90px;
+    float: none;
+
+}
+
+#olhodiv{
+   display: flex;
+   flex-flow: row;
+   float: left;
+  
+   
+
+}
+.tabela{
+    width: 50%;
+    height: 100px;
+    padding-top: 25px;
+  
+    border-spacing: 5px;
+    border-style: dashed;
+  
+}
+
+.tabela td a{
+    color: seagreen;
+      padding-top: 20px;
+      padding-bottom: 25px;
+       padding: 40px;
+       padding-left: 100px;
+       text-align: center;
+       text-decoration: none;
+       width: 700;
+       height: 20px;
+}
+#rodape {
+  position: absolute;
+  top: 970px;
+  background-color: oldlace;
+  color: #514747;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#rodape {
+  padding-left: 20px;
+  float: left;
+}
+
+.ladoesquerdo {
+  position: absolute;
+  top: 150px;
+  background-color: #ebf5fb;
+  color: #514747;
+  text-align: justify;
+  line-height: 30px;
+  text-justify: inter-word;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+  width: 50%;
+  float: left;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.ladodireito {
+  position: relative;
+  top: 150px;
+  width: 45%;
+  height: 300px;
+  float: right;
+  text-align: justify;
+  line-height: 30px;
+  text-justify: inter-word;
+  padding-left: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+}
+
+.ladodireito img {
+  width: 300px;
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.ladodireito ol {
+  float: right;
+  padding-right: 20px;
+}
+.vocesabia {
+  position: absolute;
+  top: 500px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 90px;
+  float: none;
+}
+
+#olhodiv {
+  display: flex;
+  flex-flow: row;
+  float: left;
+}
+.tabela {
+  width: 50%;
+  height: 100px;
+  padding-top: 25px;
+
+  border-spacing: 5px;
+  border-style: dashed;
+}
+
+.tabela td a {
+  color: seagreen;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding: 40px;
+  padding-left: 100px;
+  text-align: center;
+  text-decoration: none;
+  width: 700;
+  height: 20px;
+}
+
+.tabela td {
+  padding-right: 100px;
+}
+
+.tabela th {
+  color: #d35400;
+  height: 50px;
+  font-size: larger;
+  padding-bottom: 20px;
+  padding-left: 70px;
+}
