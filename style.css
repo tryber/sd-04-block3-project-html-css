@@ -12,31 +12,30 @@ a {
 }
 
 header {
-  position: relative;
-  z-index: 3;
+  position: fixed;
   margin-top: 0px;
   background-color: rgb(22 , 91 , 51);
   width: 100%;
   height: 20vh;
+  padding-left: 10px;
 }
 
 nav {
-    position: fixed;
-    z-index: 2;
-    line-height: 2em;
-    width: 100%;
-    display: block;
-    align-content: center;
-    background-color: rgb(22 , 91 , 51);
-    text-align: center;
-    
+  position: fixed;
+  top: 20vh;
+  line-height: 2em;
+  width: 100%;
+  display: block;
+  align-content: center;
+  background-color: rgb(22 , 91 , 51);
+  text-align: center;
 }
 
 footer {
   background-color: rgb(22 , 91 , 51);
   width: 100%;
   height: 20vh;
-  text-align: end;
+  text-align: center;
   align-self: flex-end;
 }
 
@@ -45,28 +44,30 @@ footer {
 }
 
 .container {
-  padding: 30px 20px;
-
+  padding-top: 25vh;
+  padding-right: 100px;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
-  justify-content: center;
+  text-align: justify;
 }
-aside{
+
+aside {
   position:-webkit-sticky;
   position:sticky;
   width: 200px;
   top:90vh;
   text-align: center;
-  
 }
-aside a{
+
+aside a {
   color: rgb(255 , 255 , 255);
   font-weight: bolder;
 }
+
 .container aside.lado-direito {
- 
   right: 0;
-  background-color: rgb(22 , 91 , 51);;
+  background-color: rgb(22 , 91 , 51);
   height: 20px;
 }
 
@@ -78,29 +79,45 @@ article {
 .lado-esquerdo {
   float: left;
   margin: 3px;
-  padding: 3px;
-  border: rgb(248 , 178 , 41) solid 5px;
+  padding-left: 15%;
+  justify-self: center;
+  width: 60%;
 }
 
 .lado-direito {
   float: right;
   padding: 3px;
-  border: rgb(22 , 91 , 51); solid 1px;
+  border: rgb(22 , 91 , 51) solid 1px;margin-right: 2px;
 }
-table{
-  border-top: red solid 2px;
-  border-left: red solid 2px;
-  border-right: red solid 2px;
+
+table {
+  border-top: rgb(0 , 0 , 0) solid 2px;
+  border-left: rgb(0 , 0 , 0) solid 2px;
+  border-right: rgb(0 , 0 , 0) solid 2px;
+  background-color: rgb(255 , 255 , 255);
 }
-th, td{
-  border-bottom: red solid 2px;
+
+th, td {
+  border-bottom: rgb(0 , 0 , 0) solid 2px;
 }
+
 td {
-  border-left: red solid 2px;;
+  border-left: rgb(0 , 0 , 0) solid 2px;;
 }
-.oculto{
+
+.oculto {
   color: rgb(20 , 107 , 58);
 }
-.oculto2{
+
+.oculto2 {
   color: rgb(22 , 91 , 51);
+}
+
+.titulo{
+  color: rgb(22 , 91 , 51);
+  background-color: rgb(255 , 255 , 255);
+  font-size: larger;
+  font-weight: bolder;
+  padding: 6px;
+  width: 300px;
 }
