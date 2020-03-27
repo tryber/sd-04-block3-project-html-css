@@ -16,11 +16,16 @@ header {
   position: fixed;
   top: 60px;
   left: 0;
+  width: 100%;
 }
 
 #header-img {
   width: 100%;
   height: 400px;
+
+  background-image: url('./img/ICON-A5-header.webp');
+  background-position: center;
+  background-size: cover;
 }
 
 #content-header.page-title {
@@ -30,7 +35,7 @@ header {
 #main-content {
   position: relative;
   padding: 30px;
-  margin-top: 550px;
+  margin-top: 650px;
   background-color: rgba(68 , 68 , 68 , 1);
 }
 
