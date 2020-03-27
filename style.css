@@ -8,9 +8,11 @@ body {
 /* ------ Header ------ */
 
 #cabecalho {
+  position: fixed;
   background-color: #11a36a;
   height: 80px;
   width: 100%;
+  top: 0px;
 }
 
 #name-logo h1 {
@@ -66,7 +68,7 @@ nav ul li a:hover {
 /* ------ Container ------ */
 
 #container {
-  margin-top: 70px;
+  margin-top: 150px;
 }
 
 #container h2 {
