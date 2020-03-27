@@ -134,12 +134,13 @@ nav ul li a {
   text-align: center;
 }
 
-.nodress .lado-esquerdo {
+.lado-esquerdo {
   float: left;
   padding-left: 25%;
+  padding-bottom: 15px;
 }
 
-.nodress .lado-direito {
+.lado-direito {
   float: right;
 }
 
