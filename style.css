@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-color: rgba(68 , 68 , 68 , 1);
@@ -10,6 +14,32 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  height: 60px;
+  padding-left: 30px;
+  background-color: rgba(27 , 27 , 27 , 1);
+}
+
+.menu-item {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.menu-item a:hover {
+  color: #001ca9 !important;
+}
+
+.menu-item a {
+  text-decoration: none !important;
+  color: white !important;
+  font-weight: 700 !important;
 }
 
 #content-header {
