@@ -33,13 +33,13 @@ nav {
 }
 
 .menu-item a {
-  text-decoration: none ! important;
-  color: white ! important;
-  font-weight: 700 ! important;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
 }
 
 .menu-item a:hover {
-  color: rgba(0 , 28 , 169 , 1) ! important;
+  color: rgba(0 , 28 , 169 , 1);
 }
 
 #content-header {
@@ -68,7 +68,7 @@ nav {
 
 #page-title span {
   font-weight: 100;
-  background-color: rgba(41, 41, 41, 0.8);
+  background-color: rgba(41 , 41 , 41 , 0.8);
   border-radius: 20px;
   padding: 0 20px;
 }
