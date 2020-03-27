@@ -142,3 +142,11 @@ main {
 #table table {
   width: 100%;
 }
+
+#me {
+  padding-top: 80px;
+}
+
+#her {
+  padding-top: 100px;
+}
