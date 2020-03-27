@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba( 242 , 242 , 242 , 1 );
+}
+
+#cabecalho {
+  background-color: rgba( 46 , 46 , 46 , 1 );
+  font-family: sans-serif;
+  letter-spacing: 1.05em;
+  line-height: 3.2rem;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+}
+
+#cabecalho h1 {
+  background-position: top left;
+  color: white;
+  font-size: 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  background-color: rgba( 88 , 88 , 88 , 1 );
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+nav ul li {
+  cursor: pointer;
+  display: inline-table;
+  font-size: 18px;
+  margin: 0;
+  padding: 5px 50px;
+}
+
+nav ul li:hover {
+  background-color: rgba( 46 , 46 , 46 , 1 );
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.fotocapa {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.conteudo {
+  background-color: rgb( 242 , 242 , 242 );
+  color: rgba( 0 , 0 , 0 , 0.75 );
+  font-family: Source serif Pro, serif;
+  font-size: 20px;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.conteudo p {
+  padding-top: 15px;
+}
+
+.conteudo h2 {
+  font-size: 35px;
+  padding-bottom: 15px;
+  padding-top: 87px;
+}
+
+.conteudo h3 , h4 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.conteudo h4 {
+  text-decoration: underline;
+}
+
+#rodape {
+  background: rgba( 88 , 88 , 88 , 1 );
+  background-position: top left;
+  color: white;
+  font-size: 20px;
+  height: 30px;
+  padding: 10px 100px 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#rodape p {
+  display: inline-block;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  background-position: top left;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+#rodape a {
+  padding-left: 20px;
+}
+
+.divtable {
+  margin-top: 25px;
+}
+
+#table {
+  border: 1px solid gray;
+  background-position: top left;
+  width: 100%;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+#table td {
+  border: 1px solid gray;
+  background-position: top left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#linha1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+#dicas {
+  clear: both;
+}
+
+.texto-fixo {
+  clear: both;
+}
+
+.nodress img {
+  padding-left: 25%;
+  padding-top: 20px;
+}
+
+#dicas ol li {
+  padding-top: 15px;
+}
+
+.isolamento img {
+  padding-left: 25%;
+  padding-top: 20px;
+}
