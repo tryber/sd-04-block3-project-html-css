@@ -52,7 +52,7 @@ nav {
 #header-img {
   width: 100%;
   height: 550px;
-  background-image: url('./img/ICON-A5-header.webp');
+  /* background-image: url('./img/ICON-A5-header.webp'); */
   background-position: bottom;
   background-size: cover;
   filter: saturate(160%);
@@ -210,7 +210,7 @@ td {
   filter: saturate(170%);
   width: 65%;
   height: 300px;
-  background-image: url('./img/training.webp');
+  /* background-image: url('./img/training.webp'); */
   background-position: center;
   background-size: cover;
 }
@@ -227,7 +227,7 @@ td {
   text-transform: uppercase;
   cursor: pointer;
   color: black;
-  background-color: rgba(255 , 255 , 255 , 1);
+  background-color: white;
   box-shadow: 0 0 4px rgb(95 , 95 , 95);
   outline: none;
 }
