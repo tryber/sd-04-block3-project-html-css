@@ -1,36 +1,51 @@
 body{
-background: #FCF3E4;
+ background:#FCF3E4;
 }
+
 #cabecalho{
-background: #41607D;
-position: fixed;
-width: 1400px;
-height: 130px;
-margin: 0 auto;
+ width: 1200px;
+ height: 130px;
+ background: #41607D;
+ margin: 0 auto;
+ position: fixed;
 }
-#cabecalho h1{text-align: center;
-padding-top: 25px;
+
+#cabecalho h1{
+ text-align: center;
+ color: rgb(216 , 216 , 191);
+ padding-top: 40px;
+ 
 }
-#topo{
-background: #687E8A;
-width: 800px;
-height: 0px;
-margin: 0 auto;
-padding: 150px;
-text-align: center;
-margin-top: 10px;
-}
+
 #lado-direito{
-background: #FAEBC7;
-display: inline-block;
-margin-right: 64px;
-margin: 3px;
-padding: 3px;
+ background: #FAEBC7;
+ float: left;
+ height: 400px;
+ margin-left: 64px;
+ margin-top: 140px;
+ width: 950px;
+ text-align: left;
+ padding: 4px;
 }
+
+
 #lado-esquerdo{
-background: #FAEBC7;
-display: inline-block;
-margin-left: 64px;
-margin: 3px;
-padding: 3px;
+ background: #FAEBC7;
+ float: right;
+ margin-right: 63px;
+ height: 400px;
+ margin-top: 140px;
+ text-align: left;
+ padding: 4px;
+}
+
+#rodape{
+ background: #687E8A;
+ float: left;
+ color: rgb(216 , 216 , 191);
+ margin-left: 64px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ text-align: center;
+ width: 1200px;
 }
