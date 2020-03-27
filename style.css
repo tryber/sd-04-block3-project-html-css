@@ -14,8 +14,11 @@ header {
 }
 
 #name-logo h1 {
-  float: left;
   margin: 10px;
+}
+
+.lado-esquerdo {
+  float: left;
 }
 
 #name-logo a {
@@ -28,8 +31,11 @@ header {
 
 nav ul {
   list-style: none;
-  float: right;
   margin: 10px 50px;
+}
+
+.lado-direito {
+  float: right;
 }
 
 nav ul li {
