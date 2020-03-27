@@ -43,6 +43,11 @@ h3 {
 
 }
 
+.list li a {
+  color: black;
+  text-decoration: none;
+}
+
 #rodape {
   background-color: indigo;
   height: 80px;
