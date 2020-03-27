@@ -1,8 +1,9 @@
 /* Body style */
 body{
-    background-color: #F8F0ED;
+    background-color: #F0F8FF;
     margin: 50px;
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 /* Header style */
 #cabecalho{
@@ -44,8 +45,8 @@ article{
     border: 2px solid white;
     background-color: white;
     padding: 20px;
-    width: 590px;
-    height: 150px;
+    width: 615px;
+    height: 180px;
     text-align: justify;
 }
 /* Section 2 stryle */
@@ -58,9 +59,9 @@ article{
     background-color: white;
     padding: 20px;
     width: 350px;
-    height: 250px;
+    height: 290px;
     text-align: justify;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 /* Section 3 stryle */
 #section3{
@@ -72,15 +73,15 @@ article{
     background-color: white;
     padding: 20px;
     width: 250px;
-    height: 260px;
+    height: 280px;
     text-align: justify;
     margin-right: 50px;
 }
 .whitebox4{
     background-color: white;
     padding: 20px;
-    width: 250px;
-    height: 260px;
+    width: 280px;
+    height: 280px;
     text-align: justify;
 }
 /* To put things at the left side*/
