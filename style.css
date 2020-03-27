@@ -1,23 +1,21 @@
 html , body {
-  font-family: "Sen", 'Ancient Runes', serif;;
+  font-family: Sen, Ancient Runes, serif;
   margin-top: 0;
   margin-left: 2em;
   margin-right: 2em;
   box-sizing: border-box;
-  background: rgba(236, 236, 236, 0.473);
+  background: rgba(236 , 236 , 236 , 0.473);
 }
 
 #container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 15vh 12vh auto 20vh;
-  grid-template-areas: 'figure nav nav' 'header header header' 'article article aside' 'footer footer footer';
+  grid: 'fg n n' 15vh 'h h h' 12vh 'a a s' auto 'f f f' 20vh / 1fr 3fr;
 }
 
 /* Section NAV */
 nav {
   background: black;
-  grid-area: nav;
+  grid-area: n;
   display: flex;
 }
 
@@ -29,8 +27,8 @@ ul {
 }
 
 nav ul {
-  margin: 0px;
-  padding: 24px 0px 5px 30px;
+  margin: 0;
+  padding: 24px 0 5px 30px;
 }
 
 nav li {
@@ -48,8 +46,8 @@ nav li a {
 
 /* Section HEADER */
 #cabecalho {
-  background: rgba(128, 128, 118, 0.87);
-  grid-area: header;
+  background: rgba(128 , 128 , 118 , 0.87);
+  grid-area: h;
   position: fixed;
   top: 0;
 }
@@ -64,10 +62,11 @@ nav li a {
 #cabecalho .heading2 {
   font-style: bold;
 }
+
 /* Section FIGURE */
 figure {
-  background: rgb(255, 255, 253, 255);
-  grid-area: figure;
+  background: rgb(255 , 255 , 253 , 255);
+  grid-area: fg;
   margin: 0;
   justify-self: center;
 }
@@ -77,48 +76,48 @@ figure .logo {
 }
 
 /* Section MAIN */
-.lado-esquerdo  {
-  background: rgba(181, 181, 184, 0.295);
-  grid-area: article;
+.lado-esquerdo {
+  background: rgba(181 , 181 , 184 , 0.295);
+  grid-area: a;
 }
 
-.lado-esquerdo  section {
+.lado-esquerdo section {
   margin-top: 1em;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.lado-esquerdo  #jsimg {
+.lado-esquerdo #jsimg {
   width: 50%;
 }
 
-.lado-esquerdo  #javaimg {
+.lado-esquerdo #javaimg {
   width: 50%;
 }
 
-.lado-esquerdo  #cimg {
+.lado-esquerdo #cimg {
   width: 50%;
 }
 
-.lado-esquerdo  #phpimg {
+.lado-esquerdo #phpimg {
   width: 50%;
 }
 
-.lado-esquerdo  #pythonimg {
+.lado-esquerdo #pythonimg {
   width: 50%;
 }
 
 .lado-esquerdo div {
   border: solid 1px;
-  border-color: rgba(0, 0, 0, 0.178);
+  border-color: rgba(0 , 0 , 0 , 0.178);
   margin-left: 10%;
   margin-right: 10%;
 }
 
 /* Section ASIDE */
 .lado-direito {
-  background: rgba(84, 85, 84, 0.219);
-  grid-area: aside;
+  background: rgba(84 , 85 , 84 , 0.219);
+  grid-area: s;
 }
 
 .lado-direito #tabela {
@@ -137,8 +136,8 @@ figure .logo {
 
 /* Section FOOTER */
 #rodape {
-  background: rgba(37, 1, 1, 0.336);
-  grid-area: footer;
+  background: rgba(37 , 1 , 1 , 0.336);
+  grid-area: f;
 }
 
 #rodape div ul {
