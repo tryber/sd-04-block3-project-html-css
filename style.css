@@ -81,9 +81,11 @@ nav {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  min-height: 20px;
+  padding: 15px 15px 15px 30px;
+  margin-top: 100px;
+  color: #171717;
+  background-color: #dadada;
 }
 
 h1 {
