@@ -13,14 +13,17 @@ body{
 }
 main{
     padding-top: 100px;
-    width: 800px;
+    width: 1000px;
     height:auto;
     margin: auto;
 }
 main h1{
+    padding-top: 20px;
     text-align: center;
     font-weight: 900;
     color: rgb(167, 3, 3);
+    font-size: 45px;
+text-shadow: 2px 2px 2px black;
 }
 main img{
     width: 400px;
