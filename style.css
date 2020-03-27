@@ -1,38 +1,70 @@
-body{
-    background-color: greenyellow;
-    margin: 0px;
-    margin-top: 100px;
-    color: rgb(0, 29, 0);
+body {
+  background-color: greenyellow;
+  margin: 0;
+  margin-top: 100px;
+  color: rgb(0 , 29 , 0);
 }
-header{
-    background-image: url(background.png);
-    background-size: 54px;
-    background-color: green;
-    color: white;
-    text-align: center;
-    position: fixed;
-    width: 99.2%;
-    top: 0;
-    border: 5px;
-    border-style: groove;
-    border-color: green;
+
+header {
+  background-image: url('background.png');
+  background-size: 54px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 99.2%;
+  top: 0;
+  border: 5px;
+  border-style: groove;
+  border-color: green;
 }
-header *{
-    display: inline-block;
-    margin-left: 50px;
-    margin-right: 50px;
+
+article {
+  margin: 1em;
 }
-header img{
-    position: relative;
-    top: 10px;
-    width: 40px;
+
+nav {
+  margin: 1em;
 }
-.lado-esquerdo{
-    float: left;
+
+p {
+  margin: 0;
 }
-.lado-direito{
-    float: right;
+
+header * {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-.clear-both{
-    clear: both;
+
+header img {
+  position: relative;
+  top: 10px;
+  width: 40px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 75%;
+}
+
+.lado-direito {
+  color: white;
+  float: right;
+  width: 15%;
+  border: 5px rgb(0 , 88 , 0) groove;
+  border-radius: 10px;
+  background-color: green;
+}
+
+.lado-direito a {
+  color: white;
+}
+
+.lado-direito a:hover {
+  color: gray;
+}
+
+.clear-both {
+  clear: both;
 }
