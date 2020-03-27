@@ -1,5 +1,9 @@
 <style>
-#cabecalho {
+.bodycolor{
+    background-color: lightgray;
+    position:absolute;
+}
+#cabecalho{
     background-color:darkcyan;
     position: fixed;
     top: 0;
@@ -10,8 +14,7 @@
     font-size: 2em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.bodycolor{
-    background-color: lightgray;
-    position:absolute;
+#rodape{
+    background: burlywood;
 }
 </style>
