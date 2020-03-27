@@ -5,9 +5,9 @@ body {
   padding: 0;
 }
 
+/* ------ Header ------ */
 
-header {
-  position: fixed;
+header {;
   background-color: #11a36a;
   height: 80px;
   width: 100%;
@@ -29,14 +29,25 @@ header {
 nav ul {
   list-style: none;
   float: right;
-  margin: 20px;
+  margin-right: 50px;
 }
 
 nav ul li {
   float: left;
+  padding: 10px;
 }
 
 nav ul li a:link {
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+nav ul li a:visited {
   display: block;
   margin-right: 25px;
   padding: 10px;
@@ -50,4 +61,11 @@ nav ul li a:link {
 nav ul li a:hover {
   background-color: white;
   color: #11a36a;
+}
+
+/* ------ Container ------ */
+
+#container {
+  position: ;
+  margin-top: 100px;
 }
