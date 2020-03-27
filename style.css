@@ -1,45 +1,73 @@
 body {
   background-color: rgb(20 , 107 , 58);
-  margin: 3px;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: rgb(234 , 70 , 48);
+  color: rgb(255 , 255 , 255);
   text-align: left;
+  font-weight: bolder;
 }
 
 header {
-  position: fixed;
+  position: relative;
+  z-index: 3;
+  margin-top: 0px;
   background-color: rgb(22 , 91 , 51);
   width: 100%;
-  margin: 0;
+  height: 20vh;
 }
 
-header #cabecalho {
-  font: italic small-caps 600 16px/3 cursive;
+nav {
+    position: fixed;
+    z-index: 2;
+    line-height: 2em;
+    width: 100%;
+    display: block;
+    align-content: center;
+    background-color: rgb(22 , 91 , 51);
+    text-align: center;
+    
 }
 
 footer {
   background-color: rgb(22 , 91 , 51);
   width: 100%;
-  padding-top: 20px;
+  height: 20vh;
   text-align: end;
-  margin-top: 900px;
+  align-self: flex-end;
 }
 
 #foto-aerea {
   width: 500px;
 }
 
-#container {
+.container {
   padding: 30px 20px;
-  align-items: center;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 20px;
+}
+aside{
+  position:-webkit-sticky;
+  position:sticky;
+  width: 200px;
+  top:90vh;
+  text-align: center;
+  
+}
+aside a{
+  color: rgb(255 , 255 , 255);
+  font-weight: bolder;
+}
+.container aside.lado-direito {
+ 
+  right: 0;
+  background-color: rgb(22 , 91 , 51);;
+  height: 20px;
 }
 
 article {
@@ -56,7 +84,23 @@ article {
 
 .lado-direito {
   float: right;
-  margin: 3px;
   padding: 3px;
-  border: rgb(248 , 178 , 41) solid 5px;
+  border: rgb(22 , 91 , 51); solid 1px;
+}
+table{
+  border-top: red solid 2px;
+  border-left: red solid 2px;
+  border-right: red solid 2px;
+}
+th, td{
+  border-bottom: red solid 2px;
+}
+td {
+  border-left: red solid 2px;;
+}
+.oculto{
+  color: rgb(20 , 107 , 58);
+}
+.oculto2{
+  color: rgb(22 , 91 , 51);
 }
