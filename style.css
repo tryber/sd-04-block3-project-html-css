@@ -6,7 +6,7 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(255 , 255 , 255);
+  color: white;
   text-align: left;
   font: italic small-caps 600 16px/3 cursive;
 }
@@ -63,7 +63,7 @@ aside {
 }
 
 aside a {
-  color: rgb(255 , 255 , 255);
+  color: white;
   font: italic small-caps 600 16px/3 cursive;
 }
 
@@ -99,7 +99,7 @@ th , td {
 }
 
 td {
-  border-left: black solid 2px;;
+  border-left: black solid 2px;
 }
 
 .oculto {
@@ -114,7 +114,7 @@ td {
   color: rgb(22 , 91 , 51);
   background-color: white;
   font-size: larger;
-  font-weight: bolder;
+  font: italic small-caps 600 16px/3 cursive;
   padding: 6px;
   width: 300px;
 }
