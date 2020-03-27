@@ -7,18 +7,15 @@ body {
 
 /* ------ Header ------ */
 
-#header {
+#cabecalho {
   background-color: #11a36a;
   height: 80px;
   width: 100%;
 }
 
 #name-logo h1 {
-  margin: 10px;
-}
-
-.lado-esquerdo {
   float: left;
+  margin: 10px;
 }
 
 #name-logo a {
@@ -31,11 +28,8 @@ body {
 
 nav ul {
   list-style: none;
-  margin: 10px 50px;
-}
-
-.lado-direito {
   float: right;
+  margin: 10px 50px;
 }
 
 nav ul li {
@@ -119,6 +113,6 @@ p {
 
 footer {
   margin-right: 95px;
-  margin: 10px 175px;
+  margin: 10px 20px;
   width: 1040px;
 }
