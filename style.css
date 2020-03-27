@@ -29,17 +29,17 @@ header {
 nav ul {
   list-style: none;
   float: right;
-  margin-right: 50px;
+  margin: 10px 50px;
 }
 
 nav ul li {
   float: left;
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 nav ul li a:link {
   display: block;
-  padding: 10px;
+  padding: 10px 15px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -109,4 +109,10 @@ article ol li a:hover {
 
 p {
   font-size: 18px;
+}
+
+footer {
+  margin-right: 95px;
+  margin: 10px 175px;
+  width: 1040px;
 }
