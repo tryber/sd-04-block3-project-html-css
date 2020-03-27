@@ -1,22 +1,42 @@
-body {
-    background-color: rgb(154, 156, 158);
+html {
+    margin: 0;
+    padding: 0;
 }
-
+body {
+    background-color: rgb(173, 187, 201);
+    font-family: Verdana, monospace;
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 10px;
+}
 #cabecalho {
-    background-color: rgb(29, 64, 102);
-    width: 100%;
+    position: fixed;
     top: 0;
-    position: relative;
-    overflow: hidden;
-    color: white;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(68, 91, 114);			
+    color: rgb(29, 64, 102);
+    font-weight: bold;
     text-align: center;
 }
-
 #intro {
     color: black;
     text-align: justify;
+    width: 90%;
+    margin: 10px;
+    line-height: 20px;
 }
-
+#lista-perdas {
+    color: black;
+    text-align: justify;
+    margin: 10px;
+}
+#lista-caracteristicas {
+    color: black;
+    text-align: justify;
+    margin: 10px;
+}
 #rodape {
     background-color: rgb(29, 64, 102);
     width: 100%;
@@ -24,4 +44,5 @@ body {
     bottom: 0;
     text-align: center;
     overflow: hidden;
+    clear: both;
 }
