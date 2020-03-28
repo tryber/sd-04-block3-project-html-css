@@ -2,15 +2,30 @@
                 background-color: rgb(144, 144, 148);
             }
             #cabecalho{
+                border-color: black;
+                padding-top: 2px;
+                margin-right: auto;
                 font-weight: bold;
+                position: fixed;                               
+            } 
+            #cabecalho h1{
+                float: left;
+            }     
+            .lista{
+                display: inline;
             }
-            #barra{
-                position: fixed;
-                top: 0;
-            }
-            #barra ol li{
-                display: inline-block;
+            #introducao{
+                clear: both;
             }
             #rodape{
                 font-weight: bold;
-            }          
+            }
+            .lado-esquerdo{
+                float: left;
+            }         
+            .lado-direito{
+                float: right;
+            }
+            #personagens{
+                clear: both;
+            }
