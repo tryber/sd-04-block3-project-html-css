@@ -1,0 +1,31 @@
+            body {
+                background-color: rgb(144, 144, 148);
+            }
+            #cabecalho {
+                border-color: black;
+                padding-top: 2px;
+                margin-right: auto;
+                font-weight: 100;
+                position: fixed;
+            }
+            #cabecalho h1 {
+                float: left;
+            }
+            .lista {
+                display: inline;
+            }
+            #introducao {
+                clear: both;
+            }
+            #rodape {
+                font-weight: 100;
+            }
+            .lado-esquerdo {
+                float: left;
+            }
+            .lado-direito {
+                float: right;
+            }
+            #personagens {
+                clear: both;
+            }
