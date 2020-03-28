@@ -1,31 +1,31 @@
-            body{
+            body {
                 background-color: rgb(144, 144, 148);
             }
-            #cabecalho{
+            #cabecalho {
                 border-color: black;
                 padding-top: 2px;
                 margin-right: auto;
-                font-weight: bold;
-                position: fixed;                               
-            } 
-            #cabecalho h1{
+                font-weight: 100;
+                position: fixed;
+            }
+            #cabecalho h1 {
                 float: left;
-            }     
-            .lista{
+            }
+            .lista {
                 display: inline;
             }
-            #introducao{
+            #introducao {
                 clear: both;
             }
-            #rodape{
-                font-weight: bold;
+            #rodape {
+                font-weight: 100;
             }
-            .lado-esquerdo{
+            .lado-esquerdo {
                 float: left;
-            }         
-            .lado-direito{
+            }
+            .lado-direito {
                 float: right;
             }
-            #personagens{
+            #personagens {
                 clear: both;
             }
