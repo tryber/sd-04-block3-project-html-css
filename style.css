@@ -1,15 +1,36 @@
 body{
     background-color: rgb(146, 12, 63);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
+
 img{
-    width: 150px;
-     
+    width: 150px;     
     position: absolute;
     margin-top:15px;
-    margin-left: 10px;
-    
+    margin-left: 10px;    
 }
+
+#menu-opcoes{
+    position: fixed;
+    text-align: right;
+    left: 900px;
+    top: 10px;    
+}
+
+#menu-opcoes li{
+    display: inline;
+    padding: 5px;
+    font-size: 25px;
+    color: #ffffff;  
+    font-style:initial;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
 
 #cabecalho{
      background-color: rgb(3, 233, 22);
@@ -17,9 +38,7 @@ img{
      top: 0;
      width: 100%;
      height: 60px;
-     margin: 0 0 0 -9px;
-    
-     
+     margin: 0 0 0 -9px;     
 }
 
 #cabecalho p{
@@ -31,4 +50,26 @@ img{
 #artigo div{
     margin-top: 100px;
     font-size: 50px;
+}
+
+footer{
+    background-color: rgb(3, 233, 22);
+    position: relative;;
+    width:1240px;
+    margin: 0 0 0 -9px;
+    margin-top: auto;
+    
+}
+
+
+#nav-rodape{    
+   float: right;
+   margin-right: 20px;  
+    
+}
+
+#nav-rodape li{
+    display: inline;
+    text-align: center;  
+        
 }
