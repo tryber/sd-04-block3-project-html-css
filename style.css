@@ -9,7 +9,8 @@ body{
     position: fixed;
     width: 100%;
     height: 100px;
-    background-color: rgb(255, 166, 0);
+    background-image: url(./rolha.jpg);
+    background-size: cover;
 }
 main{
     padding-top: 100px;
