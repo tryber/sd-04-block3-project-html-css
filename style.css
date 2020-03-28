@@ -13,10 +13,14 @@ img{
     margin-left: 10px;    
 }
 
+href{
+    text-decoration: none;
+}
+
 #menu-opcoes{
     position: fixed;
     text-align: right;
-    left: 900px;
+    left: 850px;
     top: 10px;    
 }
 
@@ -28,6 +32,7 @@ img{
     font-style:initial;
     font-weight: bold;
     font-family: monospace;
+    text-decoration: none;
 }
 
 
