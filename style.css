@@ -4,10 +4,7 @@ html {
 }
 body {
     background-color: rgb(173, 187, 201);
-    font-family: Verdana, monospace;
     margin: 0;
-    height: 100%;
-    width: 100%;
 }
 #cabecalho {
     position: fixed;
@@ -16,34 +13,57 @@ body {
     width: 100%;
     height: 80px;
     background-color: rgb(68, 91, 114);			
-    color: rgb(29, 64, 102);
+    color: white;
     font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
 }
-#intro {
+.conteudo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     color: black;
     text-align: justify;
-    width: 90%;
+    width: auto;
     margin: 10px;
-    line-height: 20px;
-    padding-top: 100px;
+    line-height: 30px;
+    padding-top: 50px;
     padding-left: 10px;
 }
-#lista-perdas {
+h2, h3, h4 {
+    font-weight: bold;
+    color: rgb(10, 60, 112);
+}
+.lista-caracteristicas {
     color: black;
     text-align: justify;
-    margin: 10px;
 }
-#lista-caracteristicas {
+.lista-requisitos {
     color: black;
     text-align: justify;
-    margin: 10px;
 }
-#GIF {
-    float: right;
+.tabela, th, td {
+    border-spacing: 1px;
+}
+th, td {
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+.ilustracao {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+.imagens {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
 }
 #rodape {
     background-color: rgb(29, 64, 102);
+    color: white;
     width: 100%;
     height: 30px;
     font-family: Arial, sans-serif;
