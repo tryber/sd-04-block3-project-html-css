@@ -160,6 +160,10 @@ section {
   justify-content: center;
 }
 
+section img {
+  margin: 0 auto;
+}
+
 /* Hero banner all pages */
 .hero-banner {
   display: flex;
@@ -209,7 +213,7 @@ section {
 
 figcaption {
   font-size: 0.9rem;
-  margin: 10px;
+  margin: 10px auto;
 }
 
 /* Global styles */
