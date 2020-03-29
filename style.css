@@ -23,18 +23,20 @@ nav {
 
 nav ul {
     list-style: none;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 90px;
+    display: table-cell;
     text-decoration: none;
 }
 
 nav a {
     text-decoration: none;
-    padding: 25px 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 123.4px;
+    padding-right: 123.4px;
     background-color: rgb(168, 34, 34);
     text-transform: uppercase;
     color: white;
@@ -45,22 +47,24 @@ nav a:hover {
     background-color: white;
     color: rgb(168, 34, 34);
     border: 1px solid rgb(168, 34, 34);
+    opacity:0.9;
 }
 
 main {
     padding-top: 100px;
     width: 1000px;
-    height: auto;
+    height: 1600px;
     margin: auto;
 }
 
 main h1 {
     padding-top: 120px;
     text-align: center;
-    font-weight: 900;
-    color: rgb(167, 3, 3);
-    font-size: 45px;
-    text-shadow: 2px 2px 4px black;
+    color: rgb(221, 2, 2);
+    font-size: 65px;
+    text-shadow: 4px 2px 5px rgb(85, 85, 85);
+    line-height: 60px;
+    font-family: 'Dancing Script', cursive;
 }
 
 main img {
@@ -89,6 +93,8 @@ main img {
     font-style: italic;
     font-size: 30px;
     color: crimson;
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
 }
 
 #terroir-history p {
