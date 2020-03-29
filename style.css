@@ -1,0 +1,266 @@
+/* Tags styles */
+button {
+  font-size: 1.1rem;
+  background-color: rgb(255 , 82 , 82);
+  border-style: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 30px auto;
+}
+
+button a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+ol , ul {
+  list-style-position: inside;
+}
+
+ol a , ul a , p a {
+  color: rgb(255 , 82 , 82);
+}
+
+ol li , ul li {
+  margin: 10px 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section img {
+  margin: 0 auto;
+}
+
+/* Navbar */
+#cabecalho {
+  display: flex;
+  position: fixed;
+  background-color: rgba(29 , 31 , 32 , 0.9);
+  height: 65px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+#cabecalho a {
+  text-decoration: none;
+  color: white;
+}
+
+#cabecalho .logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(255 , 82 , 82);
+}
+
+#cabecalho .nav-links {
+  display: flex;
+  list-style: none;
+}
+
+#cabecalho .nav-links .nav-item .nav-link-active {
+  color: rgb(255 , 82 , 82);
+}
+
+#cabecalho .nav-links .nav-item .nav-link {
+  padding: 23px;
+}
+
+#cabecalho .nav-links .nav-item .nav-link:hover {
+  color: rgb(255 , 82 , 82);
+  transition: 0.5s;
+}
+
+/* Footer */
+#rodape {
+  display: flex;
+  width: 100%;
+  height: 65px;
+  background-color: rgb(29 , 31 , 32);
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#rodape p {
+  text-decoration: none;
+  color: rgb(255 , 82 , 82);
+}
+
+/* Home page */
+
+/* Hero banner */
+.hero-banner-home {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  color: white;
+  background-color: rgba(0 , 0 , 0 , 0.5);
+}
+
+.hero-banner-home:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('./img/polygon-bg.jpg');
+  background-size: cover;
+  filter: brightness(40%);
+  z-index: -1;
+}
+
+.hero-banner-home h1 {
+  font-size: 5.5rem;
+}
+
+.hero-banner-home img {
+  max-width: 200px;
+}
+
+.hero-banner-home .lado-esquerdo {
+  width: 50%;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner-home .lado-direito {
+  display: flex;
+  width: 50%;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hero banner all pages */
+.hero-banner {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  color: white;
+  background-color: rgba(0 , 0 , 0 , 0.5);
+}
+
+.hero-banner:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('./img/polygon-bg.jpg');
+  background-size: cover;
+  filter: brightness(40%);
+  z-index: -1;
+}
+
+.hero-banner h1 {
+  font-size: 5.5rem;
+}
+
+.hero-banner img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content all pages */
+.article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+  padding: 100px;
+}
+
+.article-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.article-content h3 {
+  font-size: 1.5rem;
+  margin: 30px 0 10px;
+}
+
+.article-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  margin: 10px auto;
+}
+
+.under-construction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.under-construction img {
+  width: 500px;
+}
+
+.under-construction h1 {
+  font-size: 5.5rem;
+  margin-left: 30px;
+}
+
+pre {
+  background-color: rgb(29 , 31 , 32);
+  padding: 20px;
+  border: 1px solid rgb(43 , 45 , 46);
+  border-radius: 10px;
+}
+
+table {
+  column-width: auto;
+}
+
+table , th , td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th , td {
+  padding: 15px;
+}
+
+/* Global styles */
+body {
+  background-color: rgb(43 , 45 , 46);
+  font-size: 1.1rem;
+}
+
+/* Styles reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sen, sans-serif;
+}

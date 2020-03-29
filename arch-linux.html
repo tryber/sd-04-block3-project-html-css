@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel's Settings</title>
+  <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header id="cabecalho">
+    <a href="index.html" class="logo">Daniel's Settings</a>
+    <nav id="nav-bar">
+
+      <ul class="nav-links">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="./terminal.html" class="nav-link">Terminal</a>
+        </li>
+        <li class="nav-item">
+          <a href="./vscode.html" class="nav-link">Vscode</a>
+        </li>
+        <li class="nav-item">
+          <a href="./arch-linux.html" class="nav-link nav-link-active">Arch Linux</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero banner -->
+  <header class="hero-banner">
+    <div class="hero-container">
+      <img src="./img/archlinux.png" alt="Arch Linux icon" class="terminal">
+      <h1>Arch Linux</h1>
+    </div>
+  </header>
+
+  <!-- Arch Linux content -->
+  <article class="article-content">
+    <div class="under-construction">
+      <img src="./img/under-construction.png" alt="Under construction icon">
+      <h1>Page under construction</h1>
+    </div>
+
+    <h2>Favorite packages</h2>
+    <table>
+      <tr>
+        <td>Name</td>
+        <td>Description</td>
+        <td>Install</td>
+      </tr>
+      <tr>
+        <td>linux</td>
+        <td>Latest linux kernel</td>
+        <td>sudo pacman -S linux</td>
+      </tr>
+      <tr>
+        <td>ark</td>
+        <td>Archiving tool</td>
+        <td>sudo pacman -S ark</td>
+      </tr>
+      <tr>
+        <td>brave-bin</td>
+        <td>Web Browser</td>
+        <td>yay -S brave-bin</td>
+      </tr>
+      <tr>
+        <td>celluloid</td>
+        <td>Video player</td>
+        <td>sudo pacman -S celluloid</td>
+      </tr>
+    </table>
+  </article>
+
+  <footer id="rodape">
+    <p>Daniel's Settings</p>
+  </footer>
+</body>
+</html>

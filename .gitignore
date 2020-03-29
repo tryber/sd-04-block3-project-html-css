@@ -1,2 +1,6 @@
 .vscode
 node_modules/
+scss
+style.css.map
+yarn.lock
+package.json

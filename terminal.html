@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel's Settings</title>
+  <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header id="cabecalho">
+    <a href="index.html" class="logo">Daniel's Settings</a>
+    <nav id="nav-bar">
+
+      <ul class="nav-links">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="./terminal.html" class="nav-link nav-link-active">Terminal</a>
+        </li>
+        <li class="nav-item">
+          <a href="./vscode.html" class="nav-link">Vscode</a>
+        </li>
+        <li class="nav-item">
+          <a href="./arch-linux.html" class="nav-link">Arch Linux</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero banner -->
+  <header class="hero-banner">
+    <div class="hero-container">
+      <img src="./img/terminal.png" alt="Terminal icon" class="terminal">
+      <h1>Terminal</h1>
+    </div>
+  </header>
+
+  <!-- Terminal content -->
+  <article class="article-content">
+    <h2>Terminal application</h2>
+
+    <section>
+    <p>There are a lot of terminal applications around there, and I have two applications that I most like depending on the operating system.</p>
+    </section>
+
+    <section>
+    <h3>Linux</h3>
+    <p>When it comes to Linux, my favorite terminal is Konsole. If you already used KDE Plasma desktop envirnment, you probably are familiar with it because it is the default terminal on this DE.</p>
+
+    <p>Konsole has a good amount of settings and personalization, letting you define shortcuts, default shell, theme, font, transparency, and have integration with other KDE applications such as Dolphin file manager, which is perfect to make your terminal consistent with your system.</p>
+
+    <figure class="article-img">
+      <img src="./img/konsole.png" alt="Konsole terminal">
+      <figcaption><em>Konsole default look</em></figcaption>
+    </figure>
+
+    <p>The steps that I take to configure Konsole are the following:</p><br>
+
+    <ol>
+      <li>Install and enable <a href="https://github.com/tonsky/FiraCode">Fira Code</a> font</li>
+      <li>Install and enable <a href="https://draculatheme.com/konsole/">Dracula</a> theme</li>
+      <li>Set transparency to 10%</li>
+    </ol>
+
+    To set Konsole transparency open the terminal and go to: <strong>Settings > Edit Current Profile... > Appearence > Edit > enable "Blur background" > set "Background transparency to 10%</strong>
+
+    <button><a href="https://konsole.kde.org/" target="_blank">Official Website</a></button>
+
+    </section>
+
+    <section>
+    <h3>Windows</h3>
+    <p>When it comes to Windows, I don't like PowerShell or Command Prompt for development purposes, which makes Hyper my favorite terminal, it is open-source and is made with web technologies including JavaScript, and like Konsole, Hyper has a lot o possible cutomizations including theme, font, transparency and default shell. All the configuration is done using the own shell or through a .js settings file. In the official website there is a page just for themes, and they are pretty easy to install.</p>
+
+    <figure class="article-img">
+      <img src="./img/hyper.png" alt="Konsole terminal">
+      <figcaption><em>Hyper default look</em></figcaption>
+    </figure>
+
+    <button><a href="https://hyper.is/" target="_blank">Official Website</a></button>
+    </section>
+
+    <section>
+    <h3>Shell</h3>
+    <p>The default shell in most Unix systems is Bash, and it is a really good Shell, but my favorite one is Zsh which is the default Shell on macOS Catalina. The main reasons I use Zsh instead of Bash is command-line completion and the possibility to use themes. But another good reason for using Zsh, is a framework called Oh My Zsh.</p>
+
+    <button><a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH" target="_blank">Installation guide</a></button>
+    </section>
+
+    <section>
+    <h3>Oh My Zsh</h3>
+    <p>Oh My Zsh is a framework for Zsh which is open-source and community-driven and it helps you manage your Zsh configuration and comes with a lot of helpers functions, plugins and themes. My favorite part are the plugins.</p>
+
+    <button><a href="https://ohmyz.sh/" target="_blank">Official Website</a></button>
+    </section>
+    </section>
+
+    <section>
+    <h3>Plugins</h3>
+    <p>There are two ways to install plugins on Oh My Zsh, manually or using a plugin manager. I prefer to use a plugin manager called <a href="https://github.com/zdharma/zinit">Zinit</a>, which automatically downloads and install all plugins described on the .zshrc file.</p><br>
+    <p>The plugins that I use are:</p><br>
+    <ol>
+      <li><a href="https://github.com/zdharma/fast-syntax-highlighting">fast-syntax-highlighting</a> - For rich syntax highlighting</li>
+      <li><a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a> - Gives suggestions based on history and completions</li>
+      <li><a href="https://github.com/zsh-users/zsh-completions">zsh-completions</a> - Gives completions scripts not available on Zsh yet</li>
+    </ol>
+    </section>
+
+    <section>
+    <h3>Theme</h3>
+    <p>Like mentioned before, it is possible to install themes on Zsh, and the theme that I use is called Spaceship, which is a minimalistic theme that have really good features that you can see on the official GitHub page.</p><br>
+
+    <p>I have the following configurations on the .zshrc file:</p><br>
+
+    <pre>
+      <code>
+        SPACESHIP_PROMPT_ORDER=(
+          user          # Username section
+          dir           # Current directory section
+          host          # Hostname section
+          git           # Git section (git_branch + git_status)
+          hg            # Mercurial section (hg_branch  + hg_status)
+          exec_time     # Execution time
+          line_sep      # Line break
+          vi_mode       # Vi-mode indicator
+          jobs          # Background jobs indicator
+          exit_code     # Exit code section
+          char          # Prompt character
+        )
+
+        SPACESHIP_PROMPT_ADD_NEWLINE=false
+        SPACESHIP_CHAR_SYMBOL="❯"
+        SPACESHIP_CHAR_SUFFIX=" "
+      </code>
+    </pre>
+
+    <button><a href="https://github.com/denysdovhan/spaceship-prompt" target="_blank">Official Website</a></button>
+    </section>
+
+    <section>
+      <h3>Final result</h3>
+      <p>This is the final look of the Konsole terminal after all configurations:</p><br>
+      <img src="./img/daniel-terminal.png" alt="Final result of Konsole terminal">
+    </section>
+  </article>
+
+  <!-- Footer -->
+  <footer id="rodape">
+    <p>Daniel's Settings</p>
+  </footer>
+</body>
+</html>
