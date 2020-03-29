@@ -3,7 +3,7 @@ body {
   background-color: aliceblue;
   margin: 50px;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 /* Header style */
@@ -21,7 +21,7 @@ body {
 
 /* Jump to section tag style */
 .sectiontag {
-  color: #141d19;
+  color: 141d19;
   padding: 5px 10px;
   text-decoration: none;
   font-size: 20px;
