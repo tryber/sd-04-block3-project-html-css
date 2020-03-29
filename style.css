@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(206,206,206);
+    background-color: rgb(206, 206, 206);
 }
 
 #cabecalho {
@@ -37,7 +37,7 @@ nav a {
     padding-bottom: 20px;
     padding-left: 123.4px;
     padding-right: 123.4px;
-    background-color: rgb(168,34,34);
+    background-color: rgb(168, 34, 34);
     text-transform: uppercase;
     color: white;
     font-weight: bold;
@@ -45,8 +45,8 @@ nav a {
 
 nav a:hover {
     background-color: white;
-    color: rgb(168,34,34);
-    border: 1px solid rgb(168,34,34);
+    color: rgb(168, 34, 34);
+    border: 1px solid rgb(168, 34, 34);
     opacity: 0.9;
 }
 
@@ -60,9 +60,9 @@ main {
 main h1 {
     padding-top: 120px;
     text-align: center;
-    color: rgb(221,2,2);
+    color: rgb(221, 2, 2);
     font-size: 65px;
-    text-shadow: 4px 2px 5px rgb(85,85,85);
+    text-shadow: 4px 2px 5px rgb(85, 85, 85);
     line-height: 60px;
     font-family: 'Dancing Script', cursive;
 }
@@ -147,7 +147,7 @@ main img {
     font-weight: bold;
     color: rgb(0,48,110);
     padding: 15px 20px;
-    background-color: rgb(206,206,206);
+    background-color: rgb(206, 206, 206);
     border: 2px solid red;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -157,7 +157,7 @@ main img {
 }
 
 #page-vin-bordeaux:hover {
-    background-color: rgb(197,0,0);
+    background-color: rgb(197, 0, 0);
     color: white;
     font-weight: bold;
     transition: 0.5s;
@@ -172,6 +172,6 @@ main img {
 #rodape {
     width: 100%;
     height: 200px;
-    background-color: rgb(167,3,3);
+    background-color: rgb(167, 3, 3);
     clear: both;
 }
