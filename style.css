@@ -22,7 +22,7 @@ header {
     font-size: xx-large;
 }
 #cabecalho {
-    position: sticky;
+    position: fixed;
 }
 nav {
     background-color: #86af49;
@@ -69,7 +69,7 @@ footer {
     grid-column: 1/5;
     padding: 20px;
 }
-#linksuteis {
+#rodape {
     text-align: center;
     text-decoration: none;
     display: inline-block;
