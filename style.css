@@ -3,7 +3,7 @@ body {
   background-color: aliceblue;
   margin: 50px;
   text-align: center;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* Header style */
@@ -46,6 +46,7 @@ article {
   display: inline-block;
   margin: 20px;
 }
+
 .whitebox1 {
   border: 2px solid white;
   background-color: white;
@@ -61,6 +62,7 @@ article {
   display: inline-block;
   margin: 20px;
 }
+
 .whitebox2 {
   background-color: white;
   padding: 20px;
@@ -76,6 +78,7 @@ article {
   display: inline-block;
   margin: 20px;
 }
+
 .whitebox3 {
   background-color: white;
   padding: 20px;
@@ -84,6 +87,7 @@ article {
   text-align: justify;
   margin-right: 50px;
 }
+
 .whitebox4 {
   background-color: white;
   padding: 20px;
