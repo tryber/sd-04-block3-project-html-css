@@ -102,7 +102,31 @@
 
     <section>
     <h3>Theme</h3>
-    <p>Like mentioned before, it is possible to install themes on Zsh, and the theme that I use is called Spaceship, which is a minimalistic theme that have really good features that you can see on the official GitHub page.</p>
+    <p>Like mentioned before, it is possible to install themes on Zsh, and the theme that I use is called Spaceship, which is a minimalistic theme that have really good features that you can see on the official GitHub page.</p><br>
+
+    <p>I have the following configurations on the .zshrc file:</p><br>
+
+    <pre>
+      <code>
+        SPACESHIP_PROMPT_ORDER=(
+          user          # Username section
+          dir           # Current directory section
+          host          # Hostname section
+          git           # Git section (git_branch + git_status)
+          hg            # Mercurial section (hg_branch  + hg_status)
+          exec_time     # Execution time
+          line_sep      # Line break
+          vi_mode       # Vi-mode indicator
+          jobs          # Background jobs indicator
+          exit_code     # Exit code section
+          char          # Prompt character
+        )
+
+        SPACESHIP_PROMPT_ADD_NEWLINE=false
+        SPACESHIP_CHAR_SYMBOL="❯"
+        SPACESHIP_CHAR_SUFFIX=" "
+      </code>
+    </pre>
 
     <button><a href="https://github.com/denysdovhan/spaceship-prompt" target="_blank">Official Website</a></button>
     </section>
