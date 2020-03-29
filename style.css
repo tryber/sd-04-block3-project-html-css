@@ -40,7 +40,7 @@ nav a {
     background-color: rgb(168, 34, 34);
     text-transform: uppercase;
     color: white;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 nav a:hover {
@@ -90,7 +90,6 @@ main img {
     font-size: 30px;
     color: crimson;
     font-family: 'Dancing Script', cursive;
-    font-size: 45px;
 }
 
 #terroir-history p {
@@ -140,7 +139,7 @@ main img {
     margin: 32%;
     justify-content: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 800;
     color: rgb(0,48,110);
     padding: 15px 20px;
     background-color: rgb(206, 206, 206);
@@ -151,7 +150,7 @@ main img {
 #page-vin-bordeaux:hover {
     background-color: rgb(197, 0, 0);
     color: white;
-    font-weight: bold;
+    font-weight: 800;
     transition: 0.5s;
     border: 2px solid red;
     box-sizing: border-box;
