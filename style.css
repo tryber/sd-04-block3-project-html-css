@@ -1,0 +1,176 @@
+* {
+  margin: 5px;
+  padding: 5px;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(15 , 163 , 107);
+  color: white;
+  margin: -1px;
+  padding: -1px;
+  border: 1px solid white;
+}
+
+header {
+  border-bottom: 2px solid rgba(148 , 9 , 148 , 0.911);
+  margin: 1px;
+  padding: 1px;
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#cabecalho {
+  font-size: x-large;
+  background-color: white;
+  color: rgb(15 , 163 , 107);
+  position: fixed;
+  margin-top: -20px;
+  margin-left: -20px;
+  width: 100%;
+  padding: 1px;
+  border: 1px;
+}
+
+a {
+  border: 1px solid black;
+  margin: 7px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a {
+  font-size: small;
+  font-style: oblique;
+  background-color: rgba(148 , 9 , 148 , 0.911);
+  color: white;
+  text-decoration: none;
+  margin: 1px;
+  padding: 1px;
+  border: 1px solid white;
+}
+
+#logo-trybe {
+  height: 40px;
+  float: right;
+  margin-top: -50px;
+  margin-right: 150px;
+}
+
+nav {
+  height: 30px;
+  width: 70%;
+  border: 1px solid rgb(15 , 163 , 107);
+  margin-right: 300px;
+  padding-top: 15px;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 15px;
+}
+
+article {
+  padding: 1px;
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 5px solid white;
+  margin-top: 70px;
+  background-color: rgb(15 , 163 , 107);
+  width: 60%;
+}
+
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  padding: 40px;
+  margin: 1px;
+  font-size: 30px;
+  color: rgb(15 , 163 , 107);
+  text-decoration: underline;
+}
+
+aside {
+  font-size: medium;
+  width: 26%;
+  padding-top: 80px;
+  border: 1px solid rgba(148 , 9 , 148 , 0.911);
+  background-color: white;
+  color: rgb(15 , 163 , 107);
+  margin: 1px;
+}
+
+section {
+  background-color: white;
+  color: rgb(15 , 163 , 107);
+  margin-top: 5px;
+  height: 30%;
+  padding: 40px;
+  border: 1px solid rgba(148 , 9 , 148 , 0.911);
+}
+
+ol {
+  margin: 1px;
+  padding: 1px;
+  border: 1px solid white;
+}
+
+ul {
+  margin: 1px;
+  padding: 1px;
+  border: 1px solid white;
+}
+
+li {
+  border: 2px solid rgba(148 , 9 , 148 , 0.911);
+  margin: 1px;
+  padding: 1px;
+}
+
+#rodape {
+  padding: 40px;
+  background-color: rgb(51 , 51 , 51);
+  color: white;
+  clear: both;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  font-style: italic;
+  text-decoration: none;
+  margin: 1px;
+  padding-left: 1px;
+  border: 1px solid rgba(148 , 9 , 148 , 0.911);
+  color: white;
+  font-size: 60px;
+}
+
+p {
+  margin: 1px;
+  padding: 1px;
+  border: 1px solid white;
+}
