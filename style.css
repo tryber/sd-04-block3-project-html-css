@@ -1,0 +1,142 @@
+/* Body style */
+body {
+  background-color: aliceblue;
+  margin: 50px;
+  text-align: center;
+  font-family: Quicksand, sans-serif;
+}
+
+/* Header style */
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  z-index: 1;
+}
+
+/* Jump to section tag style */
+.sectiontag {
+  color: rgb(20 , 29 , 25);
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 2;
+}
+
+/* Cover box */
+.coverbox {
+  margin-bottom: 20px;
+}
+
+/* Article style */
+article {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* Section 1 stryle */
+#section1 {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.whitebox1 {
+  border: 2px solid white;
+  background-color: white;
+  padding: 20px;
+  width: 615px;
+  height: 180px;
+  text-align: justify;
+}
+
+/* Section 2 stryle */
+#section2 {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.whitebox2 {
+  background-color: white;
+  padding: 20px;
+  width: 350px;
+  height: 290px;
+  text-align: justify;
+  margin-right: 40px;
+}
+
+/* Section 3 stryle */
+#section3 {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.whitebox3 {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  height: 280px;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+.whitebox4 {
+  background-color: white;
+  padding: 20px;
+  width: 280px;
+  height: 280px;
+  text-align: justify;
+}
+
+/* To put things at the left side */
+.lado-esquerdo {
+  float: left;
+}
+
+/* To put things at the right side */
+.lado-direito {
+  float: right;
+}
+
+/* Table style */
+
+/* Table header */
+th {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 3px;
+}
+
+/* Table data */
+td {
+  text-align: center;
+  padding: 3px;
+}
+
+/* Footer style */
+#rodape {
+  color: black;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* GitHub contact style */
+#github {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Dog foot style */
+#footpic {
+  border-radius: 50%;
+}
