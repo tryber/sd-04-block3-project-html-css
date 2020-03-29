@@ -1,15 +1,15 @@
 <!--O corpo da página deve possuir uma cor (diferente da cor branca) como cor de fundo	heavy_check_mark
-A página deve possuir uma barra superior fixa com o ID "cabecalho"	heavy_multiplication_x
+A página deve possuir uma barra superior fixa com o ID "cabecalho"	heavy_check_mark
 A página deve possuir um rodapé com o ID "rodape"	heavy_check_mark
 A página deve possuir pelo menos uma imagem criada com a tag "img"	heavy_check_mark
 A página deve possuir duas listas, uma ordenada e a outra não	heavy_check_mark
 A página deve possuir pelo menos um link externo (não se esqueça de configurar a abertura desse link em uma nova aba)	heavy_check_mark
 Torne o seu site mais acessível e melhore seu ranqueamento em mecanismos de busca na Web aplicando os elementos HTML de acordo com o sentido e propósito de cada um deles	heavy_multiplication_x
-Seu site deve passar sem problemas na verificação de semântica do site achecker	heavy_multiplication_x
+Seu site deve passar sem problemas na verificação de semântica do site achecker	heavy_check_mark
 Adicione uma tabela à página	heavy_check_mark
 Altere margin, padding e border dos elementos para ver, na prática, como esses atributos influenciam e melhoram a visualização dos componentes	heavy_multiplication_x
 Altere atributos relacionados as fontes, como por exemplo, tamanho, cor, alinhamento, decoração (itálico, negrito, sublinhado etc)	heavy_check_mark
-Organize componentes para ficarem dispostos lado a lado na página com as classes "lado-esquerdo" e "lado-direito" respectivamente-->
+Organize componentes para ficarem dispostos lado a lado na página com as classes "lado-esquerdo" e "lado-direito" respectivamente	heavy_multiplication_x-->
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -22,9 +22,21 @@ Organize componentes para ficarem dispostos lado a lado na página com as classe
 </head>
 <body class="bodycolor">
     <header id="cabecalho">Negosvaldo 2020/1</header>
-    <section>
-        <img src="intornacao.jpg" alt="Escudo do INTORNAÇÃO, time de futsal mais antigo do curso de Sistemas de Informação da UFMG"
+    <main>
+        <h1>Campeonato de Futsal do DCC</h1>
+        <p>Classificação do INTORNAÇÃO no campeonato de Futsal do DCC-UFMG 2020</p>
+    </main>
+    <article>
+        O <strong>INTORNAÇÃO</strong> é o time mais antigo de Sistemas de Informação no campeonato de futsal do DCC (e o 3º mais antigo de todos).<br>
+        Atualmente disputa a Copa Negosvalado, da qual já foi <em>campeão</em> uma única vez.<br>
+        Também possui um título da Copa Os Pereba, superando o poderoso Meia Boca Jrs na final.<br>
+        A equipe passa por uma reformulação nesta temporada, visando mais um título para sua galeria 
+        e o esperado <em>acesso</em> à Laudelino que vem escapando nas últimas temporadas.<br><br>
+    </article>
+        <figure>
+            <img src="intornacao.jpg" alt="Escudo do INTORNAÇÃO, time de futsal mais antigo do curso de Sistemas de Informação da UFMG"
             width=300px>
+        </figure>
         <table>
             <tr>
                 <th>Equipe</th>
@@ -69,24 +81,28 @@ Organize componentes para ficarem dispostos lado a lado na página com as classe
                 <td>-1</td>
             </tr>
         </table>
-        <ol>Artilharia
-            <li>Pedro Carolino (8);</li>
-            <li>Arthur Henrique (5);</li>
-            <li>Humberto Lopes (5);</li>
-            <li>Jessica Sena (4);</li>
-            <li>Otávio Lima (4);</li>
-        </ol>
-        <aside>
-            <br>Sequência
-            <ul>
-                <li>intNazionale: V</li>
-                <li>Intornação: V</li>
-                <li>Fibonapoli: V</li>
-                <li>Inimigos: V</li>
-            </ul>
-        </aside>
-        Mais informações em <a target="_blank" href="http://ative.se/campeonato/?c=115">Ative.se</a>
-    </section>
+            <section id="lado-esquerdo">
+                <ol>Artilharia
+                    <li>Pedro Carolino (8);</li>
+                    <li>Arthur Henrique (5);</li>
+                    <li>Humberto Lopes (5);</li>
+                    <li>Jessica Sena (4);</li>
+                    <li>Otávio Lima (4);</li>
+                </ol>
+            </section>
+            <section id="lado-direito">
+                <br>Sequência
+                <ul>
+                    <li>intNazionale: V</li>
+                    <li>Intornação: V</li>
+                    <li>Fibonapoli: V</li>
+                    <li>Inimigos: V</li>
+                </ul>
+            </section>        
+            <aside>    
+                Mais informações em <a target="_blank" href="http://ative.se/campeonato/?c=115">Ative.se</a>.<br>
+                Conteúdo acessado em <time datetime="2020-03-29 10:55">29/03/2020</time>
+            </aside>
     <footer id="rodape">Copyright© 2016 | Ative.se</footer>
 </body>
 </html>
