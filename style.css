@@ -2,7 +2,7 @@
 #cabecalho {
   display: flex;
   position: fixed;
-  background-color: rgb(29 , 31 , 32);
+  background-color: rgba(29 , 31 , 32 , 0.9);
   height: 65px;
   width: 100%;
   justify-content: space-between;
@@ -40,14 +40,12 @@
   transition: 0.5s;
 }
 
-
 /* Footer */
 #rodape {
   display: flex;
   width: 100%;
   height: 65px;
   background-color: rgb(29 , 31 , 32);
-  position: absolute;
   bottom: 0;
   justify-content: center;
   align-items: center;
@@ -57,6 +55,72 @@
   text-decoration: none;
   color: rgb(255 , 82 , 82);
 }
+
+/* Home page */
+
+/* Hero banner */
+.hero-banner-home {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  color: white;
+  background-color: rgba(0 , 0 , 0 , 0.5);
+}
+
+.hero-banner-home:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('./img/polygon-bg.jpg');
+  background-size: cover;
+  filter: brightness(40%);
+  z-index: -1;
+}
+
+.hero-banner-home h1 {
+  font-size: 5.5rem;
+}
+
+.hero-banner-home img {
+  max-width: 200px;
+}
+
+.hero-banner-home .lado-esquerdo {
+  width: 50%;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner-home .lado-direito {
+  display: flex;
+  width: 50%;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content */
+.article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+  padding: 100px;
+}
+
+.article-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Terminal page */
 
 /* Hero banner */
 .hero-banner {
@@ -70,12 +134,12 @@
   background-color: rgba(0 , 0 , 0 , 0.5);
 }
 
-.hero-banner::before {
+.hero-banner:before {
   content: '';
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(./img/polygon-bg.jpg);
+  background: url('./img/polygon-bg.jpg');
   background-size: cover;
   filter: brightness(40%);
   z-index: -1;
@@ -87,17 +151,14 @@
 
 .hero-banner img {
   max-width: 200px;
+  margin-bottom: 20px;
 }
 
-.hero-banner .lado-esquerdo {
-  width: 50%;
-  padding: 50px;
-}
-
-.hero-banner .lado-direito {
+.terminal-hero-container {
   display: flex;
-  width: 50%;
-  padding: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Global styles */
