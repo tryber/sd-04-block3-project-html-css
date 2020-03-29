@@ -1,3 +1,32 @@
+/* Tags styles */
+button {
+  font-size: 1.1rem;
+  background-color: rgb(255 , 82 , 82);
+  border-style: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 30px auto;
+}
+
+button a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+ol , ul {
+  list-style-position: inside;
+}
+
+ol a , ul a , p a {
+  color: rgb(255 , 82 , 82);
+}
+
+ol li , ul li {
+  margin: 10px 0;
+}
+
 /* Navbar */
 #cabecalho {
   display: flex;
@@ -104,7 +133,7 @@
   align-items: center;
 }
 
-/* Content */
+/* Content all pages */
 .article-content {
   display: flex;
   flex-direction: column;
@@ -120,9 +149,18 @@
   margin-bottom: 20px;
 }
 
-/* Terminal page */
+.article-content h3 {
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+}
 
-/* Hero banner */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Hero banner all pages */
 .hero-banner {
   display: flex;
   width: 100%;
@@ -154,11 +192,24 @@
   margin-bottom: 20px;
 }
 
-.terminal-hero-container {
+.hero-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* Terminal page */
+.article-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  margin: 10px;
 }
 
 /* Global styles */
