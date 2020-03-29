@@ -27,6 +27,16 @@ ol li , ul li {
   margin: 10px 0;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section img {
+  margin: 0 auto;
+}
+
 /* Navbar */
 #cabecalho {
   display: flex;
@@ -152,16 +162,6 @@ ol li , ul li {
 .article-content h3 {
   font-size: 1.5rem;
   margin: 20px 0 10px;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-section img {
-  margin: 0 auto;
 }
 
 /* Hero banner all pages */
