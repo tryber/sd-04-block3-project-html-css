@@ -1,0 +1,48 @@
+<style>
+/*.bodycolor{
+    background-color: lightgray;
+    position:absolute;
+}
+#cabecalho{
+    background-color:darkcyan;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    text-align: center;
+    font-size: 2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(100, 81, 81, 0.479);
+}
+#cabecalho {
+    background-color: rgba(114, 57, 247, 0.342);
+    position: fixed;
+    margin: 20px;
+    padding: 10px;
+    border: 10px;
+    font-family: Verdana;
+    font-size: 2em;
+    letter-spacing: 0.55em;
+    line-height: 3.2rem;
+    text-align: center;
+}
+#lado-esquerdo{
+    float: left;
+}
+#lado-direito{
+    float: right;
+}
+#rodape{
+    background: burlywood;
+    margin: 2px;
+    padding: 4px;
+}
+</style>
