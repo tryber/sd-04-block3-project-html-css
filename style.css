@@ -1,43 +1,50 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{
-    background-color: aqua;
+
+body {
+  background-color: aqua;
 }
-#cabecalho{
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    left: 40%;
+
+#cabecalho {
+  position: fixed;
+  top: 20px;
+  left: 50%;
 }
-#rodape{
-    text-align: center;
-    font-family: monospace;
+
+#rodape {
+  text-align: center;
+  font-family: monospace;
 }
-section{
-    clear: both;
-    margin-top: 100px;
-    margin-left: 40px;
-    margin-bottom: 200px;
-    display: inline-block;
-    width: 60%;
+
+section {
+  clear: both;
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-bottom: 200px;
+  display: inline-block;
+  width: 60%;
 }
-aside{
-    float: right;
-    clear: both;
-    position: relative;
-    top: 100px;
-    display: inline-block;
-    width: 30%;
-    margin-top: 50px;
+
+aside {
+  float: right;
+  clear: both;
+  position: relative;
+  top: 100px;
+  display: inline-block;
+  width: 30%;
+  margin-top: 50px;
 }
-.small-images{
-    height: 70px;
+
+.small-images {
+  height: 70px;
 }
-article{
-    margin: 20px 20px;
+
+article {
+  margin: 20px;
 }
-#death-rank{
-    margin-top: 20px;
+
+#death-rank {
+  margin-top: 20px;
 }
