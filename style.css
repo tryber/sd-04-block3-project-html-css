@@ -18,7 +18,7 @@ body {
   font-family: monospace;
 }
 
-section {
+.lado-esquerdo {
   clear: both;
   margin-top: 100px;
   margin-left: 40px;
@@ -27,7 +27,7 @@ section {
   width: 60%;
 }
 
-aside {
+.lado-direito {
   float: right;
   clear: both;
   position: relative;
@@ -47,4 +47,12 @@ article {
 
 #death-rank {
   margin-top: 20px;
+}
+
+#statistics {
+  border: 3px;
+  border-style: groove;
+  border-color: red;
+  border-width: 5px;
+  text-align: center;
 }
