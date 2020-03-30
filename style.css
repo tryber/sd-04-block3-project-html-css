@@ -1,72 +1,95 @@
 html {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+	padding: 0;
 }
 body {
-    background-color: rgb(173, 187, 201);
-    margin: 0;
+	background-color: rgb(173, 187, 201);
+	margin: 0;
 }
 #cabecalho {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background-color: rgb(68, 91, 114);			
-    color: white;
-    font-weight: bold;
-    font-family: Verdana, Tahoma, sans-serif;
-    text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: rgb(68, 91, 114);	
+	color: white;
+	font-weight: bold;
+	font-family: Verdana, Tahoma, sans-serif;
+	text-align: center;
+}
+.navegacao ul {
+	list-style-type: none;
+	background-color: rgb(68, 91, 114);
+	color: gray;
+	font-size: 20px;
+  margin: 0;
+	padding-top: 85px;
+	overflow: hidden;
+}
+.navegacao li {
+	display: inline;
+	padding: 10px;
+}
+.navegacao li a {
+  color: gray;
+  text-align: center;
 }
 .conteudo {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: black;
-    text-align: justify;
-    width: auto;
-    margin: 10px;
-    line-height: 30px;
-    padding-top: 50px;
-    padding-left: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+	width: auto;
+	margin: 10px;
+	line-height: 30px;
+	padding-top: 20px;
+	padding-left: 10px;
 }
 h2, h3, h4 {
-    font-weight: bold;
-    color: rgb(10, 60, 112);
+	font-weight: bold;
+	color: rgb(10, 60, 112);
 }
 .lista-caracteristicas {
-    color: black;
-    text-align: justify;
+	color: black;
+	text-align: justify;
 }
 .lista-requisitos {
-    color: black;
-    text-align: justify;
+	color: black;
+	text-align: justify;
 }
 .tabela, th, td {
-    border-spacing: 1px;
+	border-spacing: 1px;
 }
 th, td {
-    color: black;
-    border: 1px solid black;
-    text-align: center;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
 }
 .ilustracao {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding-top: 50px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	padding-top: 50px;
 }
-.imagens {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding-top: 50px;
+.lado-esquerdo {
+	display: flex;
+	float: left;
+	padding-top: 50px;
+}
+.lado-direito {
+	display: flex;
+	float: right;
+	padding-top: 50px;
 }
 #rodape {
-    background-color: rgb(29, 64, 102);
-    color: white;
-    width: 100%;
-    height: 30px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    bottom: 0;
+	background-color: rgb(29, 64, 102);
+	color: white;
+	width: 100%;
+	height: 30px;
+	font-family: Arial, sans-serif;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
