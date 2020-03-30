@@ -40,7 +40,7 @@ h1 {
   text-align: right;
 }
 
-#space-cat,
+#space-cat , 
 ul li a {
   color: rgb(128 , 114 , 82);
 }
@@ -67,14 +67,14 @@ h2 {
   font-size: 32px;
 }
 
-table,
-th,
+table , 
+th , 
 td {
   border: 0.5px solid rgb(128 , 114 , 82);
   border-collapse: collapse;
 }
 
-th,
+th , 
 td {
   padding: 8px;
 }
@@ -94,15 +94,15 @@ p {
   border: 15px ridge rgb(128 , 102 , 43);
 }
 
-ul,
+ul , 
 ol {
   list-style-position: inside;
   margin-left: 16px;
   margin-bottom: 16px;
 }
 
-ul li a:hover,
-.menu a:hover,
+ul li a:hover , 
+.menu a:hover , 
 #space-cat:hover {
   color: rgb(204 , 164 , 69);
 }
