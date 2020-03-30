@@ -1,0 +1,258 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(68 , 68 , 68 , 1);
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  height: 60px;
+  padding-left: 30px;
+  background-color: rgba(27 , 27 , 27 , 1);
+}
+
+.menu-item {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.menu-item a:hover {
+  color: rgba(0 , 28 , 169 , 1);
+}
+
+#content-header {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+}
+
+#header-img {
+  width: 100%;
+  height: 550px;
+  background-image: url('./img/ICON-A5-header.jpg');
+  background-position: bottom;
+  background-size: cover;
+  filter: saturate(160%);
+}
+
+#page-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 30px;
+  z-index: 999;
+}
+
+#page-title span {
+  font-weight: 100;
+  background-color: rgba(41 , 41 , 41 , 0.8);
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+#main-content {
+  position: relative;
+  padding: 30px;
+  margin-top: 650px;
+  background-color: rgba(68 , 68 , 68 , 1);
+}
+
+footer {
+  min-height: 20px;
+  padding: 15px 15px 15px 30px;
+  margin-top: 100px;
+  color: rgba(23 , 23 , 23 , 1);
+  background-color: rgba(218 , 218 , 218 , 1);
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.3em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+}
+
+.text-observation {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 60px;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lado-direito {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.spotlight {
+  position: relative;
+  min-height: 350px;
+  margin-bottom: 50px;
+}
+
+.spotlight-text {
+  max-width: 50%;
+}
+
+.spotlight img {
+  margin-right: 20px;
+  width: 45%;
+  max-width: 700px;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.44);
+  filter: saturate(170%);
+}
+
+table {
+  border: none;
+  padding: 15px;
+  margin: 5px;
+  border-collapse: separate;
+  border-spacing: 40px 15px;
+  text-align: left;
+  width: 100%;
+}
+
+th {
+  background-color: rgba(27 , 27 , 27 , 1);
+  border-radius: 10px;
+  padding: 10px 0 10px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  width: 25%;
+}
+
+td {
+  font-weight: 300;
+  padding-left: 30px;
+}
+
+#icon-exclusives {
+  height: 800px;
+}
+
+#icon-exclusives section {
+  max-width: 70%;
+}
+
+.acessories-item {
+  max-width: 50%;
+}
+
+.acessories-item p {
+  max-width: 500px;
+  font-size: 20px;
+}
+
+.acessories-item img {
+  width: 95%;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.44);
+  filter: saturate(170%);
+}
+
+#icon-training {
+  height: 450px;
+}
+
+#training-image {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.44);
+  filter: saturate(170%);
+  width: 65%;
+  height: 300px;
+  background-image: url('./img/training.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#training-text {
+  width: 33%;
+}
+
+#icon-training button {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 4px rgb(95 , 95 , 95);
+  outline: none;
+}
+
+#icon-blog p {
+  max-width: 50%;
+}
+
+#icon-blog iframe {
+  width: 760px;
+  height: 428px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.44);
+  filter: saturate(160%);
+}
+
+.blog-images-gallery {
+  max-width: 54%;
+}
+
+.blog-images-gallery img {
+  width: 460px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.44);
+  filter: saturate(140%);
+}
