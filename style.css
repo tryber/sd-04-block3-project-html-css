@@ -1,13 +1,13 @@
 * {
     padding: 0px;
     margin: 0;
-    background: #86af49
+
 }
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: fit-content;
-    overflow-y: visible;
+    background-color: #86af49;
 }
 .section {
     justify-items: center;
@@ -32,9 +32,7 @@ nav {
 }
 .button {
     text-align: center;
-    text-decoration: black;
     display: inline-block;
-
     padding: 10px 45px;
     font-size: 20px;
 }
@@ -49,7 +47,7 @@ article {
     margin: 10px;
     border-radius: 10%;
 }
-ol, ul, li {
+h2, ol, ul, li {
     padding: 10px;
     background-color: #b5e7a0;
 }
@@ -58,6 +56,14 @@ ol, ul, li {
 }
 .lado-direito {
     float: right;
+}
+.centro {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+}
+table{
+    text-align: center;
 }
 .list {
     padding: 10px;
@@ -70,8 +76,8 @@ aside {
     justify-content: center;
     border-radius: 10%;
     margin: 10px;
-    }
-#footer {
+}
+.footer {
     background-color: #86af49;
     grid-column: 1/5;
     padding: 20px;
