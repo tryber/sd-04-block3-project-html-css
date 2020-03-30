@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aqua;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+}
+
+#rodape {
+  text-align: center;
+  font-family: monospace;
+}
+
+.lado-esquerdo {
+  clear: both;
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-bottom: 200px;
+  display: inline-block;
+  width: 60%;
+}
+
+.lado-direito {
+  float: right;
+  clear: both;
+  position: relative;
+  top: 100px;
+  display: inline-block;
+  width: 30%;
+  margin-top: 50px;
+}
+
+.small-images {
+  height: 70px;
+}
+
+article {
+  margin: 20px;
+}
+
+#death-rank {
+  margin-top: 20px;
+}
+
+#statistics {
+  border: 3px;
+  border-style: groove;
+  border-color: red;
+  border-width: 5px;
+  text-align: center;
+}
