@@ -5,25 +5,15 @@
   padding: 0;
 }
 
-:root {
-  --ylw:  rgb(255 , 210 , 87);
-
-  --brwn:  rgb(128 , 102 , 43);
-
-  --lghtbrwn:  rgb(128 , 114 , 82);
-
-  --orange:  rgb(204 , 164 , 69);
-}
-
 body {
-  background-color: var(--ylw);
+  background-color: rgb(255 , 210 , 87);
   font-family: 'Baloo 2', cursive;
-  color: var(--lghtbrwn);
+  color: rgb(128 , 114 , 82);
 }
 
 #cabecalho {
   position: fixed;
-  background-color: var(--brwn);
+  background-color: rgb(128 , 102 , 43);
   width: 100%;
 }
 
@@ -39,7 +29,7 @@ body {
 
 h1 {
   font-size: 42px;
-  color: var(--ylw);
+  color: rgb(255 , 210 , 87);
   margin-left: 16px;
 }
 
@@ -50,14 +40,14 @@ h1 {
   text-align: right;
 }
 
-#space-cat, 
+#space-cat,
 ul li a {
-  color: var(--lghtbrwn);
+  color: rgb(128 , 114 , 82);
 }
 
 .menu a {
   text-decoration: none;
-  color: var(--ylw);
+  color: rgb(255 , 210 , 87);
   margin-right: 24px;
   font-size: 24px;
 }
@@ -70,21 +60,21 @@ ul li a {
 .img-1 {
   margin-top: 100px;
   width: 550px;
-  border: 15px ridge var(--lghtbrwn);
+  border: 15px ridge rgb(128 , 114 , 82);
 }
 
 h2 {
   font-size: 32px;
 }
 
-table, 
-th, 
+table,
+th,
 td {
-  border: 0.5px solid var(--lghtbrwn);
+  border: 0.5px solid rgb(128 , 114 , 82);
   border-collapse: collapse;
 }
 
-th, 
+th,
 td {
   padding: 8px;
 }
@@ -101,30 +91,30 @@ p {
 
 .img-2 {
   width: 350px;
-  border: 15px ridge var(--brwn);
+  border: 15px ridge rgb(128 , 102 , 43);
 }
 
-ul, 
+ul,
 ol {
   list-style-position: inside;
   margin-left: 16px;
   margin-bottom: 16px;
 }
 
-ul li a:hover, 
-.menu a:hover, 
+ul li a:hover,
+.menu a:hover,
 #space-cat:hover {
-  color: var(--orange);
+  color: rgb(204 , 164 , 69);
 }
 
 footer {
-  background-color: var(--lghtbrwn);
+  background-color: rgb(128 , 114 , 82);
   width: 100%;
 
 }
 
 footer p {
-  color: var(--ylw);
+  color: rgb(255 , 210 , 87);
   margin-left: 32px;
   margin-bottom: 0;
   padding: 8px;
