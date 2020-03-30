@@ -6,13 +6,13 @@
 }
 
 :root {
-  --ylw: #FFCD57;
+  --ylw: rgb(205, 255, 87);
 
-  --brwn: #80662b;
+  --brwn: rgb(128, 102, 43);
 
-  --lghtbrwn: #807252;
+  --lghtbrwn: rgb(128, 114, 82);
 
-  --orange: #cca445;
+  --orange: rgb(204, 164, 69);
 }
 
 body {
@@ -27,12 +27,12 @@ body {
   width: 100%;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   float: left;
   width: 50%;
 }
 
-#lado-direito {
+.lado-direito {
   float: right;
   width: 50%;
 }
@@ -55,12 +55,6 @@ h1 {
   color: var(--ylw);
   margin-right: 24px;
   font-size: 24px;
-}
-
-.menu a:hover,
-#space-cat:hover,
-ul li a:hover {
-  color: var(--orange);
 }
 
 .content {
@@ -115,6 +109,12 @@ ol {
   list-style-position: inside;
   margin-left: 16px;
   margin-bottom: 16px;
+}
+
+.menu a:hover,
+#space-cat:hover,
+ul li a:hover {
+  color: var(--orange);
 }
 
 footer {
