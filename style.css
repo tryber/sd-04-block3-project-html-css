@@ -46,10 +46,18 @@ article {
     justify-content: center;
     grid-template-rows: auto;
     padding: 20px;
+    margin: 10px;
     border-radius: 10%;
 }
 ol, ul, li {
     padding: 10px;
+    background-color: #b5e7a0;
+}
+.lado-esquerdo {
+    float: left;
+}
+.lado-direito {
+    float: right;
 }
 .list {
     padding: 10px;
@@ -61,7 +69,8 @@ aside {
     padding: 20px;
     justify-content: center;
     border-radius: 10%;
-}
+    margin: 10px;
+    }
 #footer {
     background-color: #86af49;
     grid-column: 1/5;
