@@ -38,7 +38,7 @@ nav {
     padding: 10px 45px;
     font-size: 20px;
 }
-main {
+article {
     background-color: #b5e7a0;
     grid-column: 1/4;
     justify-items: center;
