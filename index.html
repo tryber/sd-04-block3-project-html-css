@@ -1,65 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Random Awesome</title>
-  </head>
-  <body>
-    <header id="cabecalho">
-      <nav><h1>Random Nonsense</h1></nav>
-    </header>
-      <main>
-        <section>
-          <article>
-            <div class="lado-esquerdo">
-              <img
-                src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
-                alt="Pug com camisa listrada olhando para a câmera"
-              />
-              <figcaption>
-                <a
-                  href="https://www.petz.com.br/cachorro/racas/pug/"
-                  target="_blank"
-                  >TUDO QUE VOCÊ QUERIA SABER SOBRE PUGS!</a
-                >
-              </figcaption>
-            </div>
-          </article>
-          <aside>
-            <div class="lado-direito">
-              <table>
-                <tr>
-                  <td>
-                    <ol>
-                      <li>
-                        Teste
-                      </li>
-                      <li>
-                        Teste
-                      </li>
-                    </ol>
-                  </td>
-                  <td>
-                    <ul>
-                      <li>
-                        Teste
-                      </li>
-                      <li>
-                        Teste
-                      </li>
-                    </ul>
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </aside>
-        </section>
-      </main>
-    <footer id="rodape">Random Footer</footer>
-  </body>
-</html> -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -75,25 +13,44 @@
   <body>
     <header id="cabecalho">
       <i class="fas fa-paw fa-2x">
-        <span id="navtitle">&nbsp;HUSKEYVILLE</span>
+        <span class="navtitle">&nbsp;HUSKEYVILLE</span>
       </i>
       <nav>
         <ul class="navlinks">
-          <li><a href="#">Pics</a></li>
-          <li><a href="#">Facts</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#pics">Pics</a></li>
+          <li><a href="#facts">Facts</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="mailto:pedro@huskeyville.com">Contact</a></li>
         </ul>
       </nav>
       <!-- <a href="#" class="contact"><button>Contact</button></a> -->
     </header>
     <main>
-      <section id="mainimg">
+      <section class="mainimg">
         <div class="page-wrapper">
-          <h1>Hello, Husky Lovers!</h1>
+          <h1>Husky lovers of the world, unite!</h1>
+          <h3>A page dedicated to all things husky!</h3>
         </div>
       </section>
-      <section id="info"></section>
+      <section id="pics" class="container flex">
+        <div class="flex-item-1 item">
+          <img class="boximage" src="/imgs/doggo_01.jpg" alt="Huskey on window" />
+        </div>
+        <div class="flex-item-1 item">
+          <img class="boximage" src="/imgs/doggo_02.jpg" alt="Huskey with snow on nose" />
+        </div>
+        <div class="flex-item-1 item">
+          <img class="boximage" src="/imgs/doggo_03.jpg" alt="Husky puppies" />
+        </div>
+      </section>
+      <section class="secimg">
+        <div class="page-wrapper">
+          <h1>"Stay hungry. Stay foolish. Stay husky."</h1>
+          <h3> - Steve Jobs</h3>
+        </div>
+      </section>
+      <section id="id"></section>
     </main>
+    <footer id="rodape">Random Footer</footer>
   </body>
 </html>
