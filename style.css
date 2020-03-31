@@ -1,51 +1,73 @@
-body{
- background:#FCF3E4;
+body {
+  background: rgb(226, 229, 240);
 }
 
-#cabecalho{
- width: 1200px;
- height: 130px;
- background: #41607D;
- margin: 0 auto;
- position: fixed;
+#cabecalho {
+  width: 1200px;
+  height: 80px;
+  background: rgb(98, 100, 224);
+  margin: 0;
+  position: sticky;
+  position: fixed;
 }
 
-#cabecalho h1{
- text-align: center;
- color: rgb(216 , 216 , 191);
- padding-top: 40px;
- 
+#cabecalho h1 {
+  text-align: center;
+  padding-top: 8px;
+  color: rgb(226, 229, 240);
 }
 
-#lado-direito{
- background: #FAEBC7;
- float: left;
- height: 400px;
- margin-left: 64px;
- margin-top: 140px;
- width: 950px;
- text-align: left;
- padding: 4px;
+#topo {
+  background: #faebc7;
+  width: 1188px;
+  margin: 0 auto;
+  padding: 6px;
+  text-align: center;
+  margin-top: 14px;
 }
 
-
-#lado-esquerdo{
- background: #FAEBC7;
- float: right;
- margin-right: 63px;
- height: 400px;
- margin-top: 140px;
- text-align: left;
- padding: 4px;
+.lado-esquerdo {
+  background: rgb(216, 216, 191);
+  float: left;
+  height: 400px;
+  margin-left: 64px;
+  margin-top: 14px;
+  width: 950px;
+  text-align: left;
+  padding: 4px;
+}
+#table {
+  border-top: blue solid 2px;
+  border-left: blue solid 2px;
+  border-right: blue solid 2px;
+  background-color: white;
 }
 
-#rodape{
- background: #687E8A;
- float: left;
- color: rgb(216 , 216 , 191);
- margin-left: 64px;
- margin-top: 20px;
- margin-bottom: 20px;
- text-align: center;
- width: 1200px;
+th,
+td {
+  border-bottom: blue solid 2px;
+}
+
+td {
+  border-left: blue solid 2px;
+}
+
+.lado-direito {
+  background: rgb(216, 216, 191);
+  float: right;
+  margin-right: 63px;
+  height: 400px;
+  margin-top: 14px;
+  text-align: left;
+  padding: 4px;
+}
+
+#rodape {
+  background: rgb(75, 119, 214);
+  float: left;
+  margin-left: 64px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 1200px;
 }
