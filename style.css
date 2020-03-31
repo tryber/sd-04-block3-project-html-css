@@ -1,15 +1,14 @@
 * {
   padding: 0;
   margin: 0;
-  background: #b5e7a0;
-  z-index: 10;
+  background: rgb(181 , 231 , 160);
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: fit-content;
-  background-color: #86af49;
+  background-color: rgb(134 , 175 , 73);
 }
 
 .section {
@@ -19,7 +18,7 @@
 }
 
 header {
-  background: #86af49;
+  background: rgb(134 , 175 , 73);
   grid-column: 1/3;
   padding: 25px;
   font-family: Georgia, serif;
@@ -31,7 +30,7 @@ header {
 }
 
 nav {
-  background-color: #86af49;
+  background-color: rgb(134 , 175 , 73);
   grid-column: 3/5;
   padding: 50px;
   position: sticky;
@@ -57,7 +56,11 @@ article {
 
 h2 , ol , ul , li {
   padding: 10px;
-  background-color: #b5e7a0;
+  background-color: rgb(181 , 231 , 160);
+}
+
+th , tr , td {
+  padding: 10px;
 }
 
 .lado-esquerdo {
@@ -71,11 +74,6 @@ h2 , ol , ul , li {
 .centro {
   clear: both;
   padding: 20px;
-  text-align: center;
-}
-
-table {
-  text-align: center;
 }
 
 .list {
@@ -83,7 +81,7 @@ table {
 }
 
 aside {
-  background-color: #e3eaa7;
+  background-color: rgb(227 , 234 , 167);
   grid-column: 4/5;
   padding: 20px;
   justify-content: center;
@@ -92,7 +90,7 @@ aside {
 }
 
 .footer {
-  background-color: #86af49;
+  background-color: rgb(134 , 175 , 73);
   grid-column: 1/5;
   padding: 20px;
 }
