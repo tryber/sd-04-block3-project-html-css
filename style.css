@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(196 , 235 , 241);
+}
+
+nav {
+  padding-top: 100px;
+}
+
+table , td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#cabecalho {
+  background-color: rgb(137 , 199 , 231);
+  text-align: center;
+  position: fixed;
+  width: 99%;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 2px;
+  border: 2px;
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+}
+
+p strong {
+  color: rgb(15 , 163 , 107);
+}
+
+.lado-esquerdo {
+  float: left;
+  clear: right;
+  max-width: 80%;
+}
+
+.lado-direito {
+  float: right;
+  max-width: 19%;
+}
