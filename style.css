@@ -135,8 +135,8 @@ main img {
   position: relative;
   font-weight: 600;
 }
-#lateral-intens:after{
-  content:"";
+#lateral-intens :after{
+  content: "";
   background-image: url('grapes.jpg');
   opacity: 0.4;
   position: absolute;
@@ -166,7 +166,7 @@ main img {
   margin-top: 20px;
   padding: 15px 0 0 10px;
   text-decoration: none;
-  color:#000;
+  color: black;
 }
 
 #button-page-vin {
