@@ -59,6 +59,7 @@ href{
 section{
   position: absolute;
   margin-top: 30px;
+  float: left;
 }
 
 section div{
