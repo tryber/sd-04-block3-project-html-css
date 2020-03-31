@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(141, 85, 36);
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main {
+    margin-top: 30px;
+}
