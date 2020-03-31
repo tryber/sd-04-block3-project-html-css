@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: rgba(246, 244, 243, 1.0);
+    font-family: Helvetica, sans-serif;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#cabecalho {
+    overflow: auto;
+    padding-bottom: 50px;
+    background-color: rgba(24, 48, 89, 1.0);
+    position: fixed;
+    width: 100%;
+    color: rgba(246, 244, 243, 1.0);
+    padding: 20px;
+}
+
+#main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#rodape {
+    background-color: rgba(39,111,191,1.0);
+    color: rgba(246, 244, 243, 1.0);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;
+}
+
+.lado-direito {
+    float: right;
+    margin: 100px;
+}
+
+.lado-esquerdo {
+    float: left;
+    margin: 100px;
+}
+
+#section1 {
+    text-align: justify;
+    padding-left: 15px;
+}
+
+.item {
+    display: inline-block;
+}
+
+.picture-main {
+    border: 3px solid rgba(24, 48, 89, 1.0);
+}
+
+.intro {
+    width: 600px;
+    padding: 10px;
+    line-height: 1.2em;
+    font-size: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 280px;
+}
+
+.wiki {
+    background-color: rgba(39,111,191,1.0);
+    padding: 20px;
+    margin: 10px 10px;
+    line-height: 2em;
+    font-size: 14px;
+}
+
+.description {
+    text-align: left;
+}
+
+.bordered {
+    border-bottom: 1px double rgba(24, 48, 89, 1.0);
+}
+
+.title-wiki {
+    text-align: center;
+}
+
+#box {
+    border: 2px solid rgba(24, 48, 89, 1.0);
+    width: 500px;
+    margin: 70px;
+    padding: 20px;
+    line-height: 2em;
+}
+
+.article {
+    margin-left: 80px;
+    margin-right: 80px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.google {
+    clear: both;
+}
+
+.tesla {
+    clear: both;
+}
+
+#links {
+    margin: 70px;
+    line-height: 1.7em;
+}
+
+li {
+    margin-left: 40px;
+}
