@@ -1,4 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400i|Muli|Podkova:600&display=swap");
+
 body {
+  margin: 0;
+}
+
+li,
+a,
+button,
+i {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(135, 206, 250, 1);
+  text-decoration: none;
+}
+
+button {
+  padding: 9px 25px;
+  color: rgba(245, 245, 245, 1);
+  background-color: rgba(135, 206, 250, 1);
+  border-style: none;
+  border-radius: 50px;
+  transition: all .3s ease 0s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(135, 206, 250, .8);
+}
+
+i {
+  margin-right: auto;
+}
+
+.navlinks {
+  list-style: none;
+}
+
+.navlinks li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navlinks li a {
+  transition: all .3s ease 0s;
+}
+
+.navlinks li a:hover {
+  color: rgba(245, 245, 245, 1);
+}
+
+#cabecalho {
+  background-color: rgb(160, 173, 187, 1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px 30px;
+}
+
+#navtitle {
+  font-family: "Podkova", serif;
+  font-size: 38px;
+  color: rgba(135, 206, 250, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* body {
   background-color: rgba(236, 94, 100, 1.0);
   margin: 0;
   font-family: sans-serif;
@@ -40,3 +108,4 @@ td {
   width: 100%;
   clear: both;
 }
+ */
