@@ -1,18 +1,18 @@
 body {
-  background-color: rgb(196, 235, 241);
+  background-color: rgb(196 , 235 , 241);
 }
 
 nav {
   padding-top: 100px;
 }
 
-table, td {
+table , td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
 #cabecalho {
-  background-color: rgb(137, 199, 231);
+  background-color: rgb(137 , 199 , 231);
   text-align: center;
   position: fixed;
   width: 99%;
@@ -28,7 +28,7 @@ table, td {
 }
 
 p strong {
-  color:rgb(15, 163, 107)
+  color: rgb(15 , 163 , 107);
 }
 
 .lado-esquerdo {
@@ -39,5 +39,5 @@ p strong {
 
 .lado-direito {
   float: right;
-	max-width: 19%;
+  max-width: 19%;
 }
