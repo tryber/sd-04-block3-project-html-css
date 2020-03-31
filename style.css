@@ -3,9 +3,7 @@ body{
  display: flex;
  flex-direction: column; 
  width:100%;
- margin:auto;
- min-width:600px;
- max-width:2000px;
+ margin:auto; 
 }
 
 img{
@@ -42,7 +40,7 @@ href{
 }
 
 #menu-opcoes a:hover, .active{
-  background-color: chartreuse!important;   
+  background-color: chartreuse!important;    
 }
 
 #cabecalho{
@@ -51,7 +49,7 @@ href{
   top: 0;
   width: 100%;
   height: 60px;
-  margin: 0 0 0 -9px;     
+  margin: 0 0 0 0;     
 }
 
 #cabecalho p{
@@ -60,9 +58,16 @@ href{
   font-size: 0px;
 }
 
-#artigo div{
-  margin-top: 100px;
-  font-size: 50px;
+section{
+  position: absolute;
+  margin-top: 30px;
+}
+
+section div{
+  position: relative;
+  width: 1000px;
+  font-size: 25px;
+  margin-left: 10px;
 }
 
 #cargo, th, td{
@@ -70,12 +75,31 @@ href{
   padding: 3px;  
 }
 
+aside{
+  position: relative;
+  width: 100px;
+  height: 800px;
+
+}
+
+.nota{  
+  background-color: #fffbe4;
+  border: 1px solid #c9bc8f; 
+  padding: 10px; 
+  margin-top: 60px;
+  margin-left: 1120px;
+}
+
+aside h3{
+  margin-top: 0;
+}
+
 footer{
   background-color: rgb(3, 233, 22);
-  position: relative;
-  width:1240px;
-  margin: 0 0 0 -9px;
-  margin-top: auto;    
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  margin: 0 0 0 0px;   
 }
 
 #nav-rodape{    
