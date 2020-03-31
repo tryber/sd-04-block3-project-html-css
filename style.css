@@ -1,7 +1,5 @@
 body{
  background-color: rgb(146, 12, 63);
- display: flex;
- flex-direction: column; 
  width:100%;
  margin:auto; 
 }
@@ -75,19 +73,18 @@ section div{
   padding: 3px;  
 }
 
-aside{
+aside{ 
   position: relative;
   width: 100px;
   height: 800px;
-
+  float: right;
 }
 
 .nota{  
   background-color: #fffbe4;
   border: 1px solid #c9bc8f; 
   padding: 10px; 
-  margin-top: 60px;
-  margin-left: 1120px;
+  margin-top: 60px;  
 }
 
 aside h3{
