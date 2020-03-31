@@ -33,7 +33,7 @@ body {
 }
 
 #rodape {
-    background-color: #276fbf;
+    background-color: rgba(39,111,191,1.0);
     color: rgba(246, 244, 243, 1.0);
     text-align: center;
     padding: 10px;
@@ -79,7 +79,7 @@ table {
 }
 
 .wiki {
-    background-color: #276fbf;
+    background-color: rgba(39,111,191,1.0);
     padding: 20px;
     margin: 10px 10px;
     line-height: 2em;
