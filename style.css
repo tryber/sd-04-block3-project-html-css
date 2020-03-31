@@ -3,7 +3,7 @@ body {
 }
 
 #cabecalho {
-  width: 1200px;
+  width: 1335px;
   height: 80px;
   background: rgb(98, 100, 224);
   margin: 0 auto;
@@ -18,7 +18,7 @@ body {
 
 #topo {
   background: #faebc7;
-  width: 1188px;
+  width: 1323px;
   margin: 0 auto;
   padding: 6px;
   text-align: center;
