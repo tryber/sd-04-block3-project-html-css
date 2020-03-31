@@ -127,7 +127,7 @@ main img {
 .lado-direito table {
   margin: 0 auto;
 }
-#lateral-intens{
+#lateral-intens {
   margin-top: 60px;
   width: 330px;
   height: 350px;
@@ -138,7 +138,7 @@ main img {
   font-weight: 600;
   z-index: 0;
 }
-#lateral-intens :after{
+#lateral-intens :after {
   content: "";
   background-image: url('grapes.jpg');
   opacity: 0.4;
@@ -152,23 +152,23 @@ main img {
   height: 100%;
 }
 
-#lateral-intens a:hover{
+#lateral-intens a:hover {
   color: white;
   transition: 0.5s;
   z-index: -3;
 }
 
-#lateral-intens h2{
+#lateral-intens h2 {
   text-align: center;
   margin-top: 10px;
   font-size: 30px;
   color: crimson;
   font-family: Dancing Script, cursive;
 }
-#lateral-intens a{
+#lateral-intens a {
   display: block;
-  margin-top: 20px;
-  padding: 15px 0 0 10px;
+  margin-top: 40px;
+  padding: 10px 0 0 10px;
   text-decoration: none;
   color: black;
 }
