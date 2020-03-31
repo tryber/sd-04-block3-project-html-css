@@ -43,8 +43,7 @@ table {
   background-color: white;
 }
 
-th , 
-td {
+th , td {
   border-bottom: blue solid 2px;
 }
 
