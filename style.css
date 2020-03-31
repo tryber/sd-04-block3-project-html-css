@@ -4,6 +4,9 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  color: rgba(245, 245, 245, 1);
 }
 
 li,
@@ -70,6 +73,10 @@ i {
   align-items: center;
 }
 
+.container-small {
+  height: 300px;
+}
+
 .flex {
   display: flex;
 }
@@ -83,6 +90,50 @@ i {
   border-style: none;
   text-align: center;
   font-size: 1.5em;
+}
+
+.lado-esquerdo {
+  display: flex;
+  margin: 5 px auto;
+  width: 100%;
+  height: 250px;
+  border: 1px solid rgba(245, 245, 245, 1);
+  text-align: center;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.lado-esquerdo li {
+  color: rgba(245, 245, 245, 1);
+}
+
+.lado-esquerdo h3 {
+  font-size: 1.25em;
+  text-decoration: underline;
+  justify-content: center;
+}
+
+.lado-esquerdo ol {
+  margin: 0;
+}
+
+.lado-direito {
+  display: flex;
+  margin: 5px 30px;
+  width: 200px;
+  height: 250px;
+  border: 1px solid rgba(245, 245, 245, 1);
+  text-align: center;
+  font-size: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.lado-direito h3 {
+  font-size: 1.5em;
+  text-decoration: underline;
+  justify-content: center;
 }
 
 .mainimg {
@@ -158,7 +209,14 @@ i {
   z-index: 1;
 }
 
-#info {
+#rodape {
   background-color: rgba(160, 173, 187, 1);
-  height: 800px;
+  font-size: .75em;
+  text-align: right;
+  height: 30px;
+  padding: 5px 20px;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
 }
+
