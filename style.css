@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400i|Muli|Podkova:600&display=swap");
 
+html,
 body {
   margin: 0;
+  padding: 0;
 }
 
 li,
@@ -29,8 +31,15 @@ button:hover {
   background-color: rgba(135, 206, 250, .8);
 }
 
+h1 {
+  font-family: "Podkova", serif;
+  font-size: 102px;
+  font-weight: 600;
+  color: rgba(245, 245, 245, 1);;
+}
+
 i {
-  margin-right: auto;
+  margin-right: 58%;
 }
 
 .navlinks {
@@ -50,12 +59,42 @@ i {
   color: rgba(245, 245, 245, 1);
 }
 
+.page-wrapper {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+}
+
 #cabecalho {
-  background-color: rgb(160, 173, 187, 1);
+  background-color: rgba(160, 173, 187, 1);
   display: flex;
+  flex: 1;
+  position: fixed;
+  width: 100%;
   justify-content: flex-end;
   align-items: center;
-  padding: 12px 30px;
+  padding: 12px 0;
+  z-index: 1;
+}
+
+#info {
+  background-color: rgba(160, 173, 187, 1);;
+  height: 800px;
+}
+
+#mainimg {
+  background-image: url("imgs/doggo-main.jpg");
+  height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-blend-mode: overlay;
+  opacity: .75;
+
 }
 
 #navtitle {
