@@ -56,17 +56,17 @@ href{
   font-size: 0px;
 }
 
-section{
+.lado-esquerdo{
   position: absolute;
   margin-top: 30px;
   float: left;
 }
 
-section div{
+.lado-esquerdo div{
   position: relative;
   width: 1000px;
   font-size: 25px;
-  margin-left: 10px;
+  margin-left: 10px;  
 }
 
 #cargo, th, td{
@@ -74,21 +74,21 @@ section div{
   padding: 3px;  
 }
 
-aside{ 
+.lado-direito{ 
   position: relative;
   width: 100px;
   height: 800px;
   float: right;
 }
 
-.nota{  
+.lado-direito{  
   background-color: #fffbe4;
   border: 1px solid #c9bc8f; 
   padding: 10px; 
   margin-top: 60px;  
 }
 
-aside h3{
+.lado-direito h3{
   margin-top: 0;
 }
 
