@@ -1,0 +1,138 @@
+#cabecalho { 
+    color: brown;
+    background-color: black;
+    font-size: 50px;
+    position: fixed;
+    margin-left: 20%;
+}
+
+#rodape { 
+    color: brown;
+    background-color: black;
+    text-align: center;
+}
+
+#link_julio {
+    text-decoration: none;
+    color: brown;
+}
+
+body {
+    background-color: rgba(161, 160, 99, 0.692);
+}
+
+.lista li {
+    list-style-type: square;
+    margin-bottom: 15px;
+}
+
+#menu { color: brown;
+    text-align: center;
+}
+
+.ordem-frases li { margin-bottom: 15px;
+}
+
+#menu li { display: inline;
+    padding: 5px;
+    padding-left: 6px;
+    background-color: black;
+    border-radius: 5px;
+    font-family: fantasy;
+    
+}
+
+#menu a:hover {
+    text-decoration: none;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgba(163, 102, 102, 0.623);
+}
+
+img { border-style: groove;
+    border-width: 5px;
+}
+
+#rosto { margin-top: 70px;
+    margin-left: 500px;
+    
+}
+
+#artigo { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#curiosidades { margin-top: 70px;
+}
+
+#frases { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#referencia { margin-top:100px;
+}
+
+.fundo-artigo {
+    background-color: rgba(92, 17, 12, 0.212);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+/*teste */
+
+.fundo-artigo{
+    display: table;
+}
+
+.clear { clear: both; }
+
+table {
+    margin-left: 25%;
+    border-width: 2px;
+    border-style: ridge;
+    border-color: brown;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#tabela{
+    text-align: center;
+    font-family: fantasy;
+}
+
+#fotos{
+    text-align: center;
+    font-family: fantasy;
+}
+
+h4{
+    font-family: fantasy;
+}
+
+.lado-esquerdo{
+    
+    float: left;
+    
+    padding: 20px;
+    position: relative;
+
+}
+
+.lado-direito{
+    padding: 20px;
+    position: relative;
+  
+   
+}
+
+picture{
+margin-left: 30px;
+align-items: center;
+border-radius: 10px;
+display: inline-flex;
+background-color:rgba(92, 17, 12, 0.212);
