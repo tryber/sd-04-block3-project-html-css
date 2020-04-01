@@ -36,7 +36,7 @@ a:hover {
 
 body {
   background-color: rgb(244 , 244 , 244);
-  color: rgb(105 , 105 , 105);
+  color: dimgray;
   line-height: 1.5;
 }
 
@@ -44,9 +44,8 @@ p {
   margin-bottom: 0.8em;
 }
 
-
 header {
-  color: rgb(49, 53, 5);
+  color: rgb(49 , 53 , 5);
   position: fixed;
   width: 100%;
   margin: 0 50 0 0;
@@ -100,7 +99,7 @@ header {
   }
 
   .nav-menu-item a {
-    color: rgb(49, 53, 52);
+    color: rgb(49 , 53 , 52);
     text-decoration: none;
     padding: 15px;
     width: 100%;
@@ -244,5 +243,5 @@ h1 {
 }
 
 #rodape {
-  background-color: rgb(13, 15, 20) ;
+  background-color: rgb(13 , 15 , 20);
 }
