@@ -3,7 +3,7 @@
     background-color: black;
     font-size: 50px;
     position: fixed;
-    margin-left: 200px;
+    margin-left: 20%;
 }
 
 #rodape { 
@@ -112,4 +112,14 @@ table {
 
 h4{
     font-family: fantasy;
+}
+
+#lado-direito{
+    float: right;
+    width: 50%;
+}
+
+#lado-esquerdo{
+    float: left;
+    width: 50%;
 }
