@@ -4,7 +4,7 @@ body {
     background-color: rgba(255, 125, 14, 0.05);
     color: black;
 }
-.cabeçalho{
+.cabecalho{
     background-image: url(/imagens/mario.gif);
     background-position-y: 317px;
     background-position-x: center;
@@ -17,7 +17,7 @@ body {
     height: 260px;       
 }
 
-.header  #mario, .cabeçalho h1 {
+.header  #mario, .cabecalho h1 {
     display: inline-block;
     
 }
@@ -33,7 +33,7 @@ body {
     top: 242px;
 }
 
-.cabeçalho h1 {
+.cabecalho h1 {
     margin-top: 23px;
     margin-left: 478px;
     font-size: 36px;
@@ -88,7 +88,7 @@ nav ul li {
     margin-left: -36px;
 }
 
-#rodapé{
+#rodape{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     height: 25px;
