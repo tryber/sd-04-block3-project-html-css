@@ -4,7 +4,7 @@ body {
     background-color: rgba(255, 125, 14, 0.05);
     color: black;
 }
-.cabecalho{
+#cabecalho{
     background-image: url(/imagens/mario.gif);
     background-position-y: 317px;
     background-position-x: center;
@@ -17,7 +17,7 @@ body {
     height: 260px;       
 }
 
-.header  #mario, .cabecalho h1 {
+#cabecalho  #mario, #cabecalho h1 {
     display: inline-block;
     
 }
@@ -26,14 +26,8 @@ body {
     margin-left: 130px;
 }
 
-#cano {
 
-    position: absolute;
-    right: 100px;
-    top: 242px;
-}
-
-.cabecalho h1 {
+#cabecalho h1 {
     margin-top: 23px;
     margin-left: 478px;
     font-size: 36px;
