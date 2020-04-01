@@ -4,17 +4,20 @@ body {
     background-color: rgba(255, 125, 14, 0.05);
     color: black;
 }
-.header{
+.cabeçalho{
     background-image: url(/imagens/mario.gif);
-    width: 1351px;
-    height: 563px;
-    background-position-y: -152px;
+    background-position-y: 317px;
     background-position-x: center;
     font-family: "Super Mario 256"; 
-       
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1351px;
+    height: 260px;       
 }
 
-.header  #mario, .header h1 {
+.header  #mario, .cabeçalho h1 {
     display: inline-block;
     
 }
@@ -30,11 +33,11 @@ body {
     top: 242px;
 }
 
-.header h1 {
-    margin-top: 150px;
-    margin-left: 302px;
-    font-size: 88px;
-    color: rgba(245, 241, 241, 0.897);
+.cabeçalho h1 {
+    margin-top: 23px;
+    margin-left: 478px;
+    font-size: 36px;
+    color: rgb(253, 160, 50);
     text-shadow: 13px 10px 20px rgb(0, 0, 0);
 
 }
@@ -46,13 +49,12 @@ nav ul li {
       
 }
 
-nav {
+#home {
     text-align: center;
     font-family: "Super Mario 256"; 
-    color: rgb(255, 143, 4);
-    text-shadow: 2px 2px 9px rgba(255, 251, 251, 0.801);
+    
     font-size:larger;
-    margin-top: 0   px;
+    margin-top: 314px;
     
     
 }
@@ -72,7 +74,7 @@ nav {
 .lado-direito{
     width: 30%;
     margin-top: 35px;
-    float:right;
+    float: right;
     vertical-align: top;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
@@ -86,31 +88,20 @@ nav {
     margin-left: -36px;
 }
 
-footer{
+#rodapé{
     text-align: center;
     font-family: 'Raleway', sans-serif;
-   
-}
-
-#rodapé {
-
     height: 25px;
     background-color: rgb(255, 143, 4);
     bottom: 0;
     left: 0;
     right: 0;
 }
-
+ 
 h2 {
     text-align: center;
 }
 
-#cabecalho{
-        background-color: rgb(255, 143, 4);
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 25px;
-      }
-}
+#home ul li a {
+    color: rgb(255, 143, 4);
+    text-shadow: 2px 2px 9px rgba(255, 251, 251, 0.801);
