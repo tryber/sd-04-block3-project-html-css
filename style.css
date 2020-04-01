@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgba(255, 125, 14, 0.05);
-    
+    color: black;
 }
-.cabecalho{
+.header{
     background-image: url(/imagens/mario.gif);
     width: 1351px;
     height: 563px;
@@ -14,7 +14,7 @@ body {
        
 }
 
-.cabecalho  #mario, .cabecalho h1 {
+.header  #mario, .header h1 {
     display: inline-block;
     
 }
@@ -30,7 +30,7 @@ body {
     top: 242px;
 }
 
-.cabecalho h1 {
+.header h1 {
     margin-top: 150px;
     margin-left: 302px;
     font-size: 88px;
@@ -52,7 +52,8 @@ nav {
     color: rgb(255, 143, 4);
     text-shadow: 2px 2px 9px rgba(255, 251, 251, 0.801);
     font-size:larger;
-    margin-top: 50px;
+    margin-top: 0   px;
+    
     
 }
 
@@ -68,7 +69,7 @@ nav {
     
 }
 
-.coluna2{
+.lado-direito{
     width: 30%;
     margin-top: 35px;
     float:right;
@@ -88,10 +89,28 @@ nav {
 footer{
     text-align: center;
     font-family: 'Raleway', sans-serif;
+   
+}
+
+#rodapé {
+
     height: 25px;
     background-color: rgb(255, 143, 4);
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 h2 {
     text-align: center;
+}
+
+#cabecalho{
+        background-color: rgb(255, 143, 4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 25px;
+      }
 }
