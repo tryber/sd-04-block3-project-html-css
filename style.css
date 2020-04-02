@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 125, 14, 0.05);
+    color: black;
+}
+#cabecalho{
+    background-image: url(/imagens/mario.gif);
+    background-position-y: 317px;
+    background-position-x: center;
+    font-family: "Super Mario 256"; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1351px;
+    height: 260px;       
+}
+
+#cabecalho  #mario, #cabecalho h1 {
+    display: inline-block;
+    
+}
+
+#mario{
+    margin-left: 130px;
+}
+
+
+#cabecalho h1 {
+    margin-top: 23px;
+    margin-left: 478px;
+    font-size: 36px;
+    color: rgb(253, 160, 50);
+    text-shadow: 13px 10px 20px rgb(0, 0, 0);
+
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 2px 10px;
+      
+}
+
+#home {
+    text-align: center;
+    font-family: "Super Mario 256"; 
+    
+    font-size:larger;
+    margin-top: 314px;
+    
+    
+}
+
+.lado-esquerdo{
+    width: 50%;
+    padding: 30px;
+    line-height: 22px;
+    margin-left: 50px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+
+    
+    
+}
+
+.lado-direito{
+    width: 30%;
+    margin-top: 35px;
+    float: right;
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    line-height: 22px;
+    
+}
+
+
+#timeline {
+    border-top: 20%;
+    margin-left: -36px;
+}
+
+#rodape{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    height: 25px;
+    background-color: rgb(255, 143, 4);
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+ 
+h2 {
+    text-align: center;
+}
+
+#home ul li a {
+    color: rgb(255, 143, 4);
+    text-shadow: 2px 2px 9px rgba(255, 251, 251, 0.801);
+}    
+
+#description{
+    text-align: center;
+}
+
+table thead tr {
+    margin-left: auto;
+    margin-right: auto;
+
+}
