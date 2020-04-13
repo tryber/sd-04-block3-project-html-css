@@ -34,6 +34,10 @@ a:hover {
   width: 92%;
 }
 
+.titulo {
+  float: right;;
+}
+
 body {
   background-color: rgb(244 , 244 , 244);
   color: dimgray;
@@ -45,7 +49,8 @@ p {
 }
 
 header {
-  color: rgb(49 , 53 , 5);
+  background-color: rgb(224, 70, 9);
+  color: white;
   margin: 0 50 0 0;
   position: fixed;
   top: 0;
@@ -53,63 +58,14 @@ header {
   z-index: 9999;
 }
 
-#cabecalho {
-  background-color: rgb(244 , 244 , 244);
-}
-
 #logo {
   float: left;
-  font-size: 0;
+  font-size: 0;                                 
 }
 
 #logo img {
   width: 25%;
 }
-
-.mobile-action {
-  background: rgb(26 , 89 , 119) url('img/mobile.jpeg') center center no-repeat;
-  border-radius: 50%;
-  cursor: pointer;
-  float: right;
-  height: 46px;
-  margin: 10px 0 0;
-  width: 46px;
-}
-
-@media ( max-width : 79.938em ) {
-
-  #nav-menu {
-    background-color: black;
-    height: 100%;
-    left: -100%;
-    max-width: 360px;
-    min-width: 200px;
-    overflow-y: auto;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 76%;
-    z-index: 99;
-  }
-
-  .nav-menu-item {                                                                          
-    float: left;
-    position: relative;
-    width: 100%;
-  }
-
-  .nav-menu-item a {
-    color: rgb(49 , 53 , 52);
-    float: left;
-    padding: 15px;
-    text-decoration: none;
-    width: 100%;
-  }
-}
-
-/*
-1280PX BREAKPOINT
-*/
 
 @media ( min-width : 80em ) {
 
@@ -238,6 +194,12 @@ strong {
   color: rgb(242 , 19 , 108);
 }
 
-#rodape {
+h1 {
+  margin-bottom: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.rodape {
   background-color: rgb(13 , 15 , 20);
 }
