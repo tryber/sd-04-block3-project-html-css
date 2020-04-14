@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+a {
+  color: rgb(242 , 19 , 108);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(35 , 255 , 194);
+}
+
+.font-zero {
+  font-size: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.conteiner {
+  float: left;
+  width: 100%;
+}
+
+.content {
+  float: left;
+  margin: 0 70px;
+  padding: 20px 0;
+  width: 92%;
+}
+
+.titulo {
+  float: right;
+}
+
+body {
+  background-color: rgb(244 , 244 , 244);
+  color: dimgray;
+  line-height: 1.5;
+}
+
+p {
+  margin-bottom: 0.8em;
+}
+
+header {
+  background-color: rgb(224 , 70 , 9);
+  color: white;
+  margin: 0 50 0 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+#logo {
+  float: left;
+  font-size: 0;
+}
+
+#logo img {
+  width: 25%;
+}
+
+@media ( min-width : 80em ) {
+
+  .mobile-action {
+    display: none;
+  }
+
+  #nav-menu {
+    float: right;
+    margin-top: 20px;
+    text-align: right;
+    width: 50%;
+  }
+
+  .nav-menu-item {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+  }
+
+  .nav-menu-item:last-of-type {
+    margin-right: 20px;
+  }
+
+  .nav-menu-item > a {
+    color: white;
+    float: left;
+    font-size: 0.9em;
+    font-weight: 800;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .nav-menu-item:hover {
+    color: rgb(242 , 19 , 108);
+  }
+
+  .nav-menu-item > a:hover {
+    color: rgb(242 , 19 , 108);
+  }
+
+  .nav-menu-item:hover .main_header_nav_sub {
+    display: block;
+  }
+
+  .nav-menu-item > a:hover .main_header_nav_sub {
+    display: block;
+  }
+}
+
+.m-top {
+  margin-top: 14%;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 65%;
+}
+
+.lado-esquerdo ol {
+  counter-reset: li;
+  list-style: none;
+  margin-left: 5%;
+  margin-top: 1.5%;
+}
+
+.lado-esquerdo ol li {
+  counter-increment: li;
+}
+
+.lado-esquerdo ol li:before {
+  color: rgb(224 , 70 , 9);
+  content: counter(li);
+  display: inline-block;
+  margin-left: -1em;
+  width: 1em;
+}
+
+.lado-esquerdo ul {
+  margin-left: 4%;
+}
+
+.lado-esquerdo ul li {
+  list-style: none;
+}
+
+.lado-esquerdo ul li:before {
+  color: rgb(224 , 70 , 9);
+  content: '•';
+  display: inline-block;
+  margin-left: -1em;
+  width: 1em;
+}
+
+.lado-direito {
+  float: right;
+  margin: 2%;
+  width: 20%;
+}
+
+.lado-direito a {
+  color: rgb(229 , 149 , 181);
+  text-decoration: none;
+}
+
+.lado-direito a:hover {
+  color: rgb(224 , 70 , 9);
+}
+
+.table td {
+  border: 1px solid rgb(224 , 70 , 9);
+  padding: 10px;
+  width: 5%;
+}
+
+strong {
+  color: rgb(224 , 70 , 9);
+}
+
+h1 {
+  margin: 5px 5px 10px 5px;
+  padding: 5px;
+}
+
+.rodape {
+  background-color: rgb(13 , 15 , 20);
+}
+
